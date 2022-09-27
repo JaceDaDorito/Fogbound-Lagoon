@@ -1,0 +1,5 @@
+#Ignores everything in these folders except for meta files.
+
+*.*
+!.gitignore
+!*.meta

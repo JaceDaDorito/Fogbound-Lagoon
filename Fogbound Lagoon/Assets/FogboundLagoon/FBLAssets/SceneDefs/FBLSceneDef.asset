@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -794597441, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: FBLSceneDef
+  m_EditorClassIdentifier: 
+  sceneAddress:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+  baseSceneNameOverride: FBLScene
+  sceneType: 1
+  isOfflineScene: 0
+  stageOrder: 3
+  requiredExpansion: {fileID: 0}
+  nameToken: FOGBOUND_SCENEDEF_NAME_TOKEN
+  subtitleToken: FOGBOUND_SCENEDEF_SUBTITLE_TOKEN
+  previewTexture: {fileID: 2800000, guid: e0882faec58b1c84694629cc2eda9039, type: 3}
+  portalMaterial: {fileID: 0}
+  portalSelectionMessageString: FOGBOUND_SEER_NUKETOWNSCENE
+  shouldIncludeInLogbook: 1
+  loreToken: FOGBOUND_SCENEDEF_LORE_TOKEN
+  dioramaPrefab: {fileID: 0}
+  mainTrack: {fileID: 0}
+  bossTrack: {fileID: 0}
+  suppressPlayerEntry: 0
+  suppressNpcEntry: 0
+  blockOrbitalSkills: 0
+  validForRandomSelection: 1
+  destinationsGroup: {fileID: 0}
+  destinations: []
+  preferredPortalPrefab: {fileID: 0}

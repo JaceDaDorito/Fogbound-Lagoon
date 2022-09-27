@@ -1,0 +1,33 @@
+{
+    "name": "FblAssembly",
+    "references": [
+        "GUID:d60799ab2a985554ea1a39cd38695018",
+        "GUID:a44f47cf3ada4435dbc516bad0bc86fe"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "BepInEx.dll",
+        "R2API.dll",
+        "MonoMod.Utils.dll",
+        "Mono.Cecil.dll",
+        "DebugToolkit.dll",
+        "HGCSharpUtils.dll",
+        "HGUnityUtils.dll",
+        "KinematicCharacterController.dll",
+        "MMHOOK_RoR2.dll",
+        "Wwise.dll",
+        "LegacyResourcesAPI.dll",
+        "Unity.Addressables.dll",
+        "UnityEngine.UI.dll",
+        "Unity.TextMeshPro.dll",
+        "RoR2.dll",
+        "Unity.ResourceManager.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

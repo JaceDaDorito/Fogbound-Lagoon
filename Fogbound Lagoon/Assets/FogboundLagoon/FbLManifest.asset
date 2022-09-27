@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7646476185375340455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestStagingRoot>
+  files:
+  - {fileID: 102900000, guid: 3e10f7c4054c83949b92890103833482, type: 3}
+--- !u!114 &-5775786412066446189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d1008b78cb6e846889b7778282fbef, type: 3}
+  m_Name: AssetBundleDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <StageInAssetFolder>
+  assetBundles:
+  - assetBundleName: fblassets
+    assets:
+    - {fileID: 102900000, guid: 342191340c1759b4dae3ed20516ad8f4, type: 3}
+    - {fileID: 102900000, guid: e3bd839ca90f33c4f8caa8a6da79ec86, type: 3}
+  - assetBundleName: fblstage
+    assets:
+    - {fileID: 102900000, guid: 090dfead73fa0b542a0f36f96245eefd, type: 3}
+--- !u!114 &-4602117282012248594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: ManifestIdentity
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestPluginStaging>
+  Author: JaceDaDorito
+  Name: JaceDaDorito-FogbounLagoon
+  Description: A test stage aimed to help modders ease their way into map making.
+    Also doubles as a playable map as well.
+  Version: 0.0.1
+  Dependencies:
+  - {fileID: 11400000, guid: 2d4d09ec817c24698d35dc9bf0704fdc, type: 2}
+  - {fileID: 11400000, guid: 7fb5b3d290bed6011ed7e8daf230df89, type: 2}
+--- !u!114 &-198943577278717595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a82fec78ebc734d9ad1346cd40b5f9, type: 3}
+  m_Name: ThunderstoreData
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestStagingRoot>
+  url: https://github.com/JaceDaDorito/Fogbound-Lagoon
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: FbLManifest
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: -4602117282012248594}
+  - {fileID: 2204156757372025435}
+  - {fileID: -5775786412066446189}
+  - {fileID: -198943577278717595}
+  - {fileID: -7646476185375340455}
+  identity: {fileID: -4602117282012248594}
+  QuickAccess: 0
+--- !u!114 &2204156757372025435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestStagingRoot>
+  definitions:
+  - {fileID: 5897886265953266890, guid: b450305ea6c7037428408d453a9961e7, type: 3}
