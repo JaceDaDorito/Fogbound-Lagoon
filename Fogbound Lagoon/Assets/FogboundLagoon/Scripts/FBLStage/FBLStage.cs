@@ -4,6 +4,8 @@ using FBLStage.Content;
 using R2API;
 using RoR2.ContentManagement;
 using FBLStage.Utils;
+using System.Collections.Generic;
+using UnityEngine;
 
 //Copied from Nuketown
 
@@ -31,7 +33,7 @@ namespace FBLStage
             Log.Init(Logger);
 
             ContentManager.collectContentPackProviders += GiveToRoR2OurContentPackProviders;
-
+            
             new SlipDccsHandler().Init();
         }
 

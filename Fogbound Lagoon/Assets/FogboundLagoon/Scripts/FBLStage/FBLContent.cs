@@ -10,13 +10,14 @@ using UnityEngine.Networking;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using FBLStage.Utils;
 using RoR2.ExpansionManagement;
+using System.Collections.Generic;
 
 namespace FBLStage.Content
 {
     public static class FBLContent
     {
-        internal const string ScenesAssetBundleFileName = "fblstagescenes";
-        internal const string AssetsAssetBundleFileName = "fblstageassets";
+        internal const string ScenesAssetBundleFileName = "fblstage";
+        internal const string AssetsAssetBundleFileName = "fblassets";
 
 
         private static AssetBundle _scenesAssetBundle;
@@ -34,13 +35,32 @@ namespace FBLStage.Content
         internal static Sprite FBLSceneDefPreviewSprite;
         internal static Material FBLBazaarSeer;
 
+        public static Dictionary<string, string> ShaderLookup = new Dictionary<string, string>()
+        {
+            {"stubbedror2/base/shaders/hgstandard", "shaders/deferred/hgstandard"},
+            {"stubbedror2/base/shaders/hgtriplanarterrainblend", "shaders/deferred/hgtriplanarterrainblend"},
+            {"stubbedror2/base/shaders/hgintersectioncloudremap", "shaders/fx/hgintersectioncloudremap" },
+            {"stubbedror2/base/shaders/hgcloudremap", "shaders/fx/hgcloudremap" }
+        };
 
         internal static IEnumerator LoadAssetBundlesAsync(AssetBundle scenesAssetBundle, AssetBundle assetsAssetBundle, IProgress<float> progress, ContentPack contentPack)
         {
             _scenesAssetBundle = scenesAssetBundle;
             _assetsAssetBundle = assetsAssetBundle;
 
+            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<Material[]>)((assets) =>
+            {
+                var materials = assets;
 
+                foreach (Material material in materials)
+                {
+                    if (!material.shader.name.StartsWith("StubbedRoR2")) { continue; }
+
+                    var replacementShader = Resources.Load<Shader>(ShaderLookup[material.shader.name.ToLower()]);
+                    if (replacementShader) { material.shader = replacementShader; }
+
+                }
+            }));
 
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<GameObject[]>)((assets) =>
             {
@@ -58,7 +78,9 @@ namespace FBLStage.Content
                 contentPack.unlockableDefs.Add(assets);
             }));
 
-            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipDccs[]>)((assets) =>
+            //I didn't showcase stuff relating to slipDccs yet
+
+            /*yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipDccs[]>)((assets) =>
             {
                 SlipDccsArray = assets;
             }));
@@ -68,7 +90,7 @@ namespace FBLStage.Content
                 DccsPools = assets;
                 FBLInteractablesPool = DccsPools.First(dp => dp.name == "dpFogboundLagoonInteractables");
                 FBLMonstersPool = DccsPools.First(dp => dp.name == "dpFogboundLagoonMonsters");
-            }));
+            }));*/
 
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<Sprite[]>)((assets) =>
             {
@@ -110,7 +132,7 @@ namespace FBLStage.Content
                 yield return null;
             }
 
-            AddNuketownSceneDefToStage3SceneCollection(stage3SceneCollectionRequest);
+            AddFBLSceneDefToStage3SceneCollection(stage3SceneCollectionRequest);
 
             var stage4SceneCollectionRequest = Addressables.LoadAssetAsync<SceneCollection>("RoR2/Base/SceneGroups/sgStage4.asset");
             while (!stage4SceneCollectionRequest.IsDone)
@@ -124,7 +146,8 @@ namespace FBLStage.Content
              *
              *If you don't want expansion support or if your stage already relies on the expansion, remove this code below. Don't remove "yield break;" though.
              */
-            ExpansionDef[] dlcExpansion = { Addressables.LoadAssetAsync<ExpansionDef>("RoR2/DLC1/Common/DLC1.asset").WaitForCompletion() };
+
+            /*ExpansionDef[] dlcExpansion = { Addressables.LoadAssetAsync<ExpansionDef>("RoR2/DLC1/Common/DLC1.asset").WaitForCompletion() };
             DccsPool.Category intStandard = FBLInteractablesPool.poolCategories[0];
             if(intStandard.includedIfConditionsMet[0] != null)
                 intStandard.includedIfConditionsMet[0].requiredExpansions = dlcExpansion;
@@ -133,10 +156,10 @@ namespace FBLStage.Content
             if (monStandard.includedIfConditionsMet[0] != null)
                 monStandard.includedIfConditionsMet[0].requiredExpansions = dlcExpansion;
 
-            yield break;
+            yield break;*/
         }
 
-        private static void AddNuketownSceneDefToStage3SceneCollection(AsyncOperationHandle<SceneCollection> stage3SceneCollectionRequest)
+        private static void AddFBLSceneDefToStage3SceneCollection(AsyncOperationHandle<SceneCollection> stage3SceneCollectionRequest)
         {
             var sceneEntries = stage3SceneCollectionRequest.Result._sceneEntries.ToList();
             for (int i = 0; i < sceneEntries.Count; i++)

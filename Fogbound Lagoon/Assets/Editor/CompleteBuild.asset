@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3695521163bdd74fa2845bbd3438240, type: 3}
+  m_Name: CompleteBuild
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: 4591517571884405975}
+  - {fileID: 7594905030440225203}
+  QuickAccess: 1
+  manifest: {fileID: 11400000, guid: ec6659570ca5faf4f9c71e5b3b52ca18, type: 2}
+--- !u!114 &4591517571884405975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50df4f9027e15e04b931a8d460fb22c5, type: 3}
+  m_Name: ExecutePipeline
+  m_EditorClassIdentifier: 
+  Active: 1
+  OverrideManifest: 1
+  targetpipeline: {fileID: 11400000, guid: 7ac028a3b200a2b4a9092d1bcdc41578, type: 2}
+--- !u!114 &7594905030440225203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50df4f9027e15e04b931a8d460fb22c5, type: 3}
+  m_Name: ExecutePipeline
+  m_EditorClassIdentifier: 
+  Active: 1
+  OverrideManifest: 1
+  targetpipeline: {fileID: 11400000, guid: 11586d87b7fea2641942babb6f9b90a3, type: 2}

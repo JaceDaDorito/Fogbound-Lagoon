@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: matAETerrain1
+  m_Shader: {fileID: 4800000, guid: 60917bd09188405b94c5defb21a40207, type: 2}
+  m_ShaderKeywords: DOUBLESAMPLE USE_ALPHA_AS_MASK USE_VERTEX_COLORS USE_VERTICAL_BIAS
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BlueChannelTex:
+        m_Texture: {fileID: 2800000, guid: 3fddae8c5008ab64b976e76682148b1c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GreenChannelTex:
+        m_Texture: {fileID: 2800000, guid: dd93d6beef0e6c34c969dd1c070b8ee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 215dde2a4ccac9e438f6f4155c142378, type: 3}
+        m_Scale: {x: 0.3, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RedChannelSideTex:
+        m_Texture: {fileID: 2800000, guid: 1397b66316aecc24abdacddeca8724f8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RedChannelTopTex:
+        m_Texture: {fileID: 2800000, guid: e2bcb26e9d987b24ca7010b9944208e5, type: 3}
+        m_Scale: {x: 0.8, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SplatmapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlueChannelBias: 0.96
+    - _BlueChannelSmoothness: 0
+    - _BlueChannelSpecularExponent: 0.1
+    - _BlueChannelSpecularStrength: 0
+    - _BumpScale: 1
+    - _ColorsOn: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DecalLayer: 1
+    - _Depth: 0.05
+    - _DetailNormalMapScale: 1
+    - _DoublesampleOn: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GreenChannelBias: 0.46
+    - _GreenChannelSmoothness: 0
+    - _GreenChannelSpecularExponent: 0.1
+    - _GreenChannelSpecularStrength: 0
+    - _MaskOn: 1
+    - _Metallic: 0
+    - _MixColorsOn: 0
+    - _Mode: 0
+    - _NormalStrength: 0.314
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RampInfo: 5
+    - _RedChannelBias: 3.11
+    - _RedChannelSmoothness: 0
+    - _RedChannelSpecularExponent: 0.1
+    - _RedChannelSpecularStrength: 0
+    - _SmoothnessTextureChannel: 0
+    - _SnowOn: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TextureFactor: 0.12
+    - _UVSec: 0
+    - _VerticalBiasOn: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.945098, g: 0.8156863, b: 0.8156863, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
