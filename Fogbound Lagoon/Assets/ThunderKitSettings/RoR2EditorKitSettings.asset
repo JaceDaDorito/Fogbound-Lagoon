@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c3a884997f30143ab7a1ec0a39ba90, type: 3}
   m_Name: RoR2EditorKitSettings
   m_EditorClassIdentifier: 
-  TokenPrefix: FOGBOUNDLAGOON_MOD
+  TokenPrefix: FB_MOD
   MainManifest: {fileID: 11400000, guid: ec6659570ca5faf4f9c71e5b3b52ca18, type: 2}
   madeRoR2EKAssetsNonEditable: 1

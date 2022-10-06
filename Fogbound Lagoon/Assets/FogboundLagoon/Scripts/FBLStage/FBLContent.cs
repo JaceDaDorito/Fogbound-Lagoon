@@ -23,7 +23,7 @@ namespace FBLStage.Content
         private static AssetBundle _scenesAssetBundle;
         private static AssetBundle _assetsAssetBundle;
 
-        internal static GameObject[] NetworkedObjectPrefabs;
+        //internal static GameObject[] NetworkedObjectPrefabs;
         internal static UnlockableDef[] UnlockableDefs;
         internal static SlipDccs[] SlipDccsArray;
         internal static DccsPool[] DccsPools;
@@ -34,6 +34,8 @@ namespace FBLStage.Content
         internal static DccsPool FBLMonstersPool;
         internal static Sprite FBLSceneDefPreviewSprite;
         internal static Material FBLBazaarSeer;
+
+        public static List<Material> SwappedMaterials = new List<Material>(); //debug
 
         public static Dictionary<string, string> ShaderLookup = new Dictionary<string, string>()
         {
@@ -54,15 +56,21 @@ namespace FBLStage.Content
 
                 foreach (Material material in materials)
                 {
-                    if (!material.shader.name.StartsWith("StubbedRoR2")) { continue; }
+                    Log.Debug(material.name + " " + material.shader);
+                    if (!material.shader.name.StartsWith("Stubbed")) { continue; }
 
                     var replacementShader = Resources.Load<Shader>(ShaderLookup[material.shader.name.ToLower()]);
-                    if (replacementShader) { material.shader = replacementShader; }
-
+                    Log.Debug(replacementShader.name);
+                    if (replacementShader)
+                    {
+                        material.shader = replacementShader;
+                        SwappedMaterials.Add(material);
+                    }
+                    Log.Debug(material.name + " " + material.shader);
                 }
             }));
 
-            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<GameObject[]>)((assets) =>
+            /*yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<GameObject[]>)((assets) =>
             {
                 var networkedAssets = assets.Where(a => a.GetComponent<NetworkIdentity>()).ToArray();
                 NetworkedObjectPrefabs = networkedAssets;
@@ -70,7 +78,7 @@ namespace FBLStage.Content
                 {
                     prefab.RegisterNetworkPrefab();
                 }
-            }));
+            }));*/
 
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<UnlockableDef[]>)((assets) =>
             {
@@ -100,7 +108,8 @@ namespace FBLStage.Content
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SceneDef[]>)((assets) =>
             {
                 SceneDefs = assets;
-                FBLSceneDef = SceneDefs.First(sd => sd.baseSceneNameOverride == "FBLScene");
+                FBLSceneDef = SceneDefs.First(sd => sd.baseSceneNameOverride == "FBLScene" );
+                Log.Debug(FBLSceneDef.nameToken);
                 contentPack.sceneDefs.Add(assets);
             }));
 

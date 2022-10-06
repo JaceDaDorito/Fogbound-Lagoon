@@ -33,9 +33,11 @@ namespace FBLStage
             Log.Init(Logger);
 
             ContentManager.collectContentPackProviders += GiveToRoR2OurContentPackProviders;
-            
-            new SlipDccsHandler().Init();
+
+            //new SlipDccsHandler().Init();
         }
+
+        
 
         private static void GiveToRoR2OurContentPackProviders(ContentManager.AddContentPackProviderDelegate addContentPackProvider)
         {

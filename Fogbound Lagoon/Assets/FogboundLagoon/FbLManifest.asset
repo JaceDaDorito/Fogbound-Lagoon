@@ -29,7 +29,7 @@ MonoBehaviour:
   m_Name: AssetBundleDefinitions
   m_EditorClassIdentifier: 
   StagingPaths:
-  - <StageInAssetFolder>
+  - <ManifestStagingRoot>
   assetBundles:
   - assetBundleName: fblassets
     assets:

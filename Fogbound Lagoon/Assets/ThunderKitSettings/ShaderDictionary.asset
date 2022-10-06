@@ -109,4 +109,4 @@ MonoBehaviour:
     stubbed: {fileID: 4800000, guid: 92a75682b627820498f3f86961e9a6d5, type: 3}
   - original: {fileID: 4800000, guid: 008b58c05bfa4867b6888886e31831d7, type: 2}
     stubbed: {fileID: 4800000, guid: 277775aeee5f44643b7496ecf84f50d7, type: 3}
-  testString: FBL_SHADER
+  testString: FB_SHADERS

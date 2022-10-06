@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/FogboundLagoon/Scenes/FBLScene.unity
+    guid: 090dfead73fa0b542a0f36f96245eefd
   m_configObjects: {}

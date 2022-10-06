@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: BasicBuild
   m_EditorClassIdentifier: 
   Data:
-  - {fileID: 6753543917125217802}
-  - {fileID: 8297484986089913942}
+  - {fileID: 6171054583045046131}
+  - {fileID: 7374044964429843288}
   QuickAccess: 0
-  manifest: {fileID: 11400000, guid: 9376c88ecd6b60240b2ed7fdcfee6d45, type: 2}
---- !u!114 &6753543917125217802
+  manifest: {fileID: 11400000, guid: ec6659570ca5faf4f9c71e5b3b52ca18, type: 2}
+--- !u!114 &6171054583045046131
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -35,7 +35,7 @@ MonoBehaviour:
   recurseDirectories: 0
   simulate: 0
   BundleArtifactPath: <AssetBundleStaging>
---- !u!114 &8297484986089913942
+--- !u!114 &7374044964429843288
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
