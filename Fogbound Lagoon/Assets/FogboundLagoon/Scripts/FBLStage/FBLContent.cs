@@ -122,7 +122,7 @@ namespace FBLStage.Content
             FBLBazaarSeer.mainTexture = FBLSceneDefPreviewSprite.texture;
             FBLSceneDef.portalMaterial = FBLBazaarSeer;
 
-            var mainTrackDefRequest = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/Base/Common/muGameplayBase_09.asset");
+            var mainTrackDefRequest = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/Base/Common/muFULLSong06.asset");
             while (!mainTrackDefRequest.IsDone)
             {
                 yield return null;
