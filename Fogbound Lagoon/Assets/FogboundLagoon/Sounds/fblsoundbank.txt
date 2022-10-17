@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3378955619	FBL_BadtotheBone			\Default Work Unit\FBL_BadtotheBone	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+	3695994288	Volume_Master			\Default Work Unit\Volume_Master	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	676554470	badtothebone	C:\Users\jtorr\OneDrive\Documents\WwiseProjects\FBLSoundbank\.cache\Windows\SFX\badtothebone_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx mixer\badtothebone\Bone\badtothebone		65713
+

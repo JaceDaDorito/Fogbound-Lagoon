@@ -28,7 +28,8 @@ MonoBehaviour:
   portalSelectionMessageString: BAZAAR_SEER_FBLSCENE
   shouldIncludeInLogbook: 1
   loreToken: FOGBOUND_SCENEDEF_LORE_TOKEN
-  dioramaPrefab: {fileID: 0}
+  dioramaPrefab: {fileID: 6934670382106161221, guid: d1f0fea945efcb8449cd37d19895c10d,
+    type: 3}
   mainTrack: {fileID: 0}
   bossTrack: {fileID: 0}
   suppressPlayerEntry: 0

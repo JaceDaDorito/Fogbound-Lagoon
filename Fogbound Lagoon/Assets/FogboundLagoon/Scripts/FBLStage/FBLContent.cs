@@ -16,9 +16,13 @@ namespace FBLStage.Content
 {
     public static class FBLContent
     {
+        internal const string SoundBankFileName = "fblsoundbank.bnk";
+        internal const string MusicBankFileName = "fblmusicsoundbank.bnk";
+
         internal const string ScenesAssetBundleFileName = "fblstage";
         internal const string AssetsAssetBundleFileName = "fblassets";
 
+        private static uint _soundbankId;
 
         private static AssetBundle _scenesAssetBundle;
         private static AssetBundle _assetsAssetBundle;
@@ -26,12 +30,13 @@ namespace FBLStage.Content
         //internal static GameObject[] NetworkedObjectPrefabs;
         internal static UnlockableDef[] UnlockableDefs;
         internal static SlipDccs[] SlipDccsArray;
-        internal static DccsPool[] DccsPools;
+        internal static SlipDccsPool[] SlipDccsPoolsArray;
         internal static SceneDef[] SceneDefs;
 
         internal static SceneDef FBLSceneDef;
-        internal static DccsPool FBLInteractablesPool;
-        internal static DccsPool FBLMonstersPool;
+        internal static MusicTrackDef FBLMusicDef;
+        //internal static DccsPool FBLInteractablesPool;
+        //internal static DccsPool FBLMonstersPool;
         internal static Sprite FBLSceneDefPreviewSprite;
         internal static Material FBLBazaarSeer;
 
@@ -39,11 +44,40 @@ namespace FBLStage.Content
 
         public static Dictionary<string, string> ShaderLookup = new Dictionary<string, string>()
         {
-            {"stubbedror2/base/shaders/hgstandard", "shaders/deferred/hgstandard"},
-            {"stubbedror2/base/shaders/hgtriplanarterrainblend", "shaders/deferred/hgtriplanarterrainblend"},
-            {"stubbedror2/base/shaders/hgintersectioncloudremap", "shaders/fx/hgintersectioncloudremap" },
-            {"stubbedror2/base/shaders/hgcloudremap", "shaders/fx/hgcloudremap" }
+            {"stubbedror2/base/shaders/hgstandard", "RoR2/Base/Shaders/HGStandard.shader"},
+            {"stubbedror2/base/shaders/hgtriplanarterrainblend", "RoR2/Base/Shaders/HGTriplanarTerrainBlend.shader"},
+            {"stubbedror2/base/shaders/hgintersectioncloudremap", "RoR2/Base/Shaders/HGIntersectionCloudRemap.shader" },
+            {"stubbedror2/base/shaders/hgcloudremap", "RoR2/Base/Shaders/HGCloudRemap.shader" },
+            {"stubbedcalm water/calmwater - dx11 - doublesided", "Calm Water/CalmWater - DX11 - DoubleSided.shader" }
         };
+
+        internal static void LoadSoundBank(string assetsFolderFullPath)
+        {
+            var akResult = AkSoundEngine.AddBasePath(assetsFolderFullPath);
+            if (akResult == AKRESULT.AK_Success)
+            {
+                Log.Info($"Added bank base path : {assetsFolderFullPath}");
+            }
+            else
+            {
+                Log.Error(
+                    $"Error adding base path : {assetsFolderFullPath} " +
+                    $"Error code : {akResult}");
+            }
+
+            akResult = AkSoundEngine.LoadBank(SoundBankFileName, out _soundbankId);
+            if (akResult == AKRESULT.AK_Success)
+            {
+                Log.Info($"Added bank : {SoundBankFileName}");
+            }
+            else
+            {
+                Log.Error(
+                    $"Error loading bank : {SoundBankFileName} " +
+                    $"Error code : {akResult}");
+            }
+
+        }
 
         internal static IEnumerator LoadAssetBundlesAsync(AssetBundle scenesAssetBundle, AssetBundle assetsAssetBundle, IProgress<float> progress, ContentPack contentPack)
         {
@@ -54,12 +88,13 @@ namespace FBLStage.Content
             {
                 var materials = assets;
 
+
                 foreach (Material material in materials)
                 {
                     Log.Debug(material.name + " " + material.shader);
                     if (!material.shader.name.StartsWith("Stubbed")) { continue; }
 
-                    var replacementShader = Resources.Load<Shader>(ShaderLookup[material.shader.name.ToLower()]);
+                    var replacementShader = Addressables.LoadAssetAsync<Shader>(ShaderLookup[material.shader.name.ToLower()]).WaitForCompletion();
                     Log.Debug(replacementShader.name);
                     if (replacementShader)
                     {
@@ -88,17 +123,17 @@ namespace FBLStage.Content
 
             //I didn't showcase stuff relating to slipDccs yet
 
-            /*yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipDccs[]>)((assets) =>
+            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipDccs[]>)((assets) =>
             {
                 SlipDccsArray = assets;
             }));
 
-            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<DccsPool[]>)((assets) =>
+            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipDccsPool[]>)((assets) =>
             {
-                DccsPools = assets;
-                FBLInteractablesPool = DccsPools.First(dp => dp.name == "dpFogboundLagoonInteractables");
-                FBLMonstersPool = DccsPools.First(dp => dp.name == "dpFogboundLagoonMonsters");
-            }));*/
+                SlipDccsPoolsArray = assets;
+                //FBLInteractablesPool = DccsPools.First(dp => dp.name == "dpFogboundLagoonInteractables");
+                //FBLMonstersPool = DccsPools.First(dp => dp.name == "dpFogboundLagoonMonsters");
+            }));
 
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<Sprite[]>)((assets) =>
             {
@@ -113,6 +148,8 @@ namespace FBLStage.Content
                 contentPack.sceneDefs.Add(assets);
             }));
 
+            new SlipDccsHandler().Init();
+
             var matBazaarSeerWispgraveyardRequest = Addressables.LoadAssetAsync<Material>("RoR2/Base/bazaar/matBazaarSeerWispgraveyard.mat");
             while (!matBazaarSeerWispgraveyardRequest.IsDone)
             {
@@ -122,12 +159,16 @@ namespace FBLStage.Content
             FBLBazaarSeer.mainTexture = FBLSceneDefPreviewSprite.texture;
             FBLSceneDef.portalMaterial = FBLBazaarSeer;
 
+            //FBLStage.instance.LoadMusicBank();
+
+            //Commented code below shows you how to reuse vanilla music for normal gameplay
+
             var mainTrackDefRequest = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/Base/Common/muFULLSong06.asset");
             while (!mainTrackDefRequest.IsDone)
             {
                 yield return null;
             }
-            var bossTrackDefRequest = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/Base/Common/muSong22.asset");
+            var bossTrackDefRequest = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/Base/Common/muSong16.asset");
             while (!bossTrackDefRequest.IsDone)
             {
                 yield return null;
@@ -185,6 +226,18 @@ namespace FBLStage.Content
         {
             _assetsAssetBundle.Unload(true);
             _scenesAssetBundle.Unload(true);
+
+            var akResult = AkSoundEngine.UnloadBank(_soundbankId, IntPtr.Zero);
+            if (akResult == AKRESULT.AK_Success)
+            {
+                Log.Info($"Unloaded bank : {SoundBankFileName}.");
+            }
+            else
+            {
+                Log.Error(
+                    $"Error unloading bank : {SoundBankFileName}. " +
+                    $"Error code : {akResult}");
+            }
         }
 
         private static IEnumerator LoadAllAssetsAsync<T>(AssetBundle assetBundle, IProgress<float> progress, Action<T[]> onAssetsLoaded) where T : UnityEngine.Object

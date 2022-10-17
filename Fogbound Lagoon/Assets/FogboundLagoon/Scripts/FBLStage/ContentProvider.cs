@@ -12,11 +12,16 @@ namespace FBLStage.Content
 
 		private readonly ContentPack _contentPack = new ContentPack();
 
+        public static String assetDirectory;
+
 		public IEnumerator LoadStaticContentAsync(LoadStaticContentAsyncArgs args)
         {
             _contentPack.identifier = identifier;
 
             var assetsFolderFullPath = Path.GetDirectoryName(typeof(ContentProvider).Assembly.Location);
+            assetDirectory = assetsFolderFullPath;
+
+            FBLContent.LoadSoundBank(assetsFolderFullPath);
 
             AssetBundle scenesAssetBundle = null;
             yield return LoadAssetBundle(

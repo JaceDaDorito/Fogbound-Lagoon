@@ -6,7 +6,7 @@ using AddressablesHelper;
 
 public class InjectedAssetToggleSync : MonoBehaviour
 {
-    public InjectRoR2AssetEditorPreview _injectedAssetComponent;
+    /*public AddressablePrefab _injectedAssetComponent;
 
     private GameObject instance;
 
@@ -15,10 +15,10 @@ public class InjectedAssetToggleSync : MonoBehaviour
         Refresh();
     }
 
-    /*private void OnDisable()
+    private void OnDisable()
     {
         Refresh();
-    }*/
+    }
 
     private void Refresh()
     {
@@ -29,5 +29,5 @@ public class InjectedAssetToggleSync : MonoBehaviour
         {
             instance.SetActive(gameObject.activeSelf);
         }
-    }
+    }*/
 }

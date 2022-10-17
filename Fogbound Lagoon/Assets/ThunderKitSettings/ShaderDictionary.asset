@@ -15,11 +15,11 @@ MonoBehaviour:
   shaderPairs:
   - original: {fileID: 0}
     stubbed: {fileID: 4800000, guid: b7f4ae303bdf39f4c824d061260e2f60, type: 3}
-  - original: {fileID: 0}
+  - original: {fileID: 4800000, guid: b36fdf2439e847868b9b5c8b36f3c8e4, type: 2}
     stubbed: {fileID: 4800000, guid: 461ba393527cb6f439f14d74b17894d2, type: 3}
-  - original: {fileID: 0}
+  - original: {fileID: 4800000, guid: 97556c76ad05410c9d0a7a2192b6191c, type: 2}
     stubbed: {fileID: 4800000, guid: d4aebf40e77355d43ac4d7ebd7b290a6, type: 3}
-  - original: {fileID: 0}
+  - original: {fileID: 4800000, guid: 5e2f69a6d00d42d39eaf01a9f87bb0ba, type: 2}
     stubbed: {fileID: 4800000, guid: e956c2ff4af6b2243a7b9036cfaf0b20, type: 3}
   - original: {fileID: 0}
     stubbed: {fileID: 4800000, guid: f24b65a1f49c0584498797b2f65bd06e, type: 3}

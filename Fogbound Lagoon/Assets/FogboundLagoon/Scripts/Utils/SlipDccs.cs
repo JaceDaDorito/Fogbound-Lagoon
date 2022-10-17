@@ -11,7 +11,6 @@ using System.Collections.Generic;
 
 namespace FBLStage.Utils
 {
-    //Credit to GrooveSalad for the Slipstream Dccs extension.
 
     [CreateAssetMenu(menuName = "Slipstream/SlipDccs")]
     public class SlipDccs : DirectorCardCategorySelection

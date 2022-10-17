@@ -21,6 +21,11 @@ namespace FBLStage.Utils
             {
                 slipDccs.ResolveAddressableCategories();
             }
+            SlipDccsPool[] allSlipDccsPools = FBLContent.SlipDccsPoolsArray;
+            foreach (SlipDccsPool slipDccsPool in allSlipDccsPools)
+            {
+                slipDccsPool.ResolveAddressableCategories();
+            }
         }
 
     }

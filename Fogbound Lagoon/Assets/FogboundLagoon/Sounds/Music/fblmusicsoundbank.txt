@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	402924699	Play_TropicOfCapricorn			\Default Work Unit\Play_TropicOfCapricorn	
+	3092900454	Unpause_TropicOfCapricorn			\Default Work Unit\Unpause_TropicOfCapricorn	
+	3872352929	Pause_TropicOfCapricorn			\Default Work Unit\Pause_TropicOfCapricorn	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	792781730	Music_system			\Default Work Unit\Music_system	
+	3148870334	fblsongchoice1			\Default Work Unit\fblsongchoice1	
+
+State	ID	Name	State Group			Notes
+	89505537	Gameplay	Music_system			
+	580146960	Bossfight	Music_system			
+	748895195	None	Music_system			
+	778026301	SecretLevel	Music_system			
+	2607556080	Menu	Music_system			
+	145640315	MyJazzSong	fblsongchoice1			
+	748895195	None	fblsongchoice1			
+	3403129731	Decompression_Loop	fblsongchoice1			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	283290695	Aera - Mechelwind - Intro	C:\Users\jtorr\OneDrive\Documents\WwiseProjects\RoR2MusicTest\.cache\Windows\SFX\musicStage8_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music_System\GameplaySongChoice\TropicOfCapricorn\Aera - Mechelwind - Intro\Aera - Mechelwind - Intro		4834
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	283290695	Aera - Mechelwind - Intro	C:\Users\jtorr\OneDrive\Documents\WwiseProjects\RoR2MusicTest\.cache\Windows\SFX\musicStage8_9EDFC787.wem	283290695.wem	\Interactive Music Hierarchy\Default Work Unit\Music_System\GameplaySongChoice\TropicOfCapricorn\Aera - Mechelwind - Intro\Aera - Mechelwind - Intro	
+

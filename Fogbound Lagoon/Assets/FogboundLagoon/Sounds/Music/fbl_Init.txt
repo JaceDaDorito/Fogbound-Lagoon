@@ -1,0 +1,62 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	549431000	bossStatus			\Default Work Unit\bossStatus	
+	792781730	Music_system			\Default Work Unit\Music_system	
+	1598298728	Music_menu			\Default Work Unit\Music_menu	
+	2561284575	bossPhase			\Default Work Unit\bossPhase	
+	3028652072	TABStatus			\Default Work Unit\TABStatus	
+	3148870334	fblsongchoice1			\Default Work Unit\fblsongchoice1	
+	3480929964	ghostStatus			\Default Work Unit\ghostStatus	
+	3807720919	enemyType			\Default Work Unit\enemyType	
+	4244680111	teleporterZone			\Default Work Unit\teleporterZone	
+
+State	ID	Name	State Group			Notes
+	655265632	alive	bossStatus			
+	748895195	None	bossStatus			
+	2044049779	dead	bossStatus			
+	89505537	Gameplay	Music_system			
+	580146960	Bossfight	Music_system			
+	748895195	None	Music_system			
+	778026301	SecretLevel	Music_system			
+	2607556080	Menu	Music_system			
+	113661376	OpeningCutScene1	Music_menu			
+	113661379	OpeningCutScene2	Music_menu			
+	748895195	None	Music_menu			
+	2121506681	OutroCutsceneFULL	Music_menu			
+	2266819552	OutroCutsceneB	Music_menu			
+	2266819555	OutroCutsceneA	Music_menu			
+	2326263800	Logbook2	Music_menu			
+	3161908922	Main	Music_menu			
+	3912041495	Prismatic	Music_menu			
+	748895195	None	bossPhase			
+	3630028968	phase2	bossPhase			
+	3630028969	phase3	bossPhase			
+	3630028971	phase1	bossPhase			
+	3630028974	phase4	bossPhase			
+	748895195	None	TABStatus			
+	930712164	off	TABStatus			
+	1651971902	on	TABStatus			
+	145640315	MyJazzSong	fblsongchoice1			
+	748895195	None	fblsongchoice1			
+	3403129731	Decompression_Loop	fblsongchoice1			
+	748895195	None	ghostStatus			
+	3053630529	true	ghostStatus			
+	748895195	None	enemyType			
+	1160234136	normal	enemyType			
+	1464097230	elite	enemyType			
+	1560169506	boss	enemyType			
+	645492555	OUT	teleporterZone			
+	748895195	None	teleporterZone			
+	1752637612	IN	teleporterZone			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	213475909	SFX_BUS			\Default Work Unit\Master Audio Bus\SFX_BUS	
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	931844945	HDR			\Default Work Unit\Master Audio Bus\SFX_BUS\HDR	
+	2060036974	MSX_BEACON			\Default Work Unit\Master Audio Bus\MSX_BEACON	
+	2893081552	MSX_BUS			\Default Work Unit\Master Audio Bus\MSX_BUS	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

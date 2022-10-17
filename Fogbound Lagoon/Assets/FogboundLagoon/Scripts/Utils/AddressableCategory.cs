@@ -17,16 +17,13 @@ namespace FBLStage.Utils
     {
         public DirectorCardCategorySelection.Category ToCategory()
         {
-            foreach (AddressableDirectorCard addressableDirectorCard in addressableCards)
+            if (!hasResolved)
             {
-                if (!string.IsNullOrEmpty(addressableDirectorCard.spawnCardKey))
+                foreach (IAddressableKeyProvider<SpawnCard> provider in addressableCards)
                 {
-                    addressableDirectorCard.spawnCard = Addressables.LoadAssetAsync<SpawnCard>(addressableDirectorCard.spawnCardKey).WaitForCompletion();
-                    if (!addressableDirectorCard.spawnCard)
-                    {
-                        Log.Warning(addressableDirectorCard + ": Addressable key [" + addressableDirectorCard.spawnCardKey + "] was provided, but is null!");
-                    }
+                    provider.Resolve();
                 }
+                hasResolved = true;
             }
             return new DirectorCardCategorySelection.Category
             {
@@ -41,5 +38,7 @@ namespace FBLStage.Utils
         public AddressableDirectorCard[] addressableCards;
 
         public float selectionWeight;
+
+        private bool hasResolved;
     }
 }

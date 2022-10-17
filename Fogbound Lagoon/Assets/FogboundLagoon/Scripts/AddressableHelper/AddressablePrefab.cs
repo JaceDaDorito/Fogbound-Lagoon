@@ -1,11 +1,12 @@
-﻿using UnityEngine;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.AddressableAssets;
 
 namespace AddressablesHelper
 {
-    public class InjectRoR2AssetEditorPreview : MonoBehaviour
+    public class AddressablePrefab : MonoBehaviour
     {
-        public string Key;
+        public string AssetPath;
 
         private GameObject instance;
 
@@ -15,6 +16,7 @@ namespace AddressablesHelper
         {
             return instance;
         }
+
         private void OnEnable()
         {
             Refresh();
@@ -27,10 +29,11 @@ namespace AddressablesHelper
                 DestroyImmediate(instance);
             }
         }
+
         private void OnValidate()
         {
             if (_refreshInEditor)
-                Refresh();           
+                Refresh();
         }
 
         private void Refresh()
@@ -40,8 +43,8 @@ namespace AddressablesHelper
                 DestroyImmediate(instance);
             }
 
-
-            instance = Instantiate(Addressables.LoadAssetAsync<GameObject>(Key).WaitForCompletion(), gameObject.transform);
+            instance = Instantiate(Addressables.LoadAssetAsync<GameObject>(AssetPath).WaitForCompletion(), gameObject.transform);
+            instance.hideFlags = HideFlags.DontSaveInEditor;
         }
     }
 }

@@ -16,6 +16,10 @@ MonoBehaviour:
   - <ManifestStagingRoot>
   files:
   - {fileID: 102900000, guid: 3e10f7c4054c83949b92890103833482, type: 3}
+  - {fileID: 102900000, guid: edfb7683432771745b3a9f833c70c7c0, type: 3}
+  - {fileID: 102900000, guid: dd085598e56672049be70085bc34765c, type: 3}
+  - {fileID: 102900000, guid: f54103d266bbb8c479a74858b257abfd, type: 3}
+  - {fileID: 102900000, guid: 828e19e64cbae244f98333db1ac99d85, type: 3}
 --- !u!114 &-5775786412066446189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33,6 +37,7 @@ MonoBehaviour:
   assetBundles:
   - assetBundleName: fblassets
     assets:
+    - {fileID: 102900000, guid: 71ae92900fc7cc843978bfb4336293ce, type: 3}
     - {fileID: 102900000, guid: 342191340c1759b4dae3ed20516ad8f4, type: 3}
     - {fileID: 102900000, guid: e3bd839ca90f33c4f8caa8a6da79ec86, type: 3}
   - assetBundleName: fblstage
