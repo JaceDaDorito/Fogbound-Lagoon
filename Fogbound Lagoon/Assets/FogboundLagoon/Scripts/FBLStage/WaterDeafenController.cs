@@ -28,7 +28,8 @@ namespace FBLStage.Content
             {
                 if (self.targetCamera.transform.position.y < elevation)
                 {
-                    self.rtpcPlayerHealthValue.value = 0f;
+                    self.rtpcPlayerHealthValue.value -= 100;
+                    self.rtpcPlayerHealthValue.value = Mathf.Max(self.rtpcEnemyValue.value, -100);
                 }
             }
 

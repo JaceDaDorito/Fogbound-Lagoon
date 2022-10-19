@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   poolCategories: []
   addressablePoolCategories:
-  - name: 
+  - name: Pools
     categoryWeight: 1
     alwaysIncluded: []
     includedIfConditionsMet:

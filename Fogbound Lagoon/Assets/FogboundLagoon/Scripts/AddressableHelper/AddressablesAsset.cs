@@ -26,7 +26,7 @@ namespace AddressablesHelper
             _asset = Addressables.LoadAssetAsync<Object>(Key).WaitForCompletion();
             if (!_asset)
             {
-                Debug.LogError($"AddressablesAsset failed loading {Key}");
+                Debug.LogError($"AddressablesAsset failed loading {Key}, {gameObject.name}" );
                 return;
             }
 
@@ -68,7 +68,7 @@ namespace AddressablesHelper
                 propertyInfo.SetValue(_targetComponent, _asset);
             }
 
-            Debug.Log($"Success setting {_targetComponent}::{_targetMemberInfoName}");
+            //Debug.Log($"Success setting {_targetComponent}::{_targetMemberInfoName}");
         }
     }
 }

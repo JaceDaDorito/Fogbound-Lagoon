@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
+using RoR2.Networking;
+using UnityEngine.Networking;
+
 
 namespace AddressablesHelper
 {
@@ -11,6 +14,7 @@ namespace AddressablesHelper
         private GameObject instance;
 
         public bool _refreshInEditor;
+        public bool _networkInstantiate;
 
         public GameObject GetInstance()
         {
@@ -43,7 +47,22 @@ namespace AddressablesHelper
                 DestroyImmediate(instance);
             }
 
-            instance = Instantiate(Addressables.LoadAssetAsync<GameObject>(AssetPath).WaitForCompletion(), gameObject.transform);
+            
+            if(_networkInstantiate && !Application.isEditor)
+            {
+                if (NetworkServer.active)
+                {
+                    instance = Instantiate(Addressables.LoadAssetAsync<GameObject>(AssetPath).WaitForCompletion(), gameObject.transform);
+                    NetworkServer.Spawn(instance);
+                }
+                
+            }
+            else
+            {
+                instance = Instantiate(Addressables.LoadAssetAsync<GameObject>(AssetPath).WaitForCompletion(), gameObject.transform);
+            }
+                
+
             instance.hideFlags = HideFlags.DontSaveInEditor;
         }
     }
