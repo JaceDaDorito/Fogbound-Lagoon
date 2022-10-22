@@ -155,4 +155,4 @@ MonoBehaviour:
     value: {r: 0.2901961, g: 0.3254902, b: 0.35686275, a: 1}
   skyboxStrength:
     overrideState: 1
-    value: 0.08
+    value: 0.09

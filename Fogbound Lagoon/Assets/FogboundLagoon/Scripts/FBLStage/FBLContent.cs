@@ -45,9 +45,11 @@ namespace FBLStage.Content
         public static Dictionary<string, string> ShaderLookup = new Dictionary<string, string>()
         {
             {"stubbedror2/base/shaders/hgstandard", "RoR2/Base/Shaders/HGStandard.shader"},
+            {"stubbedror2/base/shaders/hgsnowtopped", "RoR2/Base/Shaders/HGSnowTopped.shader"},
             {"stubbedror2/base/shaders/hgtriplanarterrainblend", "RoR2/Base/Shaders/HGTriplanarTerrainBlend.shader"},
             {"stubbedror2/base/shaders/hgintersectioncloudremap", "RoR2/Base/Shaders/HGIntersectionCloudRemap.shader" },
             {"stubbedror2/base/shaders/hgcloudremap", "RoR2/Base/Shaders/HGCloudRemap.shader" },
+            {"stubbedror2/base/shaders/hgdistortion", "RoR2/Base/Shaders/HGDistortion.shader" },
             {"stubbedcalm water/calmwater - dx11 - doublesided", "Calm Water/CalmWater - DX11 - DoubleSided.shader" }
         };
 
@@ -162,7 +164,7 @@ namespace FBLStage.Content
             //FBLStage.instance.LoadMusicBank();
 
             //Commented code below shows you how to reuse vanilla music for normal gameplay
-
+            //RoR2/Base/Common/muFULLSong07.asset
             var mainTrackDefRequest = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/Base/Common/muFULLSong06.asset");
             while (!mainTrackDefRequest.IsDone)
             {

@@ -53,12 +53,12 @@ MonoBehaviour:
       selectionWeight: 1
       spawnDistance: 0
       preventOverhead: 0
-      minimumStageCompletions: 0
+      minimumStageCompletions: 6
       requiredUnlockable: 
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/Bell/cscBell.asset
+      spawnCardKey: RoR2/Base/Common/dccsNullifiersOnly.asset
     - spawnCard: {fileID: 0}
       selectionWeight: 1
       spawnDistance: 0
@@ -112,6 +112,16 @@ MonoBehaviour:
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
       spawnCardKey: RoR2/Base/Jellyfish/cscJellyfish.asset
+    - spawnCard: {fileID: 0}
+      selectionWeight: 1
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 6
+      requiredUnlockable: 
+      forbiddenUnlockable: 
+      requiredUnlockableDef: {fileID: 0}
+      forbiddenUnlockableDef: {fileID: 0}
+      spawnCardKey: RoR2/Base/Vulture/cscVulture.asset
     selectionWeight: 3
   - name: Special
     addressableCards:

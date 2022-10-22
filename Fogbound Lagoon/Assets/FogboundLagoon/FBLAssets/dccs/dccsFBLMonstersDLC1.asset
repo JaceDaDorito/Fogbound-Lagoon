@@ -58,7 +58,7 @@ MonoBehaviour:
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/Bell/cscBell.asset
+      spawnCardKey: RoR2/Base/GreaterWisp/cscGreaterWisp.asset
     - spawnCard: {fileID: 0}
       selectionWeight: 1
       spawnDistance: 0
@@ -69,16 +69,6 @@ MonoBehaviour:
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
       spawnCardKey: RoR2/DLC1/Gup/cscGupBody.asset
-    - spawnCard: {fileID: 0}
-      selectionWeight: 1
-      spawnDistance: 0
-      preventOverhead: 0
-      minimumStageCompletions: 0
-      requiredUnlockable: 
-      forbiddenUnlockable: 
-      requiredUnlockableDef: {fileID: 0}
-      forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/GreaterWisp/cscGreaterWisp.asset
     selectionWeight: 3
   - name: Basic Monsters
     addressableCards:
@@ -107,6 +97,16 @@ MonoBehaviour:
       spawnDistance: 0
       preventOverhead: 0
       minimumStageCompletions: 0
+      requiredUnlockable: 
+      forbiddenUnlockable: 
+      requiredUnlockableDef: {fileID: 0}
+      forbiddenUnlockableDef: {fileID: 0}
+      spawnCardKey: RoR2/DLC1/Vermin/cscVermin.asset
+    - spawnCard: {fileID: 0}
+      selectionWeight: 1
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 6
       requiredUnlockable: 
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
