@@ -43,5 +43,5 @@ ___
 - pixlgray - Editor of the trailer.
 - MoonlitWyvern - Helped me record clips for said trailer.
 - Vaikyia - Playtesting and being the most chaotic human being.
-- Gavran - Playtesting and rips a limb off my body each time Hank isn't networked
+- Gavran - Playtesting and ripped a limb off my body each time Hank isn't networked
 - The rest of the Slipstream Team for being great devs and helping me do what I love to do. Thank you all so much.
