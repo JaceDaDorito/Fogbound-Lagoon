@@ -38,6 +38,7 @@ ___
 
 - IDeath - Creator of the node placer and lending me a hand on anything Addressable related.
 - GrooveSalad - Code help and creator of the SlipDccs and SlipDccsPool extensions.
+- Nebby - For being smarter than me and making RoR2Editor kit. Also he helped me learn code stuff so yeah.
 - Dotflare - Never leaves me alone and forced me to allow him to model the bones on the bottom of the map. (Jk hes great)
 - pixlgray - Editor of the trailer.
 - MoonlitWyvern - Helped me record clips for said trailer.
