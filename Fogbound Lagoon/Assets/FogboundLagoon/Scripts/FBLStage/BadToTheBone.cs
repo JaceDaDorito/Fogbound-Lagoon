@@ -3,17 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using RoR2;
 using UnityEngine.Networking;
+using RoR2.Networking;
+using FBLStage.Content;
 
 namespace FBLStage.Content
 {
     public class BadToTheBone : NetworkBehaviour
     {
-        private const string BadToTheBoneEventName = "FBL_BadtotheBone";
 
         [ClientRpc]
         public void RpcPlayBadToTheBone()
         {
-            AkSoundEngine.PostEvent(BadToTheBoneEventName, gameObject);
+            if (FBLContent.BadToTheBone)
+                EffectManager.SimpleSoundEffect(FBLContent.BadToTheBone.index, gameObject.transform.position, true);
         }
     }
 }

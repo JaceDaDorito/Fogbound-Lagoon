@@ -16,10 +16,8 @@ MonoBehaviour:
   - <ManifestStagingRoot>
   files:
   - {fileID: 102900000, guid: 3e10f7c4054c83949b92890103833482, type: 3}
-  - {fileID: 102900000, guid: edfb7683432771745b3a9f833c70c7c0, type: 3}
   - {fileID: 102900000, guid: dd085598e56672049be70085bc34765c, type: 3}
-  - {fileID: 102900000, guid: f54103d266bbb8c479a74858b257abfd, type: 3}
-  - {fileID: 102900000, guid: 828e19e64cbae244f98333db1ac99d85, type: 3}
+  - {fileID: 2800000, guid: 50b93d9914260874fbc329a1f6f3614b, type: 3}
 --- !u!114 &-5775786412066446189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58,10 +56,10 @@ MonoBehaviour:
   StagingPaths:
   - <ManifestPluginStaging>
   Author: JaceDaDorito
-  Name: JaceDaDorito-FogboundLagoon
-  Description: A test stage aimed to help modders ease their way into map making.
-    Also doubles as a playable map as well.
-  Version: 0.0.1
+  Name: FogboundLagoon
+  Description: I can't even see my reflection in the water... only those mysterious
+    crimson lights...
+  Version: 1.0.0
   Dependencies:
   - {fileID: 11400000, guid: 2d4d09ec817c24698d35dc9bf0704fdc, type: 2}
   - {fileID: 11400000, guid: 7fb5b3d290bed6011ed7e8daf230df89, type: 2}

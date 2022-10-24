@@ -11,6 +11,7 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 using FBLStage.Utils;
 using RoR2.ExpansionManagement;
 using System.Collections.Generic;
+using RoR2.Networking;
 
 namespace FBLStage.Content
 {
@@ -23,6 +24,7 @@ namespace FBLStage.Content
         internal const string AssetsAssetBundleFileName = "fblassets";
 
         private static uint _soundbankId;
+        internal static NetworkSoundEventDef BadToTheBone;
 
         private static AssetBundle _scenesAssetBundle;
         private static AssetBundle _assetsAssetBundle;
@@ -116,6 +118,12 @@ namespace FBLStage.Content
                     prefab.RegisterNetworkPrefab();
                 }
             }));*/
+
+            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<NetworkSoundEventDef[]>)((assets) =>
+            {
+                BadToTheBone = assets.First(a => a.name == "FBL_BadtotheBone");
+                contentPack.networkSoundEventDefs.Add(assets);
+            }));
 
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<UnlockableDef[]>)((assets) =>
             {
