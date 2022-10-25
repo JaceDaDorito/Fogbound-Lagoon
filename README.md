@@ -44,4 +44,8 @@ ___
 - MoonlitWyvern - Helped me record clips for said trailer.
 - Vaikyia - Playtesting and being the most chaotic human being.
 - Gavran - Playtesting and ripped a limb off my body each time Hank isn't networked
+<<<<<<< HEAD
 - The rest of the Slipstream Team for being great devs and helping me do what I love to do. Thank you all so much.
+=======
+- The rest of the Slipstream Team for being great devs and helping me do what I love to do. Thank you all so much.
+>>>>>>> f3c04e60b931a54a8528bb7558d5144e197762e6
