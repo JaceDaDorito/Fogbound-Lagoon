@@ -1,4 +1,4 @@
-## Whatbound Lagoon?
+## Fogbound Lagoon?
 Fogbound Lagoon is an alternate Stage 3 which intends to bring a new experience to the game with its water mechanics, unique enemy pool, and atmosphere. It should fit in nicely with the other stages in the game stylistically and balance wise. This also serves as an example stage for (hopefully) any stages created in the future. 
 ___
 
