@@ -10,6 +10,7 @@ ___
 - Working newt statues. Three that are random and one that is garunteed.
 - Preon Accumulator Timed Chest similar to Rallypoint Delta.
 - Water! You can float and so will the gups! Don't Die! No it doesn't have Minecraft anti-fall damage. It doesn't have drowning either.
+- A new (DLC dependent) family event!
 - Theres a funny guy hidden somewhere.
 
 ### Later down the road...
