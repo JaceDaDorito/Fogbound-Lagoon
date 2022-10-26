@@ -32,6 +32,7 @@ namespace FBLStage.Content
         //internal static GameObject[] NetworkedObjectPrefabs;
         internal static UnlockableDef[] UnlockableDefs;
         internal static SlipDccs[] SlipDccsArray;
+        internal static SlipFamilyDccs[] SlipFamilyArray;
         internal static SlipDccsPool[] SlipDccsPoolsArray;
         internal static SceneDef[] SceneDefs;
 
@@ -138,6 +139,11 @@ namespace FBLStage.Content
                 SlipDccsArray = assets;
             }));
 
+            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipFamilyDccs[]>)((assets) =>
+            {
+                SlipFamilyArray = assets;
+            }));
+
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipDccsPool[]>)((assets) =>
             {
                 SlipDccsPoolsArray = assets;
@@ -158,7 +164,7 @@ namespace FBLStage.Content
                 contentPack.sceneDefs.Add(assets);
             }));
 
-            new SlipDccsHandler().Init();
+            //FBLStage.Utils.SlipDirectorUtils().Init();
 
             var matBazaarSeerWispgraveyardRequest = Addressables.LoadAssetAsync<Material>("RoR2/Base/bazaar/matBazaarSeerWispgraveyard.mat");
             while (!matBazaarSeerWispgraveyardRequest.IsDone)

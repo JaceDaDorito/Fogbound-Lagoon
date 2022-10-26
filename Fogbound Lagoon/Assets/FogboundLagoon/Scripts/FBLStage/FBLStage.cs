@@ -7,12 +7,18 @@ using FBLStage.Utils;
 using System.Collections.Generic;
 using UnityEngine;
 using RoR2;
+using R2API.Utils;
+using System.Linq;
+using System.Security;
+using BepInEx.Configuration;
+
 
 //Copied from Nuketown
 
 #pragma warning disable CS0618 // Type or member is obsolete
 [assembly: SecurityPermission(SecurityAction.RequestMinimum, SkipVerification = true)]
 #pragma warning restore CS0618 // Type or member is obsolete
+[assembly: HG.Reflection.SearchableAttribute.OptIn]
 
 namespace FBLStage
 {

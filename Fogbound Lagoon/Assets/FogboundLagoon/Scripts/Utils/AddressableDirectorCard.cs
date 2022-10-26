@@ -14,7 +14,7 @@ namespace FBLStage.Utils
     [Serializable]
     public class AddressableDirectorCard : DirectorCard, IAddressableKeyProvider<SpawnCard>
     {
-        
+
         [Tooltip("An optional addressable key to load a vanilla spawn card")]
         public string spawnCardKey;
 

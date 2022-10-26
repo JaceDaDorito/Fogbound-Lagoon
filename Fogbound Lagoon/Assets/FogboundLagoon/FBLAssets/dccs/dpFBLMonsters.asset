@@ -44,26 +44,8 @@ MonoBehaviour:
       weight: 1
       hasBeenSerialized: 1
       requiredExpansions: []
-      dccsKey: RoR2/Base/Common/dccsGolemFamily.asset
+      dccsKey: RoR2/Base/Common/dccsGolemFamilyNature.asset
       requiresDLC1Expansion: 0
-    - dccs: {fileID: 0}
-      weight: 1
-      hasBeenSerialized: 1
-      requiredExpansions: []
-      dccsKey: RoR2/Base/Common/dccsJellyfishFamily.asset
-      requiresDLC1Expansion: 0
-    - dccs: {fileID: 0}
-      weight: 1
-      hasBeenSerialized: 1
-      requiredExpansions: []
-      dccsKey: RoR2/Base/Common/dccsWispFamily.asset
-      requiresDLC1Expansion: 0
-    - dccs: {fileID: 0}
-      weight: 1
-      hasBeenSerialized: 1
-      requiredExpansions: []
-      dccsKey: RoR2/Base/Common/dccsGupFamily.asset
-      requiresDLC1Expansion: 1
     - dccs: {fileID: 0}
       weight: 1
       hasBeenSerialized: 1
@@ -75,6 +57,12 @@ MonoBehaviour:
       hasBeenSerialized: 1
       requiredExpansions: []
       dccsKey: RoR2/DLC1/Common/dccsConstructFamily.asset
+      requiresDLC1Expansion: 1
+    - dccs: {fileID: 11400000, guid: aafd86e614b79214aabeceacfdc17f2c, type: 2}
+      weight: 1
+      hasBeenSerialized: 1
+      requiredExpansions: []
+      dccsKey: 
       requiresDLC1Expansion: 1
     includedIfNoConditionsMet: []
     hasBeenSerialized: 1

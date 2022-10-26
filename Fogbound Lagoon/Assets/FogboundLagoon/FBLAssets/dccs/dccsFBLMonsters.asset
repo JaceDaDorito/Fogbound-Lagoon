@@ -58,7 +58,7 @@ MonoBehaviour:
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/Common/dccsNullifiersOnly.asset
+      spawnCardKey: RoR2/Base/Nullifier/cscNullifier.asset
     - spawnCard: {fileID: 0}
       selectionWeight: 1
       spawnDistance: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/Golem/cscGolem.asset
+      spawnCardKey: RoR2/Base/Golem/cscGolemNature.asset
     - spawnCard: {fileID: 0}
       selectionWeight: 1
       spawnDistance: 0
