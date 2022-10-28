@@ -31,7 +31,7 @@ ___
 - The water clipping certain vfx (specifically when they are coming out of the water into the water, and you are in the water) such as Xi Construct laser beam and Void Seeds.
 
 ## Changelog
-[1.0.1]
+[1.0.1] and [1.0.2]
 - Fixed the README
 
 [1.0.0]
