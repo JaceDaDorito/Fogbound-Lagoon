@@ -40,9 +40,11 @@ ___
 - IDeath - Creator of the node placer and lending me a hand on anything Addressable related.
 - GrooveSalad - Code help and creator of the SlipDccs and SlipDccsPool extensions.
 - Nebby - For being smarter than me and making RoR2Editor kit. Also he helped me learn code stuff so yeah.
-- Dotflare - Never leaves me alone and forced me to allow him to model the bones on the bottom of the map. (Jk hes great)
+- Dotflare - Never leaves me alone and forced me to allow him to model the bones on the bottom of the map. 
 - pixlgray - Editor of the trailer.
-- MoonlitWyvern - Helped me record clips for said trailer.
-- Vaikyia - Playtesting and being the most chaotic human being.
+- MoonlitWyvern - Helped me with footage for the trailer.
+- Vaikyia - Playtesting, a player in the trailer, and a very chaotic person.
+- Koopahunter197 / Iris - Playtesting, a player in the trailer, and made me remodel the beach.
+- IbanPlayer - Playtesting, a player in the trailer, and approval that my stage is good.
 - Gavran - Playtesting and ripped a limb off my body each time Hank isn't networked.
 - The rest of the Slipstream Team for being great devs and helping me do what I love to do. Thank you all so much.
