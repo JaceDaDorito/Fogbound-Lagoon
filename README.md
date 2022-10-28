@@ -45,6 +45,6 @@ ___
 - MoonlitWyvern - Helped me with footage for the trailer.
 - Vaikyia - Playtesting, a player in the trailer, and a very chaotic person.
 - Koopahunter197 / Iris - Playtesting, a player in the trailer, and made me remodel the beach.
-- IbanPlayer - Playtesting, a player in the trailer, and approval that my stage is good.
+- IbanPlay - Playtesting, a player in the trailer, and approval that my stage is good.
 - Gavran - Playtesting and ripped a limb off my body each time Hank isn't networked.
 - The rest of the Slipstream Team for being great devs and helping me do what I love to do. Thank you all so much.
