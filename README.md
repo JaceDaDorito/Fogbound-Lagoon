@@ -1,3 +1,6 @@
+## Trailer Video
+https://www.youtube.com/watch?v=gcgQ5f5xF7o
+
 ## Fogbound Lagoon?
 Fogbound Lagoon is an alternate Stage 3 which intends to bring a new experience to the game with its water mechanics, unique enemy pool, and atmosphere. It should fit in nicely with the other stages in the game stylistically and balance wise. This also serves as an example stage for (hopefully) any stages created in the future. 
 ___
@@ -46,5 +49,5 @@ ___
 - Vaikyia - Playtesting, a player in the trailer, and a very chaotic person.
 - Koopahunter197 / Iris - Playtesting, a player in the trailer, and made me remodel the beach.
 - IbanPlay - Playtesting, a player in the trailer, and approval that my stage is good.
-- Gavran - Playtesting, Lore Writeer, and ripped a limb off my body each time Hank isn't networked.
+- Gavran - Playtesting, Lore Writer, and ripped a limb off my body each time Hank isn't networked.
 - The rest of the Slipstream Team for being great devs and helping me do what I love to do. Thank you all so much.
