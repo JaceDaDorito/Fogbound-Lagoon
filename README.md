@@ -39,6 +39,7 @@ ___
 - Added a weather controller to the SceneInfo, therefore fixing NRE issues with Starstorm 2
 - Added Brass Contraption to be in both dlc and regular enemy pools. Let me know if this is way too much, the stage needed another heavy enemy.
 - Added a third Timed Chest spot.
+- Fixed haunted texture.
 
 [1.0.1] and [1.0.2]
 - Fixed the README

@@ -11,6 +11,9 @@ using R2API.Utils;
 using System.Linq;
 using System.Security;
 using BepInEx.Configuration;
+using Moonstorm;
+using BepInEx.Bootstrap;
+using System.Runtime.CompilerServices;
 
 
 //Copied from Nuketown
@@ -23,6 +26,7 @@ using BepInEx.Configuration;
 namespace FBLStage
 {
     [BepInDependency(R2API.R2API.PluginGUID)]
+    [BepInDependency("com.TeamMoonstorm.MoonstormSharedUtils", BepInDependency.DependencyFlags.SoftDependency)]
     [R2API.Utils.R2APISubmoduleDependency(nameof(PrefabAPI), nameof(SoundAPI))]
     [BepInPlugin(GUID, Name, Version)]
     public class FBLStage : BaseUnityPlugin
@@ -31,7 +35,7 @@ namespace FBLStage
 
         public const string Name = nameof(FBLStage);
 
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.3";
 
         public const string GUID = Author + "." + Name;
 
@@ -45,7 +49,10 @@ namespace FBLStage
 
             ContentManager.collectContentPackProviders += GiveToRoR2OurContentPackProviders;
 
-            //new SlipDccsHandler().Init();
+            //Just to make sure theres no NREs that slip through. Will remove once I have proper storm support.
+            if (Chainloader.PluginInfos.ContainsKey("com.TeamMoonstorm.MoonstormSharedUtils"))
+                AddSceneBlacklist();
+
         }
 
         public void LoadMusicBank()
@@ -79,6 +86,12 @@ namespace FBLStage
             Log.Debug(FBLContent.FBLSceneDef.mainTrack);
             SoundAPI.Music.Add(d);*/
             
+        }
+
+        [MethodImpl(MethodImplOptions.NoInlining | MethodImplOptions.NoOptimization)]
+        private void AddSceneBlacklist()
+        {
+            Moonstorm.Components.SetupWeatherController.blacklistedScenes.Add("FBLScene");
         }
 
         private static void GiveToRoR2OurContentPackProviders(ContentManager.AddContentPackProviderDelegate addContentPackProvider)
