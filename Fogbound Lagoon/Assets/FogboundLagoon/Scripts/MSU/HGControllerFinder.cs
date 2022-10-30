@@ -42,6 +42,9 @@ namespace FBLStage.Components
                         break;
 
                     //not a hg shader but still applies
+                    case "CalmWater/Calm Water [DX11]":
+                        materialController = gameObject.AddComponent<MaterialControllerComponents.CW_DX11_DoubleSidedController>();
+                        break;
                     case "CalmWater/Calm Water [DX11] [Double Sided]":
                         materialController = gameObject.AddComponent<MaterialControllerComponents.CW_DX11_DoubleSidedController>();
                         break;

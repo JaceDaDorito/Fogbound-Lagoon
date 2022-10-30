@@ -79,6 +79,16 @@ MonoBehaviour:
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
       spawnCardKey: RoR2/Base/GreaterWisp/cscGreaterWisp.asset
+    - spawnCard: {fileID: 0}
+      selectionWeight: 1
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 0
+      requiredUnlockable: 
+      forbiddenUnlockable: 
+      requiredUnlockableDef: {fileID: 0}
+      forbiddenUnlockableDef: {fileID: 0}
+      spawnCardKey: RoR2/Base/Bell/cscBell.asset
     selectionWeight: 3
   - name: Basic Monsters
     addressableCards:

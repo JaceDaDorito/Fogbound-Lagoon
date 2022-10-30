@@ -11,7 +11,8 @@ ___
 
 - Support for non-DLC players and DLC players. The interactable and monster pools will change depending on if SoTV is enabled.
 - Working newt statues. Three that are random and one that is garunteed.
-- Preon Accumulator Timed Chest similar to Rallypoint Delta.
+- Working bazaar seer.
+- Preon Accumulator Timed Chest similar to Rallypoint Delta. There are three spots.
 - Water! You can float and so will the gups! Don't Die! No it doesn't have Minecraft anti-fall damage. It doesn't have drowning either.
 - A new (DLC dependent) family event!
 - Theres a funny guy hidden somewhere.
@@ -20,6 +21,8 @@ ___
 
 - Some vfx changes to make the stage look prettier.
 - Config options such as the DLC monster spawn pool being replaced by the normal one.
+- Starstorm storm support.
+- Language translations.
 - Custom Music? Not sure yet.
 - Bug fixes that crop up.
 ___
@@ -28,9 +31,15 @@ ___
 
 ## Known Issues
 
-- The water clipping certain vfx (specifically when they are coming out of the water into the water, and you are in the water) such as Xi Construct laser beam and Void Seeds.
+- The water clipping certain vfx (specifically when they are coming out of the water into the water, and you are in the water) such as Xi Construct laser beam and Void Seeds. I think there is nothing I can do about this unless I write my own shader. If anyone is more knowledgable about calmwater shaders and know a solution let me know.
+- Hank Sound effect clips off sometimes.
 
 ## Changelog
+[1.0.3]
+- Added a weather controller to the SceneInfo, therefore fixing NRE issues with Starstorm 2
+- Added Brass Contraption to be in both dlc and regular enemy pools. Let me know if this is way too much, the stage needed another heavy enemy.
+- Added a third Timed Chest spot.
+
 [1.0.1] and [1.0.2]
 - Fixed the README
 
