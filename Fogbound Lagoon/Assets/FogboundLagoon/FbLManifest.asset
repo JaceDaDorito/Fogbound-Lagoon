@@ -35,7 +35,7 @@ MonoBehaviour:
   assetBundles:
   - assetBundleName: fblassets
     assets:
-    - {fileID: 102900000, guid: 71ae92900fc7cc843978bfb4336293ce, type: 3}
+    - {fileID: 102900000, guid: 8e081dd136e4365489317ed6fe6ff132, type: 3}
     - {fileID: 102900000, guid: 342191340c1759b4dae3ed20516ad8f4, type: 3}
     - {fileID: 102900000, guid: e3bd839ca90f33c4f8caa8a6da79ec86, type: 3}
   - assetBundleName: fblstage

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   poolCategories: []
   addressablePoolCategories:
-  - name: Pools
+  - name: Standard
     categoryWeight: 0.98
     alwaysIncluded: []
     includedIfConditionsMet:
@@ -66,7 +66,7 @@ MonoBehaviour:
       requiresDLC1Expansion: 1
     includedIfNoConditionsMet: []
     hasBeenSerialized: 1
-  - name: Void Invasion
+  - name: VoidInvasion
     categoryWeight: 0.02
     alwaysIncluded: []
     includedIfConditionsMet:

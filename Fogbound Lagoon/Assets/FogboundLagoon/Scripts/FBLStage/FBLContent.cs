@@ -228,13 +228,15 @@ namespace FBLStage.Content
         private static void AddFBLSceneDefToStage3SceneCollection(AsyncOperationHandle<SceneCollection> stage3SceneCollectionRequest)
         {
             var sceneEntries = stage3SceneCollectionRequest.Result._sceneEntries.ToList();
-            for (int i = 0; i < sceneEntries.Count; i++)
+            //This Loop was to make Fogbound more common, I accidently left this here.
+            /*for (int i = 0; i < sceneEntries.Count; i++)
             {
                 var sceneEntry = sceneEntries[i];
                 sceneEntry.weightMinusOne = -0.75f;
                 sceneEntries[i] = sceneEntry;
-            }
+            }*/
             sceneEntries.Add(new SceneCollection.SceneEntry { sceneDef = FBLSceneDef, weightMinusOne = 0 });
+            
             stage3SceneCollectionRequest.Result._sceneEntries = sceneEntries.ToArray();
         }
 

@@ -10,19 +10,22 @@ ___
 ## Features
 
 - Support for non-DLC players and DLC players. The interactable and monster pools will change depending on if SoTV is enabled.
-- Working newt statues. Three that are random and one that is garunteed.
+- Four random newt statues.
 - Working bazaar seer.
 - Preon Accumulator Timed Chest similar to Rallypoint Delta. There are three spots.
 - Water! You can float and so will the gups! Don't Die! No it doesn't have Minecraft anti-fall damage. It doesn't have drowning either.
 - A new (DLC dependent) family event!
+- Stage Aesthetic support.
+- Spikestrip 2.0 support. Sigma Constructs spawn on the stage.
 - Theres a funny guy hidden somewhere.
 
 ### Later down the road...
 
+- Language translations. (Please message me on discord @JaceDaDorito if you are interested in doing language translations)
+
 - Some vfx changes to make the stage look prettier.
 - Config options such as the DLC monster spawn pool being replaced by the normal one.
 - Starstorm storm support.
-- Language translations.
 - Custom Music? Not sure yet.
 - Bug fixes that crop up.
 ___
@@ -35,6 +38,14 @@ ___
 - Hank Sound effect clips off sometimes.
 
 ## Changelog
+[1.0.5]
+- Hope you enjoyed when the stage appeared in almost every run because I fixed that now... hopefully.
+- Moved the permanent newt statue and made it random like the other newts. The permanent newt statue was too easy to get to. Hank wasn't touched don't worry.
+
+[1.0.4]
+- Fixed compatibility issue with Spikestrip 2.0, Sigma Constructs should spawn now.
+- Added Russian language support.
+
 [1.0.3]
 - Added a weather controller to the SceneInfo, therefore fixing NRE issues with Starstorm 2
 - Added Brass Contraption to be in both dlc and regular enemy pools. Let me know if this is way too much, the stage needed another heavy enemy.
@@ -62,4 +73,5 @@ ___
 - Koopahunter197 / Iris - Playtesting, a player in the trailer, and made me remodel the beach.
 - IbanPlay - Playtesting, a player in the trailer, and approval that my stage is good.
 - Gavran - Playtesting, Lore Writer, and ripped a limb off my body each time Hank isn't networked.
+- ICap_I and WoolieGaming - Showcasing the mod! I am very happy both of you are having fun.
 - The rest of the Slipstream Team for being great devs and helping me do what I love to do. Thank you all so much.
