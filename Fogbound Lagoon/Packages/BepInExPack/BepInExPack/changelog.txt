@@ -1,3 +1,0 @@
-RoR2 BepInExPack specific changes :
-    - Fix FixPluginTypesSerialization sometimes making the game crash on exit.
-    - Fix Copy Log File button in the BepInEx GUI not working correctly.

@@ -1,14 +1,7 @@
 {
   "dependencies": {
-    "com.passivepicasso.thunderkit": "https://github.com/PassivePicasso/ThunderKit.git#5.4.3",
-    "com.unity.collab-proxy": "1.2.16",
-    "com.unity.formats.fbx": "4.2.0",
-    "com.unity.ide.rider": "1.2.1",
-    "com.unity.ide.vscode": "1.2.3",
+    "com.passivepicasso.thunderkit": "https://github.com/PassivePicasso/ThunderKit.git#6.0.1",
     "com.unity.postprocessing": "2.3.0",
-    "com.unity.probuilder": "4.4.0",
-    "com.unity.test-framework": "1.1.24",
-    "com.unity.timeline": "1.2.18",
     "riskofthunder-ror2editorkit": "https://github.com/risk-of-thunder/RoR2EditorKit.git",
     "riskofthunder-ror2importextensions": "https://github.com/PassivePicasso/RoR2ImportExtensions.git",
     "teammoonstorm-moonstormsharedutils": "https://github.com/TeamMoonstorm/MoonstormSharedUtils.git",
