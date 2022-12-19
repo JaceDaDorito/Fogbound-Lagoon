@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Linq;
-using R2API;
 using RoR2;
 using RoR2.ContentManagement;
 using UnityEngine;
@@ -18,7 +17,7 @@ namespace FBLStage.Content
     public static class FBLContent
     {
         internal const string SoundBankFileName = "fblsoundbank.bnk";
-        internal const string MusicBankFileName = "fblmusicsoundbank.bnk";
+        //internal const string MusicBankFileName = "fblmusicsoundbank.bnk";
 
         internal const string ScenesAssetBundleFileName = "fblstage";
         internal const string AssetsAssetBundleFileName = "fblassets";

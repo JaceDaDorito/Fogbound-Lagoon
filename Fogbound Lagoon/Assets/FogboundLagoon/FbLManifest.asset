@@ -15,9 +15,10 @@ MonoBehaviour:
   StagingPaths:
   - <ManifestStagingRoot>
   files:
-  - {fileID: 102900000, guid: 3e10f7c4054c83949b92890103833482, type: 3}
-  - {fileID: 102900000, guid: dd085598e56672049be70085bc34765c, type: 3}
   - {fileID: 2800000, guid: 50b93d9914260874fbc329a1f6f3614b, type: 3}
+  - {fileID: 102900000, guid: dd085598e56672049be70085bc34765c, type: 3}
+  - {fileID: 4900000, guid: d3c14adece69ef34ebbf41980cee804c, type: 3}
+  - {fileID: 102900000, guid: 6c6ea56e6810bc44eb370be0880bdb46, type: 3}
 --- !u!114 &-5775786412066446189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37,7 +38,6 @@ MonoBehaviour:
     assets:
     - {fileID: 102900000, guid: 8e081dd136e4365489317ed6fe6ff132, type: 3}
     - {fileID: 102900000, guid: 342191340c1759b4dae3ed20516ad8f4, type: 3}
-    - {fileID: 102900000, guid: e3bd839ca90f33c4f8caa8a6da79ec86, type: 3}
   - assetBundleName: fblstage
     assets:
     - {fileID: 102900000, guid: 090dfead73fa0b542a0f36f96245eefd, type: 3}
@@ -62,7 +62,6 @@ MonoBehaviour:
   Version: 1.0.0
   Dependencies:
   - {fileID: 11400000, guid: 2d4d09ec817c24698d35dc9bf0704fdc, type: 2}
-  - {fileID: 11400000, guid: 7fb5b3d290bed6011ed7e8daf230df89, type: 2}
 --- !u!114 &-198943577278717595
 MonoBehaviour:
   m_ObjectHideFlags: 0

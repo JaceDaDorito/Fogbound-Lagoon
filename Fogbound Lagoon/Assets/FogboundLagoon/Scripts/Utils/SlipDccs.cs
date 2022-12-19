@@ -3,7 +3,6 @@ using RoR2;
 using System;
 using UnityEngine;
 using UnityEngine.Networking;
-using R2API;
 using RoR2.Items;
 using TMPro;
 using UnityEngine.UI;
@@ -13,7 +12,7 @@ namespace FBLStage.Utils
 {
 
     [CreateAssetMenu(menuName = "Slipstream/SlipDccs")]
-    public class SlipDccs : DirectorCardCategorySelection
+    public class SlipDccs : RoR2.DirectorCardCategorySelection
     {
         public void ResolveAddressableCategories()
         {

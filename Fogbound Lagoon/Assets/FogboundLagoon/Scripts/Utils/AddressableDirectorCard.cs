@@ -3,7 +3,6 @@ using RoR2;
 using System;
 using UnityEngine;
 using UnityEngine.Networking;
-using R2API;
 using RoR2.Items;
 using TMPro;
 using UnityEngine.UI;

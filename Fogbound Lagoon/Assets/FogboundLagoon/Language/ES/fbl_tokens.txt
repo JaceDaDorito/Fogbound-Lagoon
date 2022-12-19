@@ -1,0 +1,16 @@
+{
+	"strings": {
+		"FOGBOUND_SCENEDEF_NAME_TOKEN": "Marisma de las nieblas",
+		"FOGBOUND_SCENEDEF_SUBTITLE_TOKEN": "Albufera vestigial",
+		"BAZAAR_SEER_FBLSCENE": "<style=cWorldEvent>Sueñas de sofocación.</style>",
+		"FOGBOUND_SCENEDEF_LORE_TOKEN": "<style=cMono>\r\nBienvenido a DataScraper (v3.1.53 \u2013 versión beta)\r\n$ Recolectando memoria... Hecho.\r\n$ Resolviendo... Hecho.\r\n$ Buscando datos pertinentes... Hecho.\r\nProceso finalizado!\r\nEmitiendo las transcripciones de audio locales...\r\n<\/style>\r\nNo puedo soportarlo más.\n\nDesde que me estrellé aqui, he sentido una atracción a el distante oceano. No puedo ver más allá del brumoso horizonte, ni por encima de los riscos que pareciera que se aproximan cada vez más. Sé que no puedo posiblemente salir ahí fuera, y es devastador tener mi mundo confinado a esta burbuja ecológica… Debo encontrar una forma de salir...
+\n\nNecesito finalmente ver lo que ha estado llamando por mi voz, engañando mi vista cansada, y invadiendo mi cabeza con sueños pesadillosos cada noche. Me está volviendo loco, diciéndome que me sumerga, solo salta y nada por un rato, solo para relajarme y disfrutar mi tiempo aquí. No puedo ceder. No quiero saber que clase de cosa querría a un forastero relajarse y bajar su guardia...\n\nNi siquiera puedo ver mi reflección en el agua...\Solo esas misteriosas luces carmesí...\r\n<style=cMono>\r\nTranscripción de audio local completa.\r\n<\/style>\r\n",
+
+		"BONE_FOGBOUND_NAME": "Hank",
+
+		"UNLOCKABLE_LOG_STAGES_FBLSCENE": "Registro del entorno: Marisma de las nieblas",
+
+		"FBL_FAMILY_BLIND": "<style=cWorldEvent>[ALERTA] Has invadido un criadero desenfrenado...</style>"
+		
+	}
+}

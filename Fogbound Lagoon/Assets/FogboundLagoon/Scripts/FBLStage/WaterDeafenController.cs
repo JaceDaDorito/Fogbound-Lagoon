@@ -21,7 +21,7 @@ namespace FBLStage.Content
             On.RoR2.MusicController.RecalculateHealth -= MusicController_RecalculateHealth;
         }
 
-        private void MusicController_RecalculateHealth(On.RoR2.MusicController.orig_RecalculateHealth orig, MusicController self, GameObject playerObject)
+        private void MusicController_RecalculateHealth(On.RoR2.MusicController.orig_RecalculateHealth orig, RoR2.MusicController self, GameObject playerObject)
         {
             orig(self, playerObject);
             if (self.targetCamera)
