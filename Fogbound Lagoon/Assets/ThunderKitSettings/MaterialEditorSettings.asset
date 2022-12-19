@@ -12,15 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 591b5409da3943148ba99344d0e7cbc1, type: 3}
   m_Name: MaterialEditorSettings
   m_EditorClassIdentifier: 
-  EnableMaterialEditor: 0
-  myString: 
-  shaderStringPairs:
-  - shaderName: hgStandard
-    shader: {fileID: 4800000, guid: 5f7e9443f17848aa86e3ea3cb14d7c02, type: 2}
-    typeReference: RoR2EditorKit.RoR2Related.Inspectors.HGDeferredInspectors
-  - shaderName: hgSnowtopped
-    shader: {fileID: 4800000, guid: e3ccdd97481942728258ad5529996503, type: 2}
-    typeReference: RoR2EditorKit.RoR2Related.Inspectors.HGDeferredInspectors
-  - shaderName: hgCloudRemap
-    shader: {fileID: 4800000, guid: a18339a8c6424e4e81ec960469b7cd4d, type: 2}
-    typeReference: RoR2EditorKit.RoR2Related.Inspectors.HGFXInspectors
+  EnableMaterialEditor: 1
+  myString: Lol
+  shaderStringPairs: []

@@ -76,6 +76,11 @@ Packages/Risk of Rain 2
 ThunderKit/
 Assets/ThunderKitSettings/Logs/
 
+#Other
+Fogbound Lagoon/Packages/*
+!Fogbound Lagoon/Packages/packages-lock.json
+!Fogbound Lagoon/Packages/manifest.json
+
 ##-------##
 ## wwise ##
 ##-------##

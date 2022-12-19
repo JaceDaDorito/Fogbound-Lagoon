@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: matUWDistortion
-  m_Shader: {fileID: 4800000, guid: 16285d97f1194183aba3a945d1ef36f3, type: 2}
+  m_Shader: {fileID: 4800000, guid: a32a5e2c8bd2b894a917758c7bf699da, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

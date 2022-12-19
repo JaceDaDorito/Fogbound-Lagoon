@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: matBonesRibs
-  m_Shader: {fileID: 4800000, guid: 5f7e9443f17848aa86e3ea3cb14d7c02, type: 2}
+  m_Shader: {fileID: 4800000, guid: 49aecc243004454428c44641d0b85dc7, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

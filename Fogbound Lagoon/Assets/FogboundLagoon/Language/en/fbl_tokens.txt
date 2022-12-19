@@ -1,0 +1,16 @@
+{
+	"strings": {
+		"FOGBOUND_SCENEDEF_NAME_TOKEN": "Fogbound Lagoon",
+		"FOGBOUND_SCENEDEF_SUBTITLE_TOKEN": "Stygian Shallows",
+		"BAZAAR_SEER_FBLSCENE": "<style=cWorldEvent>You dream of suffocation.</style>",
+		"FOGBOUND_SCENEDEF_LORE_TOKEN": "<style=cMono>\r\nWelcome to DataScraper (v3.1.53 \u2013 beta branch)\r\n$ Scraping memory... done.\r\n$ Resolving... done.\r\n$ Combing for relevant data... done.\r\nComplete!\r\nOutputting local audio transcriptions...\r\n<\/style>\r\nI can't take it any longer.\n\nEver since I crashed here, I've felt a strange attraction to the distant ocean. I can't see past the brumous horizon, nor over the looming crags that seem to close in more and more each day. I know I can’t possibly get out there, and it’s soul-sucking having my world being confined to this ecological bubble… I need to find a way to get out...
+\n\nI need to finally see what's been calling my voice, tricking my weary eyes, and invading my head with nightmarish dreams each night. Its been driving me crazy, telling me to take a dive, just jump in and swim around for a bit, to just relax and enjoy my time here. I cannot give in. I don't want to know what kind of thing would want an outsider to relax and let its guard down...\n\nI can't even see my reflection in the water...\nonly those mysterious crimson lights...\r\n<style=cMono>\r\nLocal audio transcriptions complete.\r\n<\/style>\r\n",
+
+		"BONE_FOGBOUND_NAME": "Hank",
+
+		"UNLOCKABLE_LOG_STAGES_FBLSCENE": "Environment Log: Fogbound Lagoon",
+
+		"FBL_FAMILY_BLIND": "<style=cWorldEvent>[WARNING] You have invaded rampant breeding grounds..</style>"
+		
+	}
+}

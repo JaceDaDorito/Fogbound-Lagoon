@@ -1,21 +1,19 @@
-﻿using System.Security.Permissions;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Security.Permissions;
 using BepInEx;
 using FBLStage.Content;
-using R2API;
 using RoR2.ContentManagement;
 using FBLStage.Utils;
-using System.Collections.Generic;
 using UnityEngine;
 using RoR2;
-using R2API.Utils;
 using System.Linq;
 using System.Security;
 using BepInEx.Configuration;
 using Moonstorm;
 using BepInEx.Bootstrap;
 using System.Runtime.CompilerServices;
-
-
 //Copied from Nuketown
 
 #pragma warning disable CS0618 // Type or member is obsolete
@@ -25,9 +23,7 @@ using System.Runtime.CompilerServices;
 
 namespace FBLStage
 {
-    [BepInDependency(R2API.R2API.PluginGUID)]
     [BepInDependency("com.TeamMoonstorm.MoonstormSharedUtils", BepInDependency.DependencyFlags.SoftDependency)]
-    [R2API.Utils.R2APISubmoduleDependency(nameof(PrefabAPI), nameof(SoundAPI))]
     [BepInPlugin(GUID, Name, Version)]
     public class FBLStage : BaseUnityPlugin
     {
@@ -53,9 +49,15 @@ namespace FBLStage
             if (Chainloader.PluginInfos.ContainsKey("com.TeamMoonstorm.MoonstormSharedUtils"))
                 AddSceneBlacklist();
 
+            Language.collectLanguageRootFolders += CollectLanguageRootFolders;
         }
 
-        public void LoadMusicBank()
+        private void Destroy()
+        {
+            Language.collectLanguageRootFolders -= CollectLanguageRootFolders;
+        }
+
+        /*public void LoadMusicBank()
         {
             var d = new SoundAPI.Music.CustomMusicData();
             d.BanksFolderPath = Paths.PluginPath;
@@ -65,7 +67,7 @@ namespace FBLStage
             d.PlayMusicSystemEventName = "Play_TropicOfCapricorn";
             d.SoundBankName = "fblmusicsoundbank.bnk";
 
-            /*
+            
             var mainSceneTrackDef = ScriptableObject.CreateInstance<SoundAPI.Music.CustomMusicTrackDef>();
             mainSceneTrackDef.cachedName = "FBLToC";
             mainSceneTrackDef.SoundBankName = d.SoundBankName;
@@ -84,9 +86,9 @@ namespace FBLStage
             Log.Debug(FBLContent.FBLSceneDef == null);
             FBLContent.FBLSceneDef.mainTrack = mainSceneTrackDef;
             Log.Debug(FBLContent.FBLSceneDef.mainTrack);
-            SoundAPI.Music.Add(d);*/
+            SoundAPI.Music.Add(d);
             
-        }
+        }*/
 
         [MethodImpl(MethodImplOptions.NoInlining | MethodImplOptions.NoOptimization)]
         private void AddSceneBlacklist()
@@ -97,6 +99,11 @@ namespace FBLStage
         private static void GiveToRoR2OurContentPackProviders(ContentManager.AddContentPackProviderDelegate addContentPackProvider)
         {
             addContentPackProvider(new ContentProvider());
+        }
+
+        public void CollectLanguageRootFolders(List<string> folders)
+        {
+            folders.Add(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(base.Info.Location), "Language"));
         }
     }
 }
