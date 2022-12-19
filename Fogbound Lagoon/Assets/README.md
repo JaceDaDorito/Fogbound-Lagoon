@@ -21,31 +21,6 @@ ___
 ### Later down the road...
 
 - Language translations. (Please message me on discord @JaceDaDorito if you are interested in doing language translations)
-
-- Some vfx changes to make the stage look prettier.
-## [Trailer Video](https://www.youtube.com/watch?v=gcgQ5f5xF7o)
-
-## Fogbound Lagoon?
-Fogbound Lagoon is an alternate Stage 3 which intends to bring a new experience to the game with its water mechanics, unique enemy pool, and atmosphere. It should fit in nicely with the other stages in the game stylistically and balance wise. This also serves as an example stage for (hopefully) any stages created in the future. 
-___
-
-![](https://imgur.com/xwHzyet.png)
-
-## Features
-
-- Support for non-DLC players and DLC players. The interactable and monster pools will change depending on if SoTV is enabled.
-- Four random newt statues.
-- Working bazaar seer.
-- Preon Accumulator Timed Chest similar to Rallypoint Delta. There are three spots.
-- Water! You can float and so will the gups! Don't Die! No it doesn't have Minecraft anti-fall damage. It doesn't have drowning either.
-- A new (DLC dependent) family event!
-- Stage Aesthetic support.
-- Spikestrip 2.0 support. Sigma Constructs spawn on the stage.
-- Theres a funny guy hidden somewhere.
-
-### Later down the road...
-
-- Language translations. (Please message me on discord @JaceDaDorito if you are interested in doing language translations)
 - Config options such as the DLC monster spawn pool being replaced by the normal one.
 - Starstorm storm support.
 - Bug fixes that crop up.
@@ -67,6 +42,7 @@ ___
 [1.0.6]
 - Fogbound Lagoon no longer depends on R2API
 - Fixed bug where newt statues sometimes never spawns
+- Fixed bug where the Radio Tower message displayed the token instead of an actual message
 - Added Ukrainian and Spanish language support
 - New icon (Thank you Katie)
 
