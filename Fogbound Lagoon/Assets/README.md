@@ -39,6 +39,14 @@ ___
 - Hank Sound effect clips off sometimes.
 
 ## Changelog
+
+[1.0.8]
+- Added dependency to HookGenPatch (R2API would depend on this but since I removed that dependency, I indirectly removed the HookGenPatcher dependency.)
+- God help me.
+
+[1.0.7]
+- (Hopefully) Fixed game breaking bug due to failure of loading language files. (I didn't know how to format the mod publish correctly)
+
 [1.0.6]
 - Fogbound Lagoon no longer depends on R2API
 - Fixed bug where newt statues sometimes never spawns
