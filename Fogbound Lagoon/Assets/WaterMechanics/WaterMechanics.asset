@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8084750329813629374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestStagingRoot>
+  definitions:
+  - {fileID: 5897886265953266890, guid: 74858b65bd8ff944ca7fbe79ebac4479, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: WaterMechanics
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: 3721261934277724768}
+  - {fileID: -8084750329813629374}
+  identity: {fileID: 3721261934277724768}
+  QuickAccess: 0
+--- !u!114 &3721261934277724768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: ManifestIdentity
+  m_EditorClassIdentifier: 
+  StagingPaths: []
+  Author: JaceDaDorito
+  Name: WaterMechanics
+  Description: A dependency for mods who want water mechanics in their stages akin
+    to Fogbound Lagoon.
+  Version: 1.0.0
+  Dependencies:
+  - {fileID: 11400000, guid: 2d4d09ec817c24698d35dc9bf0704fdc, type: 2}
+  - {fileID: 11400000, guid: bff73382628f698c89c1d9ae43c8f350, type: 2}

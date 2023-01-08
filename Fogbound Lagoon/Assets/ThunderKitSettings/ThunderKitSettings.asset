@@ -16,7 +16,7 @@ MonoBehaviour:
   ShowOnStartup: 1
   GameExecutable: Risk of Rain 2.exe
   GamePath: D:\SteamLibrary\steamapps\common\Risk of Rain 2
-  Is64Bit: 1
+  Is64Bit: 0
   DateTimeFormat: HH:mm:ss:fff
   CreatedDateFormat: MMM/dd HH:mm:ss
   ShowLogWindow: 1

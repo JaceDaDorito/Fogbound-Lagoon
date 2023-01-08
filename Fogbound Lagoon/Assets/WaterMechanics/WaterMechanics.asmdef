@@ -1,9 +1,7 @@
 {
-    "name": "FblAssembly",
+    "name": "WaterMechanics",
     "references": [
-        "GUID:d60799ab2a985554ea1a39cd38695018",
-        "GUID:a44f47cf3ada4435dbc516bad0bc86fe",
-        "GUID:74858b65bd8ff944ca7fbe79ebac4479"
+        "GUID:a44f47cf3ada4435dbc516bad0bc86fe"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -11,20 +9,18 @@
     "overrideReferences": true,
     "precompiledReferences": [
         "BepInEx.dll",
-        "MonoMod.Utils.dll",
-        "Mono.Cecil.dll",
-        "HGCSharpUtils.dll",
-        "HGUnityUtils.dll",
-        "KinematicCharacterController.dll",
         "MMHOOK_RoR2.dll",
-        "Wwise.dll",
-        "LegacyResourcesAPI.dll",
+        "RoR2.dll",
+        "Mono.Cecil.dll",
+        "MonoMod.Utils.dll",
         "Unity.Addressables.dll",
         "UnityEngine.UI.dll",
         "Unity.TextMeshPro.dll",
-        "RoR2.dll",
         "Unity.ResourceManager.dll",
-        "MoonstormSharedUtils.dll"
+        "Wwise.dll",
+        "HGCSharpUtils.dll",
+        "HGUnityUtils.dll",
+        "KinematicCharacterController.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],

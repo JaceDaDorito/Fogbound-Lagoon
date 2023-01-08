@@ -2,7 +2,6 @@
   "dependencies": {
     "com.passivepicasso.thunderkit": "https://github.com/PassivePicasso/ThunderKit.git#6.0.0",
     "com.unity.postprocessing": "2.3.0",
-    "com.unity.multiplayer-hlapi": "https://github.com/risk-of-thunder/UnityMultiplayerHLAPI.git",
     "riskofthunder-ror2editorkit": "https://github.com/risk-of-thunder/RoR2EditorKit.git",
     "riskofthunder-ror2importextensions": "https://github.com/risk-of-thunder/RoR2ImportExtensions.git",
     "com.unity.modules.ai": "1.0.0",
