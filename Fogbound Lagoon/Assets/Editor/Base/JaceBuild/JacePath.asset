@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9158328363872440518
+--- !u!114 &-1664558802772722601
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,24 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fc535938fa8dbc45bde03b5ff764cab, type: 3}
-  m_Name: StageLanguageFiles
+  m_Script: {fileID: 11500000, guid: cebc722807299b54bb8733330087d5e3, type: 3}
+  m_Name: Constant
   m_EditorClassIdentifier: 
-  Active: 1
-  LanguageArtifactPath: <LanguageStaging>
---- !u!114 &-1626408173488622178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3570c76eb7a5c3c45942d9295a150917, type: 3}
-  m_Name: StageManifestFiles
-  m_EditorClassIdentifier: 
-  Active: 1
+  Value: C:\Users\jtorr\AppData\Roaming\r2modmanPlus-local\RiskOfRain2\profiles\ASLIPTESTING3\BepInEx\plugins
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36,11 +22,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3695521163bdd74fa2845bbd3438240, type: 3}
-  m_Name: StageLanguageAndSoundbanks
+  m_Script: {fileID: 11500000, guid: b4f773cd2b7463d44aa153647e991b43, type: 3}
+  m_Name: JacePath
   m_EditorClassIdentifier: 
   Data:
-  - {fileID: -1626408173488622178}
-  - {fileID: -9158328363872440518}
-  QuickAccess: 0
-  manifest: {fileID: 11400000, guid: 9376c88ecd6b60240b2ed7fdcfee6d45, type: 2}
+  - {fileID: -1664558802772722601}
+  - {fileID: 2951194572013964868}
+--- !u!114 &2951194572013964868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2efd008a408bd8449ad573ac2d5003ce, type: 3}
+  m_Name: ManifestName
+  m_EditorClassIdentifier: 

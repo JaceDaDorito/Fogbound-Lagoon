@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: RoR2EditorKitSettings
   m_EditorClassIdentifier: 
   tokenPrefix: FBL_MOD
-  mainManifest: {fileID: 11400000, guid: ec6659570ca5faf4f9c71e5b3b52ca18, type: 2}
+  mainManifest: {fileID: 11400000, guid: 2bfe7fd8f4f17f444aa65a3cc79f568c, type: 2}
   madeRoR2EKAssetsNonEditable: 1

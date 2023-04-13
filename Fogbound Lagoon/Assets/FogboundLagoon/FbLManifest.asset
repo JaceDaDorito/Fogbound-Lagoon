@@ -1,6 +1,34 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7646476185375340455
+--- !u!114 &-8883729179499782923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3230df44b431ebc49a958dde5afa4f88, type: 3}
+  m_Name: LanguageFolderTree
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <BuildPathPlugins>
+  rootFolderName: Language
+  languageFolders:
+  - languageName: en
+    languageFiles:
+    - {fileID: 4900000, guid: d9be7da9255d38045868e4918f2a7192, type: 3}
+  - languageName: ES
+    languageFiles:
+    - {fileID: 4900000, guid: 1c7f9080ed211bd48a9f6d74e264c123, type: 3}
+  - languageName: RU
+    languageFiles:
+    - {fileID: 4900000, guid: 12479082836242447a38465dc9e327f5, type: 3}
+  - languageName: UA
+    languageFiles:
+    - {fileID: 4900000, guid: 842614c97b0963b4d8212f3dafd5677d, type: 3}
+--- !u!114 &-7521479713221564423
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13,91 +41,10 @@ MonoBehaviour:
   m_Name: Files
   m_EditorClassIdentifier: 
   StagingPaths:
-  - <ManifestStagingRoot>
+  - <BuildPathSoundbanks>
   files:
-  - {fileID: 2800000, guid: 50b93d9914260874fbc329a1f6f3614b, type: 3}
   - {fileID: 102900000, guid: dd085598e56672049be70085bc34765c, type: 3}
-  - {fileID: 4900000, guid: d3c14adece69ef34ebbf41980cee804c, type: 3}
-  - {fileID: 102900000, guid: 6c6ea56e6810bc44eb370be0880bdb46, type: 3}
---- !u!114 &-5775786412066446189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17d1008b78cb6e846889b7778282fbef, type: 3}
-  m_Name: AssetBundleDefinitions
-  m_EditorClassIdentifier: 
-  StagingPaths:
-  - <ManifestStagingRoot>
-  assetBundles:
-  - assetBundleName: fblassets
-    assets:
-    - {fileID: 102900000, guid: 8e081dd136e4365489317ed6fe6ff132, type: 3}
-    - {fileID: 102900000, guid: 342191340c1759b4dae3ed20516ad8f4, type: 3}
-  - assetBundleName: fblstage
-    assets:
-    - {fileID: 102900000, guid: 090dfead73fa0b542a0f36f96245eefd, type: 3}
---- !u!114 &-4602117282012248594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
-  m_Name: ManifestIdentity
-  m_EditorClassIdentifier: 
-  StagingPaths:
-  - <ManifestPluginStaging>
-  Author: JaceDaDorito
-  Name: FogboundLagoon
-  Description: I can't even see my reflection in the water... only those mysterious
-    crimson lights...
-  Version: 1.0.0
-  Dependencies:
-  - {fileID: 11400000, guid: 2d4d09ec817c24698d35dc9bf0704fdc, type: 2}
---- !u!114 &-198943577278717595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a82fec78ebc734d9ad1346cd40b5f9, type: 3}
-  m_Name: ThunderstoreData
-  m_EditorClassIdentifier: 
-  StagingPaths:
-  - <ManifestStagingRoot>
-  url: https://github.com/JaceDaDorito/Fogbound-Lagoon
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
-  m_Name: FbLManifest
-  m_EditorClassIdentifier: 
-  Data:
-  - {fileID: -4602117282012248594}
-  - {fileID: 2204156757372025435}
-  - {fileID: -5775786412066446189}
-  - {fileID: -198943577278717595}
-  - {fileID: -7646476185375340455}
-  identity: {fileID: -4602117282012248594}
-  QuickAccess: 0
---- !u!114 &2204156757372025435
+--- !u!114 &-4609303512455969157
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,6 +57,102 @@ MonoBehaviour:
   m_Name: AssemblyDefinitions
   m_EditorClassIdentifier: 
   StagingPaths:
-  - <ManifestStagingRoot>
+  - <BuildPathPlugins>
   definitions:
   - {fileID: 5897886265953266890, guid: b450305ea6c7037428408d453a9961e7, type: 3}
+--- !u!114 &-4553540370727687172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a82fec78ebc734d9ad1346cd40b5f9, type: 3}
+  m_Name: ThunderstoreData
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <BuildPath>
+  url: https://github.com/JaceDaDorito/Fogbound-Lagoon
+--- !u!114 &-592258779083733529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <BuildPath>
+  files:
+  - {fileID: 2800000, guid: 50b93d9914260874fbc329a1f6f3614b, type: 3}
+  - {fileID: 4900000, guid: d3c14adece69ef34ebbf41980cee804c, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: FBLManifest
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: 5397937181683376793}
+  - {fileID: -4609303512455969157}
+  - {fileID: 3187368428263701903}
+  - {fileID: -7521479713221564423}
+  - {fileID: -8883729179499782923}
+  - {fileID: -4553540370727687172}
+  - {fileID: -592258779083733529}
+  identity: {fileID: 5397937181683376793}
+  QuickAccess: 0
+--- !u!114 &3187368428263701903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d1008b78cb6e846889b7778282fbef, type: 3}
+  m_Name: AssetBundleDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <BuildPathAssets>
+  assetBundles:
+  - assetBundleName: fblassets
+    assets:
+    - {fileID: 102900000, guid: 8e081dd136e4365489317ed6fe6ff132, type: 3}
+    - {fileID: 102900000, guid: 342191340c1759b4dae3ed20516ad8f4, type: 3}
+  - assetBundleName: fblstage
+    assets:
+    - {fileID: 102900000, guid: 090dfead73fa0b542a0f36f96245eefd, type: 3}
+--- !u!114 &5397937181683376793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: ManifestIdentity
+  m_EditorClassIdentifier: 
+  StagingPaths: []
+  Author: JaceDaDorito
+  Name: FogboundLagoon
+  Description: I can't even see my reflection in the water... only those mysterious
+    crimson lights...
+  Version: 1.1.0
+  Dependencies:
+  - {fileID: 11400000, guid: 2d4d09ec817c24698d35dc9bf0704fdc, type: 2}

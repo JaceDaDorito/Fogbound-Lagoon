@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BlueChannelTex:
-        m_Texture: {fileID: 2800000, guid: c06d5ee482c01fa48a995fb06f1d03ce, type: 3}
+        m_Texture: {fileID: 2800000, guid: c1bc6e33d24931442a5fb13c65438771, type: 3}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -44,8 +44,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GreenChannelTex:
-        m_Texture: {fileID: 2800000, guid: 2dc43701b3fff4b40921b2071c13f1f5, type: 3}
-        m_Scale: {x: 3, y: 3}
+        m_Texture: {fileID: 2800000, guid: 2bab0fe757feb2f43a5bf277ab3c26aa, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
@@ -57,7 +57,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _NormalTex:
         m_Texture: {fileID: 2800000, guid: 4941ad3381656ef47b2109c1a8156db8, type: 3}
-        m_Scale: {x: 0.2, y: 0.2}
+        m_Scale: {x: 0.5, y: 0.2}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
@@ -69,7 +69,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _RedChannelSideTex:
         m_Texture: {fileID: 2800000, guid: 1b3cc667b9fb2a24c83b64f44a9acd2a, type: 3}
-        m_Scale: {x: 0.2, y: 0.2}
+        m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _RedChannelTopTex:
         m_Texture: {fileID: 2800000, guid: bcdd51370a6ce0344b57d8921b48db20, type: 3}
@@ -104,7 +104,7 @@ Material:
     - _Metallic: 0
     - _MixColorsOn: 0
     - _Mode: 0
-    - _NormalStrength: 0.5200236
+    - _NormalStrength: 0.4
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RampInfo: 3

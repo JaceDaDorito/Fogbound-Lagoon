@@ -54,8 +54,7 @@ namespace FBLStage.Content
             {"stubbedror2/base/shaders/hgdistortion", "RoR2/Base/Shaders/HGDistortion.shader" },
             {"stubbedcalm water/calmwater - dx11 - doublesided", "Calm Water/CalmWater - DX11 - DoubleSided.shader" },
             {"stubbedcalm water/calmwater - dx11", "Calm Water/CalmWater - DX11.shader" },
-            {"stubbedcalm water/calmwater - singlesided", "Calm Water/CalmWater - SingleSided.shader"},
-            {"stubbednature/speedtree", "Nature/SpeedTree"}
+            {"stubbednature/speedtree", "RoR2/Base/Shaders/SpeedTreeCustom.shader"}
         };
 
         internal static void LoadSoundBank(string assetsFolderFullPath)
