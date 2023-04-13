@@ -1,0 +1,298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5fa10117cd6a9e4ab7dd183cedfe1bb, type: 3}
+  m_Name: ShaderDictionary
+  m_EditorClassIdentifier: 
+  shaderPairs:
+  - original:
+      shaderName: CalmWater/Calm Water [Double Sided]
+      shaderGUID: 48cc7323895df4443819db3939ffb40c
+    stubbed:
+      shaderName: StubbedCalm Water/CalmWater - DoubleSided
+      shaderGUID: b7f4ae303bdf39f4c824d061260e2f60
+  - original:
+      shaderName: CalmWater/Calm Water [DX11] [Double Sided]
+      shaderGUID: 4417e32d0382add4f8c2696a606bd295
+    stubbed:
+      shaderName: StubbedCalm Water/CalmWater - DX11 - DoubleSided
+      shaderGUID: 461ba393527cb6f439f14d74b17894d2
+  - original:
+      shaderName: CalmWater/Calm Water [DX11]
+      shaderGUID: 598804a9840d67546a33f38765aac251
+    stubbed:
+      shaderName: StubbedCalm Water/CalmWater - DX11
+      shaderGUID: d4aebf40e77355d43ac4d7ebd7b290a6
+  - original:
+      shaderName: CalmWater/Calm Water [Single Sided]
+      shaderGUID: 390122133dd15694a98c2f6ae86d689a
+    stubbed:
+      shaderName: StubbedCalm Water/CalmWater - SingleSided
+      shaderGUID: e956c2ff4af6b2243a7b9036cfaf0b20
+  - original:
+      shaderName: Projector/Caustics
+      shaderGUID: 2b4fb2922683d9c4e9c4322aa0e20cfc
+    stubbed:
+      shaderName: StubbedCalm Water/ProjectorCaustics
+      shaderGUID: f24b65a1f49c0584498797b2f65bd06e
+  - original:
+      shaderName: Hidden/UnderWaterFog
+      shaderGUID: cd8a7e484b0d6894eaf9fdc6cc137dee
+    stubbed:
+      shaderName: StubbedCalm Water/UnderWaterFog
+      shaderGUID: f8bb22e9bed0c5943b3734707d6bb571
+  - original:
+      shaderName: Decalicious/Unlit Decal
+      shaderGUID: 5468176cf49102748a7d30dbc58f285f
+    stubbed:
+      shaderName: StubbedDecalicious/DecaliciousUnlitDecal
+      shaderGUID: 56407be09fc8291429c4bc96120e5fa6
+  - original:
+      shaderName: Hidden/Decalicious Game Object ID
+      shaderGUID: a6a3d4028c0d50e418ae298c137808a9
+    stubbed:
+      shaderName: StubbedDecalicious/DecaliciousGameObjectID
+      shaderGUID: dea6d7e25807d964fb3af3404ef6db63
+  - original:
+      shaderName: Hidden/EfficientBlur
+      shaderGUID: a32c508fe2ec692489ae100076815db7
+    stubbed:
+      shaderName: StubbedTranslucentImage/EfficientBlur
+      shaderGUID: 06e537e0769bfdc42aa7a8e5b293a691
+  - original:
+      shaderName: Hidden/FillCrop
+      shaderGUID: 10346d8e8a08f4144b9fc328546f40c6
+    stubbed:
+      shaderName: StubbedTranslucentImage/FillCrop
+      shaderGUID: 0f2158dc79f0e00438719778de198350
+  - original:
+      shaderName: UI/TranslucentImage
+      shaderGUID: 37916623e23bced48a1e8f7ea1708c27
+    stubbed:
+      shaderName: StubbedTranslucentImage/TranslucentImage
+      shaderGUID: 96e9ba7e991ca5149a5ac25c06a65903
+  - original:
+      shaderName: Hidden/NGSS_ContactShadows
+      shaderGUID: 0e0952fe7d7eeef478baad7de1446009
+    stubbed:
+      shaderName: StubbedNGSS/NGSS_ContactShadows
+      shaderGUID: e48a5946b79514e488c4ca79e7006f6d
+  - original:
+      shaderName: Hidden/NGSS_Directional
+      shaderGUID: cce6ac95f7dc6f54dbcf0af2546aa050
+    stubbed:
+      shaderName: StubbedNGSS/NGSS_Directional
+      shaderGUID: 728b586267632b341872dffefff16a93
+  - original:
+      shaderName: Hidden/NGSS_FrustumShadows
+      shaderGUID: 7e60f1aab35b8a744afb55213dc83417
+    stubbed:
+      shaderName: StubbedNGSS/NGSS_FrustumShadows
+      shaderGUID: 564f0b5c0967668438b401a0bdfe2439
+  - original:
+      shaderName: 
+      shaderGUID: 
+    stubbed:
+      shaderName: Hidden/FastBlur
+      shaderGUID: 64cf589f3e44bae45ae4719c2f5f2a9d
+  - original:
+      shaderName: Hidden/PostProcessing/HopooSSR
+      shaderGUID: 6de530d6b6696da40a563812cd94e04d
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HopooSSR
+      shaderGUID: 1a2c7aaeef5a3e64994dda31d8834a5a
+  - original:
+      shaderName: Hidden/PostProcess/RampFog
+      shaderGUID: 3ec1477746f602145b6da64173014a89
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/RampFog
+      shaderGUID: 8c40d2b590c3b2247ac1876ffa56ff87
+  - original:
+      shaderName: Hidden/PostProcess/SobelOutline
+      shaderGUID: 58ae4c2a21d6c444eb9c0fe3ba6b2dcf
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/SobelOutline
+      shaderGUID: 7dc82b2bd1831dc47989f7dc80508db6
+  - original:
+      shaderName: Hidden/PostProcess/SobelRain
+      shaderGUID: f31d69c57ea21e2418f3ab05f68a81e2
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/SobelRain
+      shaderGUID: d35b096eb3b0b8d4395aadc3f4449f4b
+  - original:
+      shaderName: Hopoo Games/Deferred/Snow Topped
+      shaderGUID: f8bd07eb3c993e743b1815a26bff7ad5
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGSnowTopped
+      shaderGUID: 0fbac81537bd7de449e62e84567c0cc7
+  - original:
+      shaderName: Hopoo Games/Deferred/Standard
+      shaderGUID: dec18c1eeb97ff6468ff790a2c721c41
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGStandard
+      shaderGUID: c6e3cc6d1ef256644b62462606b5ab4b
+  - original:
+      shaderName: Hopoo Games/FX/StandardWithDistortion
+      shaderGUID: 667eb777b543e2047b3ae0f1de5594eb
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGStandardWithDistortion
+      shaderGUID: 8ddc2827f0db41c409e470f98deb0fed
+  - original:
+      shaderName: Hopoo Games/Deferred/Triplanar Terrain Blend
+      shaderGUID: 05c0ecf38ec5c7c4f822f36331ff431d
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGTriplanarTerrainBlend
+      shaderGUID: fc0d2b686eaad104899d872b3c4d2502
+  - original:
+      shaderName: Hopoo Games/Deferred/Wavy Cloth
+      shaderGUID: 2b1e9a09e844b90448a8cf08fc592453
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGWavyCloth
+      shaderGUID: 2144c37d9bd25524e9e2bd123debcced
+  - original:
+      shaderName: Hopoo Games/Environment/Distant Water
+      shaderGUID: 73ca37d75d436fb44be7263e3b758da6
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGDistantWater
+      shaderGUID: e969611f793276643a864458e1fe81d8
+  - original:
+      shaderName: Hopoo Games/Environment/Waving Grass
+      shaderGUID: aff73e74c6d80c24d80c38fc0804cf2c
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGGrass
+      shaderGUID: 8c48cf973d14c8a4d8e26b15053973fd
+  - original:
+      shaderName: Hopoo Games/Environment/Waterfall
+      shaderGUID: 5f0c2067227f02f428cc6b29972028f0
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGWaterfall
+      shaderGUID: 36177c378eebd704fad3f7145bfe3ad4
+  - original:
+      shaderName: Hopoo Games/FX/Cloud Remap
+      shaderGUID: bd3280d07a5a3f0459cc68bdc2b5feaa
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGCloudRemap
+      shaderGUID: 6eb11650a85cf7f43a78399518a6b49e
+  - original:
+      shaderName: Hopoo Games/FX/Damage Number
+      shaderGUID: 85313d10e6d03c84ebcde650eca1c76b
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGDamageNumber
+      shaderGUID: 250bbd98cc0dec9448eec9c663f8be6a
+  - original:
+      shaderName: Hopoo Games/FX/Distortion
+      shaderGUID: 7e2d14f6897e60646853f46b34a7d49a
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGDistortion
+      shaderGUID: e7dccd93dac658541bab74eefd8256a7
+  - original:
+      shaderName: Hopoo Games/FX/Forward Planet
+      shaderGUID: 3ab4b1d8b17cc3b47b7bbcff3b086a1c
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGForwardPlanet
+      shaderGUID: 471a37d16493ecb4cbacc335c9711d87
+  - original:
+      shaderName: Hopoo Games/FX/Cloud Intersection Remap
+      shaderGUID: 18c22ed605b54b948a3c66e8d9078972
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGIntersectionCloudRemap
+      shaderGUID: a631ff6af1f7c5b4d98c59dc3c237b4b
+  - original:
+      shaderName: Hopoo Games/FX/Opaque Cloud Remap
+      shaderGUID: cecbc553e5fc209478ac4cbacf691234
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGOpaqueCloudRemap
+      shaderGUID: 73f3e99ce40ce174aa25a973429acd5d
+  - original:
+      shaderName: Hopoo Games/FX/Solid Parallax
+      shaderGUID: 2c982a6f543c9424c9c6bccb79f25483
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGSolidParallax
+      shaderGUID: 955ef4755ca797c48ac8c34fa86f4b5c
+  - original:
+      shaderName: Hopoo Games/FX/Vertex Colors Only
+      shaderGUID: b09cdfa8cab66f94e8e8261c740234fc
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGVertexOnly
+      shaderGUID: 5a0700e4d1b2d174d9afb885b02b8cdc
+  - original:
+      shaderName: Hopoo Games/Internal/Outline Highlight
+      shaderGUID: 4423d6a68fb0fd04b95d3b3a46f9aa3d
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGOutlineHighlight
+      shaderGUID: 0e93747c09705df499ec9c9fa7978237
+  - original:
+      shaderName: Hopoo Games/Post Process/Scope Distortion
+      shaderGUID: 5362db5b9a6a8cb43a80f78f029567d5
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGScopeShader
+      shaderGUID: dcc36916349fcfa4f9d36ac52e66d6bb
+  - original:
+      shaderName: Hopoo Games/Post Process/Screen Damage
+      shaderGUID: 8091de0c50f2f0d4daf22e007069ee85
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGScreenDamage
+      shaderGUID: b24de4c7f74851947adcfd94a837f5c0
+  - original:
+      shaderName: Hopoo Games/Internal/SobelBuffer
+      shaderGUID: 65d7141f8c561d042b239721a980623c
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGSobelBuffer
+      shaderGUID: e75477fc421db3d4bbbe06ce1ba21fea
+  - original:
+      shaderName: Hopoo Games/Internal/VisionLimit
+      shaderGUID: 2e746685e4c0ec94a914845b9c2f830e
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGVisionLimit
+      shaderGUID: e77f45fb57fe9b646908384618da9d31
+  - original:
+      shaderName: Custom/Fill-Linear
+      shaderGUID: f7f5f1198f6a63b4fa524a43e3663c42
+    stubbed:
+      shaderName: StubbedRoR2/Base/skymeadow/Fill-Linear
+      shaderGUID: 070b3f85e75890c428a19c382b1028bd
+  - original:
+      shaderName: Hopoo Games/UI/Animate Alpha
+      shaderGUID: 5ea29e190c94d4148bc9ac561e2dfcd0
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGUIAnimateAlpha
+      shaderGUID: 06a840f9ddf912e4cbfdf1c18bc92134
+  - original:
+      shaderName: Hopoo Games/UI/UI Bar Remap
+      shaderGUID: 3bf00a32465f78547b31e1017c3f0d12
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGUIBarRemap
+      shaderGUID: 8c1ee583f351cab42af2dbc639669827
+  - original:
+      shaderName: Hopoo Games/UI/Masked UI Blur
+      shaderGUID: 229e3762170093f42befd14d6562007b
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGUIBlur
+      shaderGUID: a30ab28c1a5ebe0489be0fe26dd83170
+  - original:
+      shaderName: Hopoo Games/UI/Custom Blend
+      shaderGUID: 9a63a8d1e68a30642baeadb7114ce420
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGUICustomBlend
+      shaderGUID: b07318fa99334d941a82c5207be4f10c
+  - original:
+      shaderName: Hopoo Games/UI/Debug Ignore Z
+      shaderGUID: aa3a6591e6b9f514e9a5993c3295f320
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGUIIgnoreZ
+      shaderGUID: 92a75682b627820498f3f86961e9a6d5
+  - original:
+      shaderName: Hopoo Games/UI/Default Overbrighten
+      shaderGUID: 5d639c23ffff31645ae1ea4fce134185
+    stubbed:
+      shaderName: StubbedRoR2/Base/Shaders/HGUIOverbrighten
+      shaderGUID: 277775aeee5f44643b7496ecf84f50d7
+  testString: slipshaders

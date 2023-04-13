@@ -2,7 +2,8 @@
     "name": "FblAssembly",
     "references": [
         "GUID:d60799ab2a985554ea1a39cd38695018",
-        "GUID:a44f47cf3ada4435dbc516bad0bc86fe"
+        "GUID:a44f47cf3ada4435dbc516bad0bc86fe",
+        "GUID:027c693fefcac6548859a0eec81eed3d"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -22,8 +23,7 @@
         "UnityEngine.UI.dll",
         "Unity.TextMeshPro.dll",
         "RoR2.dll",
-        "Unity.ResourceManager.dll",
-        "MoonstormSharedUtils.dll"
+        "Unity.ResourceManager.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],

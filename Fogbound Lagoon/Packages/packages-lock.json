@@ -7,13 +7,13 @@
       "dependencies": {}
     },
     "com.passivepicasso.thunderkit": {
-      "version": "https://github.com/PassivePicasso/ThunderKit.git#6.0.0",
+      "version": "https://github.com/PassivePicasso/ThunderKit.git#7.1.2",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.scriptablebuildpipeline": "1.16.1"
       },
-      "hash": "ed5d32591dcd4d36ed8a54f10b7dcc95eb7715a0"
+      "hash": "2cce48d97a8474e52552c8bd9a362496bcd2766a"
     },
     "com.unity.multiplayer-hlapi": {
       "version": "https://github.com/risk-of-thunder/UnityMultiplayerHLAPI.git",
@@ -62,6 +62,12 @@
     },
     "riskofthunder-r2api_artifactcode": {
       "version": "file:R2API_ArtifactCode",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "riskofthunder-r2api_colors": {
+      "version": "file:R2API_Colors",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
@@ -168,6 +174,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "riskofthunder-r2api_rulebook": {
+      "version": "file:R2API_Rulebook",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "riskofthunder-r2api_sceneasset": {
       "version": "file:R2API_SceneAsset",
       "depth": 0,
@@ -193,29 +205,25 @@
       "dependencies": {}
     },
     "riskofthunder-ror2editorkit": {
-      "version": "file:RoR2EditorKit",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-ror2importextensions": {
-      "version": "https://github.com/risk-of-thunder/RoR2ImportExtensions.git",
+      "version": "https://github.com/risk-of-thunder/RoR2EditorKit.git#4.0.0",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "56ab06c015d1bf1ef9539e415934e9f6875eac75"
+      "hash": "2ada60d2536c863bce224179471fe7b62e836eaa"
+    },
+    "riskofthunder-ror2importextensions": {
+      "version": "https://github.com/risk-of-thunder/RoR2ImportExtensions.git#1.3.5",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "9acf13ca9731e1fea43d89b88c6bc054eb6cf32c"
     },
     "teammoonstorm-moonstormsharedutils": {
-      "version": "file:MoonstormSharedUtils",
+      "version": "https://github.com/TeamMoonstorm/MoonstormSharedUtils.git#916dd889afca071cbd01d21e81fe777abee6fd9f",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "tristanmcpherson-r2api": {
-      "version": "file:R2API",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "916dd889afca071cbd01d21e81fe777abee6fd9f"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
