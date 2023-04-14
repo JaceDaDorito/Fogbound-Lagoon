@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f00d426383560f469d7dea667cb6de6, type: 3}
-  m_Name: dccsFBLMonsters
+  m_Name: dccsFBLMonstersDLC1Legacy
   m_EditorClassIdentifier: 
   categories: []
   addressableCategories:
@@ -25,7 +25,7 @@ MonoBehaviour:
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/Vagrant/cscVagrant.asset
+      spawnCardKey: RoR2/DLC1/MajorAndMinorConstruct/cscMegaConstruct.asset
     - spawnCard: {fileID: 0}
       selectionWeight: 1
       spawnDistance: 2
@@ -53,12 +53,12 @@ MonoBehaviour:
       selectionWeight: 1
       spawnDistance: 0
       preventOverhead: 0
-      minimumStageCompletions: 6
+      minimumStageCompletions: 0
       requiredUnlockable: 
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/Nullifier/cscNullifier.asset
+      spawnCardKey: RoR2/Base/GreaterWisp/cscGreaterWisp.asset
     - spawnCard: {fileID: 0}
       selectionWeight: 1
       spawnDistance: 0
@@ -68,17 +68,7 @@ MonoBehaviour:
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/Beetle/cscBeetleGuard.asset
-    - spawnCard: {fileID: 0}
-      selectionWeight: 1
-      spawnDistance: 0
-      preventOverhead: 0
-      minimumStageCompletions: 0
-      requiredUnlockable: 
-      forbiddenUnlockable: 
-      requiredUnlockableDef: {fileID: 0}
-      forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/Golem/cscGolemNature.asset
+      spawnCardKey: RoR2/DLC1/Gup/cscGupBody.asset
     - spawnCard: {fileID: 0}
       selectionWeight: 1
       spawnDistance: 0
@@ -111,7 +101,7 @@ MonoBehaviour:
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/Beetle/cscBeetleGuard.asset
+      spawnCardKey: RoR2/DLC1/MajorAndMinorConstruct/cscMinorConstruct.asset
     - spawnCard: {fileID: 0}
       selectionWeight: 1
       spawnDistance: 0
@@ -121,7 +111,7 @@ MonoBehaviour:
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/Jellyfish/cscJellyfish.asset
+      spawnCardKey: RoR2/DLC1/Vermin/cscVermin.asset
     - spawnCard: {fileID: 0}
       selectionWeight: 1
       spawnDistance: 0
@@ -131,7 +121,7 @@ MonoBehaviour:
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/Vulture/cscVulture.asset
+      spawnCardKey: RoR2/DLC1/AcidLarva/cscAcidLarva.asset
     selectionWeight: 3
   - name: Special
     addressableCards:

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f00d426383560f469d7dea667cb6de6, type: 3}
-  m_Name: dccsFBLMonsters
+  m_Name: dccsFBLMonstersLegacy
   m_EditorClassIdentifier: 
   categories: []
   addressableCategories:
@@ -68,7 +68,7 @@ MonoBehaviour:
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/Beetle/cscBeetleGuard.asset
+      spawnCardKey: RoR2/Base/Golem/cscGolemNature.asset
     - spawnCard: {fileID: 0}
       selectionWeight: 1
       spawnDistance: 0
@@ -78,7 +78,7 @@ MonoBehaviour:
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/Golem/cscGolemNature.asset
+      spawnCardKey: RoR2/Base/GreaterWisp/cscGreaterWisp.asset
     - spawnCard: {fileID: 0}
       selectionWeight: 1
       spawnDistance: 0
@@ -111,7 +111,7 @@ MonoBehaviour:
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/Beetle/cscBeetleGuard.asset
+      spawnCardKey: RoR2/Base/Wisp/cscLesserWisp.asset
     - spawnCard: {fileID: 0}
       selectionWeight: 1
       spawnDistance: 0

@@ -58,7 +58,7 @@ MonoBehaviour:
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/GreaterWisp/cscGreaterWisp.asset
+      spawnCardKey: RoR2/Base/Golem/cscGolemNature.asset
     - spawnCard: {fileID: 0}
       selectionWeight: 1
       spawnDistance: 0
@@ -111,7 +111,7 @@ MonoBehaviour:
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/DLC1/Vermin/cscVermin.asset
+      spawnCardKey: RoR2/Base/Jellyfish/cscJellyfish.asset
     - spawnCard: {fileID: 0}
       selectionWeight: 1
       spawnDistance: 0

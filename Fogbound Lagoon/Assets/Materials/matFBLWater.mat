@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: matFBLWater
-  m_Shader: {fileID: 4800000, guid: 598804a9840d67546a33f38765aac251, type: 2}
+  m_Shader: {fileID: 4800000, guid: 409d35eb1d402634dadb1a48dd5a006c, type: 3}
   m_ShaderKeywords: _DISPLACEMENTMODE_OFF _DISTORTIONQUALITY_HIGH _FOAM_ON _REFLECTIONTYPE_CUBEMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -75,7 +75,7 @@ Material:
     - _Amplitude: 2
     - _BumpLargeStrength: 1
     - _BumpScale: 1
-    - _BumpStrength: 0.217
+    - _BumpStrength: 0.6770484
     - _Cutoff: 0.5
     - _Depth: 40
     - _DetailNormalMapScale: 1
@@ -96,7 +96,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Reflection: 1
+    - _Reflection: 0.4285715
     - _ReflectionType: 3
     - _RimPower: 1.9
     - _Smoothing: 0
@@ -111,7 +111,7 @@ Material:
     - _WorldSpace: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 0.9176, b: 0.9176, a: 1}
     - _CubeColor: {r: 1, g: 1, b: 1, a: 1}
     - _DepthColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

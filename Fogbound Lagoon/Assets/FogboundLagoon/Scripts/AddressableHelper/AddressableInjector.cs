@@ -2,6 +2,7 @@
 using System.Reflection;
 using UnityEngine;
 using Object = UnityEngine.Object;
+using RoR2;
 
 namespace AddressablesHelper
 {
@@ -87,7 +88,9 @@ namespace AddressablesHelper
             if (!_asset)
                 return;
 
-            _asset.hideFlags = HideFlags.DontSaveInEditor | HideFlags.NotEditable | HideFlags.DontSaveInBuild;
+            var instancedSurfaceDef = SurfaceDef.Instantiate(_asset);
+            instancedSurfaceDef.hideFlags = HideFlags.DontSave | HideFlags.NotEditable;
+            //release addressableSurfaceDef
 
             switch (memberInfo)
             {

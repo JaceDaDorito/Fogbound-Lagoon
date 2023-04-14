@@ -8,7 +8,7 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
+  m_SceneGUID: 71ae92900fc7cc843978bfb4336293ce
   m_OcclusionCullingData: {fileID: 0}
 --- !u!104 &2
 RenderSettings:
@@ -134,7 +134,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1458392655}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2856825
+--- !u!114 &2856824
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -939,7 +939,7 @@ GameObject:
   - component: {fileID: 67111435}
   - component: {fileID: 67111434}
   - component: {fileID: 67111433}
-  - component: {fileID: 67111432}
+  - component: {fileID: 67111431}
   m_Layer: 11
   m_Name: rock1 (2)
   m_TagString: Untagged
@@ -961,7 +961,7 @@ Transform:
   m_Father: {fileID: 526168507}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -102.621994, y: 130.712, z: -130.021}
---- !u!114 &67111432
+--- !u!114 &67111431
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1406,12 +1406,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -1588,7 +1590,7 @@ GameObject:
   - component: {fileID: 106423899}
   - component: {fileID: 106423898}
   - component: {fileID: 106423897}
-  - component: {fileID: 106423896}
+  - component: {fileID: 106423895}
   m_Layer: 11
   m_Name: rock2 (1)
   m_TagString: Untagged
@@ -1610,7 +1612,7 @@ Transform:
   m_Father: {fileID: 38219269}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 4.9440002, y: -66.594, z: -2.0830002}
---- !u!114 &106423896
+--- !u!114 &106423895
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8381,6 +8383,85 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207367578}
   m_Mesh: {fileID: -5495902117074765545, guid: 8725c28d10450e14594ec56355f639b2, type: 3}
+--- !u!1 &212062571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 212062572}
+  - component: {fileID: 212062574}
+  - component: {fileID: 212062573}
+  m_Layer: 0
+  m_Name: UnderWaterPlane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &212062572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212062571}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
+  m_LocalPosition: {x: 94, y: 245, z: 132}
+  m_LocalScale: {x: 2000, y: 2000, z: 2000}
+  m_Children: []
+  m_Father: {fileID: 1560600164}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 270, z: 0}
+--- !u!23 &212062573
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212062571}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b3591db029cb9fe4f9c9ca4b35cbe321, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &212062574
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212062571}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &214344502
 GameObject:
   m_ObjectHideFlags: 0
@@ -8593,12 +8674,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -8908,7 +8991,7 @@ GameObject:
   - component: {fileID: 265706654}
   - component: {fileID: 265706653}
   - component: {fileID: 265706652}
-  - component: {fileID: 265706651}
+  - component: {fileID: 265706650}
   m_Layer: 11
   m_Name: boulder1 (3)
   m_TagString: Untagged
@@ -8930,7 +9013,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -149.26399, y: 0, z: 0}
---- !u!114 &265706651
+--- !u!114 &265706650
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9548,7 +9631,7 @@ GameObject:
   - component: {fileID: 285356084}
   - component: {fileID: 285356083}
   - component: {fileID: 285356082}
-  - component: {fileID: 285356081}
+  - component: {fileID: 285356080}
   m_Layer: 11
   m_Name: boulder1 (9)
   m_TagString: Untagged
@@ -9570,7 +9653,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: -100.67999, y: 0, z: 0}
---- !u!114 &285356081
+--- !u!114 &285356080
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9610,8 +9693,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0e3244b365d6646ba82c6b0dff52fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Renderer: {fileID: 285356084}
-  material: {fileID: 2100000, guid: 85e2289120abf9844aa3a7ecb036e379, type: 2}
 --- !u!23 &285356084
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9908,7 +9989,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1217126901}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &299962783
+--- !u!114 &299962782
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10788,7 +10869,7 @@ GameObject:
   - component: {fileID: 349524585}
   - component: {fileID: 349524584}
   - component: {fileID: 349524583}
-  - component: {fileID: 349524582}
+  - component: {fileID: 349524581}
   m_Layer: 11
   m_Name: rock1 (3)
   m_TagString: Untagged
@@ -10810,7 +10891,7 @@ Transform:
   m_Father: {fileID: 1627706578}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -43.372, y: 90.00001, z: -90.00001}
---- !u!114 &349524582
+--- !u!114 &349524581
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11806,7 +11887,7 @@ GameObject:
   - component: {fileID: 381836457}
   - component: {fileID: 381836456}
   - component: {fileID: 381836455}
-  - component: {fileID: 381836454}
+  - component: {fileID: 381836453}
   m_Layer: 11
   m_Name: rock1 (3)
   m_TagString: Untagged
@@ -11828,7 +11909,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: -187.068, y: 272.389, z: -236.636}
---- !u!114 &381836454
+--- !u!114 &381836453
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12249,7 +12330,7 @@ GameObject:
   - component: {fileID: 396498606}
   - component: {fileID: 396498605}
   - component: {fileID: 396498604}
-  - component: {fileID: 396498603}
+  - component: {fileID: 396498602}
   m_Layer: 11
   m_Name: boulder1 (18)
   m_TagString: Untagged
@@ -12271,7 +12352,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: -24.822, y: -102.04201, z: 57.971004}
---- !u!114 &396498603
+--- !u!114 &396498602
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12667,7 +12748,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 403117771}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &403117775
+--- !u!114 &403117774
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17954,12 +18035,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_RootOrder
@@ -18796,7 +18879,7 @@ GameObject:
   - component: {fileID: 447023753}
   - component: {fileID: 447023752}
   - component: {fileID: 447023751}
-  - component: {fileID: 447023750}
+  - component: {fileID: 447023749}
   m_Layer: 11
   m_Name: rock1 (6)
   m_TagString: Untagged
@@ -18818,7 +18901,7 @@ Transform:
   m_Father: {fileID: 38219269}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -205.335, y: 275.233, z: -261.056}
---- !u!114 &447023750
+--- !u!114 &447023749
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19094,12 +19177,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_RootOrder
@@ -19827,12 +19912,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -20036,7 +20123,7 @@ GameObject:
   - component: {fileID: 515720305}
   - component: {fileID: 515720304}
   - component: {fileID: 515720303}
-  - component: {fileID: 515720302}
+  - component: {fileID: 515720301}
   m_Layer: 11
   m_Name: rock2 (2)
   m_TagString: Untagged
@@ -20058,7 +20145,7 @@ Transform:
   m_Father: {fileID: 38219269}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: -17.970001, y: -64.041, z: 0}
---- !u!114 &515720302
+--- !u!114 &515720301
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20405,7 +20492,7 @@ GameObject:
   - component: {fileID: 531667324}
   - component: {fileID: 531667323}
   - component: {fileID: 531667322}
-  - component: {fileID: 531667321}
+  - component: {fileID: 531667320}
   m_Layer: 11
   m_Name: rock2 (2)
   m_TagString: Untagged
@@ -20427,7 +20514,7 @@ Transform:
   m_Father: {fileID: 382710816}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 38.012, y: 45.256, z: 90.00001}
---- !u!114 &531667321
+--- !u!114 &531667320
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20621,10 +20708,10 @@ GameObject:
   m_Component:
   - component: {fileID: 535608086}
   - component: {fileID: 535608087}
-  - component: {fileID: 535608089}
   - component: {fileID: 535608088}
   - component: {fileID: 535608090}
   - component: {fileID: 535608091}
+  - component: {fileID: 535608089}
   m_Layer: 4
   m_Name: WaterController
   m_TagString: Untagged
@@ -20686,8 +20773,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: -8696080620969594277, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!114 &535608090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21193,12 +21279,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -21792,7 +21880,7 @@ GameObject:
   - component: {fileID: 586559705}
   - component: {fileID: 586559704}
   - component: {fileID: 586559703}
-  - component: {fileID: 586559702}
+  - component: {fileID: 586559701}
   m_Layer: 11
   m_Name: boulder1 (25)
   m_TagString: Untagged
@@ -21814,7 +21902,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: -6.1250005, y: 31.582, z: 3.3140001}
---- !u!114 &586559702
+--- !u!114 &586559701
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22560,7 +22648,7 @@ GameObject:
   - component: {fileID: 608289446}
   - component: {fileID: 608289445}
   - component: {fileID: 608289444}
-  - component: {fileID: 608289443}
+  - component: {fileID: 608289442}
   m_Layer: 11
   m_Name: rock1 (4)
   m_TagString: Untagged
@@ -22582,7 +22670,7 @@ Transform:
   m_Father: {fileID: 526168507}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 13.609, y: 136.964, z: -87.421005}
---- !u!114 &608289443
+--- !u!114 &608289442
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22670,7 +22758,7 @@ GameObject:
   - component: {fileID: 608933290}
   - component: {fileID: 608933289}
   - component: {fileID: 608933288}
-  - component: {fileID: 608933287}
+  - component: {fileID: 608933286}
   m_Layer: 11
   m_Name: boulder1 (11)
   m_TagString: Untagged
@@ -22692,7 +22780,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: -104.198, y: 41.80699, z: -40.925995}
---- !u!114 &608933287
+--- !u!114 &608933286
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22732,8 +22820,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0e3244b365d6646ba82c6b0dff52fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Renderer: {fileID: 608933290}
-  material: {fileID: 2100000, guid: 85e2289120abf9844aa3a7ecb036e379, type: 2}
 --- !u!23 &608933290
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22917,7 +23003,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 609875582}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &609875586
+--- !u!114 &609875585
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22987,7 +23073,7 @@ GameObject:
   - component: {fileID: 612022263}
   - component: {fileID: 612022262}
   - component: {fileID: 612022261}
-  - component: {fileID: 612022260}
+  - component: {fileID: 612022259}
   m_Layer: 11
   m_Name: boulder1 (12)
   m_TagString: Untagged
@@ -23009,7 +23095,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: -13.393001, y: 79.316, z: -71.888}
---- !u!114 &612022260
+--- !u!114 &612022259
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23571,7 +23657,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 635051859}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &635051863
+--- !u!114 &635051862
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23955,7 +24041,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1770408911}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &675929947
+--- !u!114 &675929946
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24568,8 +24654,7 @@ MonoBehaviour:
   NGSS_PCSS_SOFTNESS_NEAR: 0.125
   NGSS_PCSS_SOFTNESS_FAR: 1
   NGSS_NOISE_TO_DITHERING_SCALE: 0
-  NGSS_NOISE_TEXTURE: {fileID: -7261684554061668849, guid: 00000000000000000000000000000000,
-    type: 0}
+  NGSS_NOISE_TEXTURE: {fileID: 2800000, guid: 77a663e070a81a348a3a2f080cdd41d3, type: 3}
   NGSS_DENOISER_ENABLED: 1
   NGSS_DENOISER_ITERATIONS: 2
   NGSS_DENOISER_BLUR: 0.25
@@ -24940,7 +25025,7 @@ GameObject:
   - component: {fileID: 726061130}
   - component: {fileID: 726061129}
   - component: {fileID: 726061128}
-  - component: {fileID: 726061127}
+  - component: {fileID: 726061126}
   m_Layer: 11
   m_Name: rock2
   m_TagString: Untagged
@@ -24962,7 +25047,7 @@ Transform:
   m_Father: {fileID: 38219269}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -48.812004, y: -64.041, z: 0}
---- !u!114 &726061127
+--- !u!114 &726061126
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -25921,7 +26006,7 @@ GameObject:
   - component: {fileID: 752808257}
   - component: {fileID: 752808256}
   - component: {fileID: 752808255}
-  - component: {fileID: 752808254}
+  - component: {fileID: 752808253}
   m_Layer: 11
   m_Name: boulder1 (20)
   m_TagString: Untagged
@@ -25943,7 +26028,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: -78.699005, y: 84.255005, z: -193.01099}
---- !u!114 &752808254
+--- !u!114 &752808253
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -26031,7 +26116,7 @@ GameObject:
   - component: {fileID: 753066936}
   - component: {fileID: 753066935}
   - component: {fileID: 753066934}
-  - component: {fileID: 753066933}
+  - component: {fileID: 753066932}
   m_Layer: 11
   m_Name: boulder1 (19)
   m_TagString: Untagged
@@ -26053,7 +26138,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: -100.926994, y: 124.278, z: -122.045}
---- !u!114 &753066933
+--- !u!114 &753066932
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -26093,8 +26178,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0e3244b365d6646ba82c6b0dff52fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Renderer: {fileID: 753066936}
-  material: {fileID: 2100000, guid: 85e2289120abf9844aa3a7ecb036e379, type: 2}
 --- !u!23 &753066936
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26550,7 +26633,7 @@ GameObject:
   - component: {fileID: 774351925}
   - component: {fileID: 774351924}
   - component: {fileID: 774351923}
-  - component: {fileID: 774351922}
+  - component: {fileID: 774351921}
   m_Layer: 11
   m_Name: rock2 (5)
   m_TagString: Untagged
@@ -26572,7 +26655,7 @@ Transform:
   m_Father: {fileID: 38219269}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: -17.970001, y: -64.041, z: -76.66701}
---- !u!114 &774351922
+--- !u!114 &774351921
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -27156,12 +27239,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -28333,7 +28418,7 @@ GameObject:
   - component: {fileID: 858539748}
   - component: {fileID: 858539747}
   - component: {fileID: 858539746}
-  - component: {fileID: 858539745}
+  - component: {fileID: 858539744}
   m_Layer: 11
   m_Name: rock2 (2)
   m_TagString: Untagged
@@ -28355,7 +28440,7 @@ Transform:
   m_Father: {fileID: 1627706578}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -173.768, y: -85.53, z: 185.35}
---- !u!114 &858539745
+--- !u!114 &858539744
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -28805,12 +28890,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -28890,12 +28977,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -29563,12 +29652,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -30036,7 +30127,7 @@ GameObject:
   - component: {fileID: 922577952}
   - component: {fileID: 922577951}
   - component: {fileID: 922577950}
-  - component: {fileID: 922577949}
+  - component: {fileID: 922577948}
   m_Layer: 11
   m_Name: boulder1 (28)
   m_TagString: Untagged
@@ -30058,7 +30149,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: -24.521002, y: 79.657005, z: -2.447}
---- !u!114 &922577949
+--- !u!114 &922577948
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30744,48 +30835,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: f44416aeb6c36b24bb407b2479fcf853, type: 3}
---- !u!114 &949019433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8416272008865784571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
---- !u!114 &949019437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8707273952403628814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
---- !u!114 &949019441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832149485127913850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
 --- !u!1001 &950632514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30971,7 +31020,7 @@ GameObject:
   - component: {fileID: 953623609}
   - component: {fileID: 953623608}
   - component: {fileID: 953623607}
-  - component: {fileID: 953623606}
+  - component: {fileID: 953623605}
   m_Layer: 11
   m_Name: rock1
   m_TagString: Untagged
@@ -30993,7 +31042,7 @@ Transform:
   m_Father: {fileID: 1345274039}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 17.37, y: -90.00001, z: 90.00001}
---- !u!114 &953623606
+--- !u!114 &953623605
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -31193,7 +31242,7 @@ GameObject:
   - component: {fileID: 959178640}
   - component: {fileID: 959178639}
   - component: {fileID: 959178638}
-  - component: {fileID: 959178637}
+  - component: {fileID: 959178636}
   m_Layer: 11
   m_Name: rock1 (7)
   m_TagString: Untagged
@@ -31215,7 +31264,7 @@ Transform:
   m_Father: {fileID: 38219269}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: -228.455, y: 280.59802, z: -257.767}
---- !u!114 &959178637
+--- !u!114 &959178636
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -31779,7 +31828,7 @@ GameObject:
   - component: {fileID: 983403042}
   - component: {fileID: 983403041}
   - component: {fileID: 983403040}
-  - component: {fileID: 983403039}
+  - component: {fileID: 983403038}
   m_Layer: 11
   m_Name: boulder1 (4)
   m_TagString: Untagged
@@ -31801,7 +31850,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: -84.54401, y: 0, z: 0}
---- !u!114 &983403039
+--- !u!114 &983403038
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -31936,7 +31985,7 @@ GameObject:
   - component: {fileID: 986051960}
   - component: {fileID: 986051959}
   - component: {fileID: 986051958}
-  - component: {fileID: 986051957}
+  - component: {fileID: 986051956}
   m_Layer: 11
   m_Name: rock1 (5)
   m_TagString: Untagged
@@ -31958,7 +32007,7 @@ Transform:
   m_Father: {fileID: 38219269}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -205.335, y: 275.233, z: -261.056}
---- !u!114 &986051957
+--- !u!114 &986051956
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32319,7 +32368,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2019357762}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1002234286
+--- !u!114 &1002234285
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32723,7 +32772,7 @@ GameObject:
   - component: {fileID: 1023894742}
   - component: {fileID: 1023894741}
   - component: {fileID: 1023894740}
-  - component: {fileID: 1023894739}
+  - component: {fileID: 1023894738}
   m_Layer: 11
   m_Name: rock1 (2)
   m_TagString: Untagged
@@ -32745,7 +32794,7 @@ Transform:
   m_Father: {fileID: 855273387}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -151.643, y: 266.987, z: -260.811}
---- !u!114 &1023894739
+--- !u!114 &1023894738
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -33190,7 +33239,7 @@ GameObject:
   - component: {fileID: 1058671946}
   - component: {fileID: 1058671945}
   - component: {fileID: 1058671944}
-  - component: {fileID: 1058671943}
+  - component: {fileID: 1058671942}
   m_Layer: 11
   m_Name: rock1 (4)
   m_TagString: Untagged
@@ -33212,7 +33261,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: -187.068, y: 272.389, z: -35.30298}
---- !u!114 &1058671943
+--- !u!114 &1058671942
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -33976,12 +34025,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -34549,7 +34600,7 @@ GameObject:
   - component: {fileID: 1124934514}
   - component: {fileID: 1124934513}
   - component: {fileID: 1124934512}
-  - component: {fileID: 1124934511}
+  - component: {fileID: 1124934510}
   m_Layer: 11
   m_Name: rock2
   m_TagString: Untagged
@@ -34571,7 +34622,7 @@ Transform:
   m_Father: {fileID: 855273387}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: -64.041}
---- !u!114 &1124934511
+--- !u!114 &1124934510
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -34948,7 +34999,7 @@ GameObject:
   - component: {fileID: 1160829834}
   - component: {fileID: 1160829833}
   - component: {fileID: 1160829832}
-  - component: {fileID: 1160829831}
+  - component: {fileID: 1160829830}
   m_Layer: 11
   m_Name: boulder1 (22)
   m_TagString: Untagged
@@ -34970,7 +35021,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: -13.614, y: 37.064003, z: -55.107002}
---- !u!114 &1160829831
+--- !u!114 &1160829830
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -35056,12 +35107,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_RootOrder
@@ -35557,12 +35610,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_RootOrder
@@ -36342,7 +36397,7 @@ GameObject:
   - component: {fileID: 1211286456}
   - component: {fileID: 1211286455}
   - component: {fileID: 1211286454}
-  - component: {fileID: 1211286453}
+  - component: {fileID: 1211286452}
   m_Layer: 11
   m_Name: boulder1 (14)
   m_TagString: Untagged
@@ -36364,7 +36419,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: -78.699005, y: 84.254005, z: -70.463005}
---- !u!114 &1211286453
+--- !u!114 &1211286452
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -36451,7 +36506,7 @@ GameObject:
   - component: {fileID: 1215130297}
   - component: {fileID: 1215130296}
   - component: {fileID: 1215130295}
-  - component: {fileID: 1215130294}
+  - component: {fileID: 1215130293}
   m_Layer: 11
   m_Name: boulder1 (21)
   m_TagString: Untagged
@@ -36473,7 +36528,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: -31.503002, y: 72.436005, z: -69.225006}
---- !u!114 &1215130294
+--- !u!114 &1215130293
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -36560,7 +36615,7 @@ GameObject:
   - component: {fileID: 1216841981}
   - component: {fileID: 1216841980}
   - component: {fileID: 1216841979}
-  - component: {fileID: 1216841978}
+  - component: {fileID: 1216841977}
   m_Layer: 11
   m_Name: rock2 (1)
   m_TagString: Untagged
@@ -36582,7 +36637,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -62.795002, y: 45.542004, z: -236.423}
---- !u!114 &1216841978
+--- !u!114 &1216841977
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37544,7 +37599,7 @@ GameObject:
   - component: {fileID: 1256145436}
   - component: {fileID: 1256145435}
   - component: {fileID: 1256145434}
-  - component: {fileID: 1256145433}
+  - component: {fileID: 1256145432}
   m_Layer: 11
   m_Name: rock2 (1)
   m_TagString: Untagged
@@ -37566,7 +37621,7 @@ Transform:
   m_Father: {fileID: 1627706578}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -110.867, y: -44.743988, z: 180}
---- !u!114 &1256145433
+--- !u!114 &1256145432
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37758,7 +37813,7 @@ GameObject:
   - component: {fileID: 1270389344}
   - component: {fileID: 1270389343}
   - component: {fileID: 1270389342}
-  - component: {fileID: 1270389341}
+  - component: {fileID: 1270389340}
   m_Layer: 11
   m_Name: boulder1 (26)
   m_TagString: Untagged
@@ -37780,7 +37835,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: -6.1250005, y: 31.582, z: 3.3140001}
---- !u!114 &1270389341
+--- !u!114 &1270389340
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -38651,7 +38706,7 @@ GameObject:
   - component: {fileID: 1300052274}
   - component: {fileID: 1300052273}
   - component: {fileID: 1300052272}
-  - component: {fileID: 1300052271}
+  - component: {fileID: 1300052270}
   m_Layer: 11
   m_Name: boulder1 (15)
   m_TagString: Untagged
@@ -38673,7 +38728,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: -31.503002, y: 72.436005, z: -69.225006}
---- !u!114 &1300052271
+--- !u!114 &1300052270
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40225,7 +40280,7 @@ GameObject:
   - component: {fileID: 1361429417}
   - component: {fileID: 1361429416}
   - component: {fileID: 1361429414}
-  - component: {fileID: 1361429413}
+  - component: {fileID: 1361429412}
   m_Layer: 11
   m_Name: boulder1 (1)
   m_TagString: Untagged
@@ -40247,7 +40302,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -149.26399, y: 0, z: 0}
---- !u!114 &1361429413
+--- !u!114 &1361429412
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40443,7 +40498,7 @@ GameObject:
   - component: {fileID: 1369634172}
   - component: {fileID: 1369634171}
   - component: {fileID: 1369634170}
-  - component: {fileID: 1369634169}
+  - component: {fileID: 1369634168}
   m_Layer: 11
   m_Name: rock1 (4)
   m_TagString: Untagged
@@ -40465,7 +40520,7 @@ Transform:
   m_Father: {fileID: 38219269}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -187.068, y: 272.389, z: -261.86}
---- !u!114 &1369634169
+--- !u!114 &1369634168
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40765,7 +40820,7 @@ GameObject:
   - component: {fileID: 1385270239}
   - component: {fileID: 1385270238}
   - component: {fileID: 1385270237}
-  - component: {fileID: 1385270236}
+  - component: {fileID: 1385270235}
   m_Layer: 11
   m_Name: boulder1 (16)
   m_TagString: Untagged
@@ -40787,7 +40842,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: -60.243004, y: -54.140003, z: 46.579002}
---- !u!114 &1385270236
+--- !u!114 &1385270235
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42545,7 +42600,7 @@ GameObject:
   - component: {fileID: 1454941733}
   - component: {fileID: 1454941732}
   - component: {fileID: 1454941731}
-  - component: {fileID: 1454941730}
+  - component: {fileID: 1454941729}
   m_Layer: 11
   m_Name: rock2 (1)
   m_TagString: Untagged
@@ -42567,7 +42622,7 @@ Transform:
   m_Father: {fileID: 382710816}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 135.25601}
---- !u!114 &1454941730
+--- !u!114 &1454941729
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43788,7 +43843,7 @@ GameObject:
   - component: {fileID: 1522852322}
   - component: {fileID: 1522852321}
   - component: {fileID: 1522852320}
-  - component: {fileID: 1522852319}
+  - component: {fileID: 1522852318}
   m_Layer: 11
   m_Name: rock1 (2)
   m_TagString: Untagged
@@ -43810,7 +43865,7 @@ Transform:
   m_Father: {fileID: 38219269}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -187.068, y: 272.389, z: -261.86}
---- !u!114 &1522852319
+--- !u!114 &1522852318
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44150,7 +44205,7 @@ GameObject:
   - component: {fileID: 1533323882}
   - component: {fileID: 1533323881}
   - component: {fileID: 1533323880}
-  - component: {fileID: 1533323879}
+  - component: {fileID: 1533323878}
   m_Layer: 11
   m_Name: boulder1 (30)
   m_TagString: Untagged
@@ -44172,7 +44227,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: -24.521002, y: 79.657005, z: -2.447}
---- !u!114 &1533323879
+--- !u!114 &1533323878
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44775,6 +44830,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1760509830}
+  - {fileID: 212062572}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -44790,7 +44846,7 @@ GameObject:
   - component: {fileID: 1561631826}
   - component: {fileID: 1561631825}
   - component: {fileID: 1561631824}
-  - component: {fileID: 1561631823}
+  - component: {fileID: 1561631822}
   m_Layer: 11
   m_Name: boulder1 (2)
   m_TagString: Untagged
@@ -44812,7 +44868,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -149.26399, y: 0, z: 0}
---- !u!114 &1561631823
+--- !u!114 &1561631822
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45148,7 +45204,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1689655615}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1577445639
+--- !u!114 &1577445638
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45685,7 +45741,7 @@ GameObject:
   - component: {fileID: 1590573270}
   - component: {fileID: 1590573269}
   - component: {fileID: 1590573268}
-  - component: {fileID: 1590573267}
+  - component: {fileID: 1590573266}
   m_Layer: 11
   m_Name: rock2 (4)
   m_TagString: Untagged
@@ -45707,7 +45763,7 @@ Transform:
   m_Father: {fileID: 38219269}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: -17.970001, y: -64.041, z: -76.66701}
---- !u!114 &1590573267
+--- !u!114 &1590573266
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45902,12 +45958,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -52048,7 +52106,7 @@ GameObject:
   - component: {fileID: 1669491610}
   - component: {fileID: 1669491609}
   - component: {fileID: 1669491608}
-  - component: {fileID: 1669491607}
+  - component: {fileID: 1669491606}
   m_Layer: 11
   m_Name: boulder1 (23)
   m_TagString: Untagged
@@ -52070,7 +52128,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: -6.1250005, y: 31.582, z: 3.3140001}
---- !u!114 &1669491607
+--- !u!114 &1669491606
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -52518,12 +52576,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_RootOrder
@@ -52755,7 +52815,7 @@ GameObject:
   - component: {fileID: 1707811476}
   - component: {fileID: 1707811475}
   - component: {fileID: 1707811474}
-  - component: {fileID: 1707811473}
+  - component: {fileID: 1707811472}
   m_Layer: 11
   m_Name: rock1 (1)
   m_TagString: Untagged
@@ -52777,7 +52837,7 @@ Transform:
   m_Father: {fileID: 1345274039}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 17.37, y: -90.00001, z: 165.177}
---- !u!114 &1707811473
+--- !u!114 &1707811472
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -52894,7 +52954,7 @@ GameObject:
   - component: {fileID: 1715206081}
   - component: {fileID: 1715206080}
   - component: {fileID: 1715206079}
-  - component: {fileID: 1715206078}
+  - component: {fileID: 1715206077}
   m_Layer: 11
   m_Name: rock1 (3)
   m_TagString: Untagged
@@ -52916,7 +52976,7 @@ Transform:
   m_Father: {fileID: 38219269}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -187.068, y: 272.389, z: -261.86}
---- !u!114 &1715206078
+--- !u!114 &1715206077
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -53464,7 +53524,7 @@ GameObject:
   - component: {fileID: 1753874552}
   - component: {fileID: 1753874551}
   - component: {fileID: 1753874550}
-  - component: {fileID: 1753874549}
+  - component: {fileID: 1753874548}
   m_Layer: 11
   m_Name: boulder1 (6)
   m_TagString: Untagged
@@ -53486,7 +53546,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -52.094, y: 0, z: 0}
---- !u!114 &1753874549
+--- !u!114 &1753874548
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54031,12 +54091,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -54590,7 +54652,7 @@ GameObject:
   - component: {fileID: 1780052840}
   - component: {fileID: 1780052839}
   - component: {fileID: 1780052838}
-  - component: {fileID: 1780052837}
+  - component: {fileID: 1780052836}
   m_Layer: 11
   m_Name: boulder1 (17)
   m_TagString: Untagged
@@ -54612,7 +54674,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: -60.243004, y: -54.140003, z: 46.579002}
---- !u!114 &1780052837
+--- !u!114 &1780052836
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55296,7 +55358,7 @@ GameObject:
   - component: {fileID: 1806144716}
   - component: {fileID: 1806144715}
   - component: {fileID: 1806144714}
-  - component: {fileID: 1806144713}
+  - component: {fileID: 1806144712}
   m_Layer: 11
   m_Name: rock2 (1)
   m_TagString: Untagged
@@ -55318,7 +55380,7 @@ Transform:
   m_Father: {fileID: 855273387}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -275.676, y: -57.306004, z: 90.00001}
---- !u!114 &1806144713
+--- !u!114 &1806144712
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55483,12 +55545,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_RootOrder
@@ -55600,14 +55664,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823527341}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5562c1cb54aff534ea43bff540f5869b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Teleporters/iscTeleporter.asset
   targetComponent: {fileID: 1823527346}
-  targetMemberInfoName: (SceneDirector) teleporterInstance
+  targetMemberInfoName: (SceneDirector) teleporterSpawnCard
 --- !u!114 &1823527344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55708,8 +55772,9 @@ MonoBehaviour:
   m_Script: {fileID: 818754807, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleporterSpawnCard: {fileID: 0}
-  expRewardCoefficient: 0.06666667
+  teleporterSpawnCard: {fileID: -1775688641126402382, guid: 00000000000000000000000000000000,
+    type: 0}
+  expRewardCoefficient: 0.0666667
   eliteBias: 2
   spawnDistanceMultiplier: 6
   teleporterInstance: {fileID: 0}
@@ -55844,12 +55909,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -56040,7 +56107,7 @@ GameObject:
   - component: {fileID: 1832619842}
   - component: {fileID: 1832619841}
   - component: {fileID: 1832619840}
-  - component: {fileID: 1832619839}
+  - component: {fileID: 1832619838}
   m_Layer: 11
   m_Name: rock1 (2)
   m_TagString: Untagged
@@ -56062,7 +56129,7 @@ Transform:
   m_Father: {fileID: 1627706578}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1832619839
+--- !u!114 &1832619838
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -61922,12 +61989,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_RootOrder
@@ -63188,7 +63257,7 @@ GameObject:
   - component: {fileID: 1916148432}
   - component: {fileID: 1916148431}
   - component: {fileID: 1916148430}
-  - component: {fileID: 1916148429}
+  - component: {fileID: 1916148428}
   m_Layer: 11
   m_Name: rock2 (3)
   m_TagString: Untagged
@@ -63210,7 +63279,7 @@ Transform:
   m_Father: {fileID: 38219269}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -131.762, y: -64.040985, z: 21.512985}
---- !u!114 &1916148429
+--- !u!114 &1916148428
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -63896,7 +63965,7 @@ GameObject:
   - component: {fileID: 1952517259}
   - component: {fileID: 1952517258}
   - component: {fileID: 1952517257}
-  - component: {fileID: 1952517256}
+  - component: {fileID: 1952517255}
   m_Layer: 11
   m_Name: boulder1 (7)
   m_TagString: Untagged
@@ -63918,7 +63987,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: -24.822, y: -102.04201, z: 90.052}
---- !u!114 &1952517256
+--- !u!114 &1952517255
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64998,7 +65067,7 @@ GameObject:
   - component: {fileID: 1981902300}
   - component: {fileID: 1981902299}
   - component: {fileID: 1981902298}
-  - component: {fileID: 1981902297}
+  - component: {fileID: 1981902296}
   m_Layer: 11
   m_Name: boulder1 (29)
   m_TagString: Untagged
@@ -65020,7 +65089,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: -24.521002, y: 79.657005, z: -2.447}
---- !u!114 &1981902297
+--- !u!114 &1981902296
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -65107,7 +65176,7 @@ GameObject:
   - component: {fileID: 1984670559}
   - component: {fileID: 1984670558}
   - component: {fileID: 1984670557}
-  - component: {fileID: 1984670556}
+  - component: {fileID: 1984670555}
   m_Layer: 11
   m_Name: boulder1 (13)
   m_TagString: Untagged
@@ -65129,7 +65198,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: -31.503002, y: 72.436005, z: -69.225006}
---- !u!114 &1984670556
+--- !u!114 &1984670555
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -65216,7 +65285,7 @@ GameObject:
   - component: {fileID: 1987624210}
   - component: {fileID: 1987624209}
   - component: {fileID: 1987624208}
-  - component: {fileID: 1987624207}
+  - component: {fileID: 1987624206}
   m_Layer: 11
   m_Name: boulder1 (5)
   m_TagString: Untagged
@@ -65238,7 +65307,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: -14.410001, y: 88.594, z: -84.366005}
---- !u!114 &1987624207
+--- !u!114 &1987624206
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -65434,12 +65503,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -65613,7 +65684,7 @@ GameObject:
   - component: {fileID: 2010940379}
   - component: {fileID: 2010940378}
   - component: {fileID: 2010940377}
-  - component: {fileID: 2010940376}
+  - component: {fileID: 2010940375}
   m_Layer: 11
   m_Name: boulder1 (10)
   m_TagString: Untagged
@@ -65635,7 +65706,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: -100.67999, y: 0, z: -82.252014}
---- !u!114 &2010940376
+--- !u!114 &2010940375
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -65675,8 +65746,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0e3244b365d6646ba82c6b0dff52fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Renderer: {fileID: 2010940379}
-  material: {fileID: 2100000, guid: 85e2289120abf9844aa3a7ecb036e379, type: 2}
 --- !u!23 &2010940379
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -66097,7 +66166,7 @@ GameObject:
   - component: {fileID: 2028313883}
   - component: {fileID: 2028313882}
   - component: {fileID: 2028313881}
-  - component: {fileID: 2028313880}
+  - component: {fileID: 2028313879}
   m_Layer: 11
   m_Name: boulder1 (27)
   m_TagString: Untagged
@@ -66119,7 +66188,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: -6.1250005, y: 31.582, z: 3.3140001}
---- !u!114 &2028313880
+--- !u!114 &2028313879
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -66477,7 +66546,7 @@ GameObject:
   - component: {fileID: 2038765161}
   - component: {fileID: 2038765160}
   - component: {fileID: 2038765159}
-  - component: {fileID: 2038765158}
+  - component: {fileID: 2038765157}
   m_Layer: 11
   m_Name: rock1
   m_TagString: Untagged
@@ -66499,7 +66568,7 @@ Transform:
   m_Father: {fileID: 855273387}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2038765158
+--- !u!114 &2038765157
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -67039,7 +67108,7 @@ GameObject:
   - component: {fileID: 2059077262}
   - component: {fileID: 2059077261}
   - component: {fileID: 2059077260}
-  - component: {fileID: 2059077259}
+  - component: {fileID: 2059077258}
   m_Layer: 11
   m_Name: boulder1 (8)
   m_TagString: Untagged
@@ -67061,7 +67130,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: -100.67999, y: 0, z: 0}
---- !u!114 &2059077259
+--- !u!114 &2059077258
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -67101,8 +67170,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0e3244b365d6646ba82c6b0dff52fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Renderer: {fileID: 2059077262}
-  material: {fileID: 2100000, guid: 85e2289120abf9844aa3a7ecb036e379, type: 2}
 --- !u!23 &2059077262
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -67904,7 +67971,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 950632514}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2090245416
+--- !u!114 &2090245415
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -68269,7 +68336,7 @@ GameObject:
   - component: {fileID: 2116544273}
   - component: {fileID: 2116544272}
   - component: {fileID: 2116544271}
-  - component: {fileID: 2116544270}
+  - component: {fileID: 2116544269}
   m_Layer: 11
   m_Name: rock1 (1)
   m_TagString: Untagged
@@ -68291,7 +68358,7 @@ Transform:
   m_Father: {fileID: 382710816}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -102.621994, y: 130.712, z: -130.021}
---- !u!114 &2116544270
+--- !u!114 &2116544269
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -68696,7 +68763,7 @@ GameObject:
   - component: {fileID: 2129730227}
   - component: {fileID: 2129730226}
   - component: {fileID: 2129730225}
-  - component: {fileID: 2129730224}
+  - component: {fileID: 2129730223}
   m_Layer: 11
   m_Name: boulder1 (24)
   m_TagString: Untagged
@@ -68718,7 +68785,7 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: -6.1250005, y: 31.582, z: 3.3140001}
---- !u!114 &2129730224
+--- !u!114 &2129730223
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -69021,7 +69088,7 @@ GameObject:
   - component: {fileID: 561738830084694824}
   - component: {fileID: 459718787003316305}
   - component: {fileID: 186810090209029368}
-  - component: {fileID: 186810090209029367}
+  - component: {fileID: 186810090209029366}
   m_Layer: 11
   m_Name: RibBone
   m_TagString: Untagged
@@ -69029,7 +69096,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &186810090209029367
+--- !u!114 &186810090209029366
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -69250,7 +69317,7 @@ GameObject:
   - component: {fileID: 5334037120271902990}
   - component: {fileID: 4539702727454864849}
   - component: {fileID: 949019429}
-  - component: {fileID: 949019441}
+  - component: {fileID: 832149485127913851}
   m_Layer: 11
   m_Name: Cube
   m_TagString: Untagged
@@ -69258,6 +69325,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &832149485127913851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832149485127913850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
+    type: 0}
 --- !u!4 &862780035920680894
 Transform:
   m_ObjectHideFlags: 0
@@ -69284,7 +69365,7 @@ GameObject:
   - component: {fileID: 3469287838302317548}
   - component: {fileID: 1711813854306459430}
   - component: {fileID: 919132148368735990}
-  - component: {fileID: 919132148368735989}
+  - component: {fileID: 919132148368735988}
   m_Layer: 11
   m_Name: boulder1
   m_TagString: Untagged
@@ -69292,7 +69373,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &919132148368735989
+--- !u!114 &919132148368735988
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -69423,7 +69504,7 @@ GameObject:
   - component: {fileID: 8494124548305060450}
   - component: {fileID: 9094622177765777498}
   - component: {fileID: 1717106533308582000}
-  - component: {fileID: 1717106533308581999}
+  - component: {fileID: 1717106533308581998}
   m_Layer: 11
   m_Name: RibBone2
   m_TagString: Untagged
@@ -69431,7 +69512,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1717106533308581999
+--- !u!114 &1717106533308581998
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -69634,7 +69715,7 @@ GameObject:
   - component: {fileID: 956156363918636868}
   - component: {fileID: 3071459809095680910}
   - component: {fileID: 3576130905315877470}
-  - component: {fileID: 3576130905315877469}
+  - component: {fileID: 3576130905315877468}
   m_Layer: 11
   m_Name: rock1
   m_TagString: Untagged
@@ -69642,7 +69723,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3576130905315877469
+--- !u!114 &3576130905315877468
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -69898,7 +69979,7 @@ GameObject:
   - component: {fileID: 370350749381833156}
   - component: {fileID: 2506032477234316558}
   - component: {fileID: 4163519798410175710}
-  - component: {fileID: 4163519798410175709}
+  - component: {fileID: 4163519798410175708}
   m_Layer: 11
   m_Name: rock2
   m_TagString: Untagged
@@ -69906,7 +69987,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &4163519798410175709
+--- !u!114 &4163519798410175708
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70080,7 +70161,7 @@ GameObject:
   - component: {fileID: 1724744611342932647}
   - component: {fileID: 7899721636758866350}
   - component: {fileID: 6332267661090471023}
-  - component: {fileID: 6332267661090471022}
+  - component: {fileID: 6332267661090471021}
   m_Layer: 11
   m_Name: RibBone4
   m_TagString: Untagged
@@ -70088,7 +70169,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6332267661090471022
+--- !u!114 &6332267661090471021
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70166,9 +70247,8 @@ GameObject:
   - component: {fileID: 4220075455515674223}
   - component: {fileID: 8351680396267886238}
   - component: {fileID: 821503316576986776}
-  - component: {fileID: 6671190217523656042}
   - component: {fileID: 6671190217523656045}
-  - component: {fileID: 6671190217523656043}
+  - component: {fileID: 6671190217523656042}
   m_Layer: 11
   m_Name: RibBone1
   m_TagString: Untagged
@@ -70177,20 +70257,6 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &6671190217523656042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6671190217523656041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c0e3244b365d6646ba82c6b0dff52fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Renderer: {fileID: 821503316576986776}
-  material: {fileID: 2100000, guid: f7a3f48ec46e1f24199c48886050dbf4, type: 2}
---- !u!114 &6671190217523656043
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70471,7 +70537,7 @@ GameObject:
   - component: {fileID: 5563299636384812433}
   - component: {fileID: 7696714172403693915}
   - component: {fileID: 8201271194276173969}
-  - component: {fileID: 8201271194276173968}
+  - component: {fileID: 8201271194276173967}
   m_Layer: 11
   m_Name: rock2
   m_TagString: Untagged
@@ -70479,7 +70545,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8201271194276173968
+--- !u!114 &8201271194276173967
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70527,7 +70593,7 @@ GameObject:
   - component: {fileID: 3010172806713347278}
   - component: {fileID: 8544783547608728787}
   - component: {fileID: 949019427}
-  - component: {fileID: 949019433}
+  - component: {fileID: 8416272008865784572}
   m_Layer: 11
   m_Name: Cube.002
   m_TagString: Untagged
@@ -70535,6 +70601,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8416272008865784572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416272008865784571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
+    type: 0}
 --- !u!33 &8494124548305060450
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -70594,7 +70674,7 @@ GameObject:
   - component: {fileID: 3260616448093804702}
   - component: {fileID: 7762067043165061391}
   - component: {fileID: 949019428}
-  - component: {fileID: 949019437}
+  - component: {fileID: 8707273952403628815}
   m_Layer: 11
   m_Name: Cube.001
   m_TagString: Untagged
@@ -70602,6 +70682,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8707273952403628815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707273952403628814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
+    type: 0}
 --- !u!4 &8834677214907318836
 Transform:
   m_ObjectHideFlags: 0
