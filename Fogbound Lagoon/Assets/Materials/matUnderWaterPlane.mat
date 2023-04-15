@@ -220,7 +220,7 @@ Material:
     - _PrintEmissionToAlbedoLerp: 0
     - _PrintOn: 0
     - _RampInfo: 0
-    - _Reflection: 0.6585957
+    - _Reflection: 0.3317192
     - _ReflectionType: 3
     - _RimPower: 1
     - _RimStrength: 1

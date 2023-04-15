@@ -111,7 +111,7 @@ MonoBehaviour:
       forbiddenUnlockable: 
       requiredUnlockableDef: {fileID: 0}
       forbiddenUnlockableDef: {fileID: 0}
-      spawnCardKey: RoR2/Base/Beetle/cscBeetleGuard.asset
+      spawnCardKey: RoR2/Base/Lemurian/cscLemurian.asset
     - spawnCard: {fileID: 0}
       selectionWeight: 1
       spawnDistance: 0

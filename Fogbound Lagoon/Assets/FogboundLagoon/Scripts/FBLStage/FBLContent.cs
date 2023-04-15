@@ -31,8 +31,15 @@ namespace FBLStage.Content
         //internal static GameObject[] NetworkedObjectPrefabs;
         internal static UnlockableDef[] UnlockableDefs;
         internal static SlipDccs[] SlipDccsArray;
+        private static string baseDCCSString = "dccsFBLMonsters";
+        private static string dlcPoolString = FBLStage.dlcPool.Value ? "DLC1" : string.Empty;
+        private static string legacyPoolString = FBLStage.dlcPool.Value ? "Legacy" : string.Empty;
+        public static SlipDccs validNormalPool;
+        public static SlipDccs validDLCPool;
         internal static SlipFamilyDccs[] SlipFamilyArray;
         internal static SlipDccsPool[] SlipDccsPoolsArray;
+        private static string baseDPMonsterString = "dpFBLMonsters";
+        internal static SlipDccsPool monsterDP;
         internal static SceneDef[] SceneDefs;
 
         internal static SceneDef FBLSceneDef;
@@ -138,6 +145,12 @@ namespace FBLStage.Content
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipDccs[]>)((assets) =>
             {
                 SlipDccsArray = assets;
+                //Sets the valid enemy pool based on config
+                for(int i = 0; i < SlipDccsArray.Length; i++)
+                {
+                    if (baseDCCSString + dlcPoolString + legacyPoolString == SlipDccsArray[i].name) validDLCPool = SlipDccsArray[i];
+                    if (baseDCCSString + legacyPoolString == SlipDccsArray[i].name) validNormalPool = SlipDccsArray[i];
+                }
             }));
 
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipFamilyDccs[]>)((assets) =>
@@ -148,6 +161,10 @@ namespace FBLStage.Content
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipDccsPool[]>)((assets) =>
             {
                 SlipDccsPoolsArray = assets;
+                for (int i = 0; i < SlipDccsPoolsArray.Length; i++)
+                {
+                    if (baseDPMonsterString == SlipDccsPoolsArray[i].name) monsterDP = SlipDccsPoolsArray[i];
+                }
                 //FBLInteractablesPool = DccsPools.First(dp => dp.name == "dpFogboundLagoonInteractables");
                 //FBLMonstersPool = DccsPools.First(dp => dp.name == "dpFogboundLagoonMonsters");
             }));
@@ -166,7 +183,7 @@ namespace FBLStage.Content
             }));
 
             //FBLStage.Utils.SlipDirectorUtils().Init();
-
+            
             var matBazaarSeerWispgraveyardRequest = Addressables.LoadAssetAsync<Material>("RoR2/Base/bazaar/matBazaarSeerWispgraveyard.mat");
             while (!matBazaarSeerWispgraveyardRequest.IsDone)
             {
@@ -272,5 +289,9 @@ namespace FBLStage.Content
 
             yield break;
         }
+
+
+
+        
     }
 }

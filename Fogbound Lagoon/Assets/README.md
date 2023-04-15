@@ -9,6 +9,7 @@ ___
 ## Features
 
 - Support for non-DLC players and DLC players. The interactable and monster pools will change depending on if SoTV is enabled.
+- Configs involving the legacy and DLC monster pools.
 - Four random newt statues.
 - Working bazaar seer.
 - Preon Accumulator Timed Chest similar to Rallypoint Delta. There are three spots.
@@ -20,14 +21,10 @@ ___
 
 ### Later down the road...
 
-- Language translations. (Please message me on discord @JaceDaDorito if you are interested in doing language translations)
+- Language translations. (Please message me on discord @JaceDaDorito7035 if you are interested in doing language translations)
 - Config options such as the DLC monster spawn pool being replaced by the normal one.
 - Starstorm storm support.
 - Bug fixes that crop up.
-
-#### Uncertain
-- Some vfx changes to make the stage look prettier.
-- Custom Music? (This is a big maybe)
 
 ___
 
@@ -35,47 +32,7 @@ ___
 
 ## Known Issues
 
-- The water clipping certain vfx (specifically when they are coming out of the water into the water, and you are in the water) such as Xi Construct laser beam and Void Seeds. I think there is nothing I can do about this unless I write my own shader. If anyone is more knowledgable about calmwater shaders and know a solution let me know.
-- Hank Sound effect clips off sometimes.
-
-## Changelog
-
-[1.0.8]
-- Added dependency to HookGenPatch (R2API would depend on this but since I removed that dependency, I indirectly removed the HookGenPatcher dependency.)
-- God help me.
-
-[1.0.7]
-- (Hopefully) Fixed game breaking bug due to failure of loading language files. (I didn't know how to format the mod publish correctly)
-
-[1.0.6]
-- Fogbound Lagoon no longer depends on R2API
-- Fixed bug where newt statues sometimes never spawns
-- Fixed bug where the Radio Tower message displayed the token instead of an actual message
-- Added Ukrainian and Spanish language support
-- New icon (Thank you Katie)
-
-[1.0.5]
-- Hope you enjoyed when the stage appeared in almost every run because I fixed that now... hopefully.
-- Moved the permanent newt statue and made it random like the other newts. The permanent newt statue was too easy to get to. Hank wasn't touched don't worry.
-
-[1.0.4]
-- Fixed compatibility issue with Spikestrip 2.0, Sigma Constructs should spawn now
-- Added Russian language support
-
-[1.0.3]
-- Added a weather controller to the SceneInfo, therefore fixing NRE issues with Starstorm 2
-- Added Brass Contraption to be in both dlc and regular enemy pools. Let me know if this is way too much, the stage needed another heavy enemy.
-- Added a third Timed Chest spot
-- Fixed haunted texture.
-
-[1.0.1] and [1.0.2]
-- Fixed the README
-
-[1.0.0]
-- Initial Release!
-___
-
-![](https://imgur.com/6LzMJz2.png)
+- None known at the moment.
 
 ## Special Thanks and Credits
 
@@ -93,7 +50,10 @@ ___
 - Mystic - Russian translation
 - El-Freddy - Spanish translation
 - Damglador - Ukrainian translation
-- ICap_I, WoolieGaming, and Race - Showcasing the mod! I am very happy all of you are having fun.
-- The rest of the Slipstream Team for being great devs and helping me do what I love to do. Thank you all so much.
+- ICap_I, WoolieGaming, Race, Cran, Host, RayDans, Disputed, Cornipher, Cabbage, Bulrug, Mark, Zinq, and the rest of the Risk of Resources team  - Thank you all for showcasing the mod! It has been an honor for my content to be deemed quality enough to showcase and race with.
 
-#### And Thank you to all the players who genuinely enjoy the mod. Crazy we hit 15k downloads!!!
+#### AND THANK YOU ALL FOR 50k+ DOWNLOADS. I've learned a lot and I'm very happy this map has become as widespread as it has.
+
+___
+
+![](https://imgur.com/6LzMJz2.png)

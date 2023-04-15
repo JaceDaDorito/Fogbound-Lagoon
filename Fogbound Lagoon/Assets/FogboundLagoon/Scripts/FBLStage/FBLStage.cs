@@ -31,17 +31,22 @@ namespace FBLStage
 
         public const string Name = nameof(FBLStage);
 
-        public const string Version = "1.0.3";
+        public const string Version = "1.1.0";
 
         public const string GUID = Author + "." + Name;
 
         public static FBLStage instance;
+
+        public static ConfigEntry<bool> dlcPool;
+        public static ConfigEntry<bool> legacyPool;
 
         private void Awake()
         {
             instance = this;
 
             Log.Init(Logger);
+
+            ConfigSetup();
 
             ContentManager.collectContentPackProviders += GiveToRoR2OurContentPackProviders;
 
@@ -57,42 +62,12 @@ namespace FBLStage
             Language.collectLanguageRootFolders -= CollectLanguageRootFolders;
         }
 
-        /*public void LoadMusicBank()
-        {
-            var d = new SoundAPI.Music.CustomMusicData();
-            d.BanksFolderPath = Paths.PluginPath;
-            Log.Debug(d.BanksFolderPath);
-            d.BepInPlugin = Info.Metadata;
-            d.InitBankName = "fbl_Init";
-            d.PlayMusicSystemEventName = "Play_TropicOfCapricorn";
-            d.SoundBankName = "fblmusicsoundbank.bnk";
-
-            
-            var mainSceneTrackDef = ScriptableObject.CreateInstance<SoundAPI.Music.CustomMusicTrackDef>();
-            mainSceneTrackDef.cachedName = "FBLToC";
-            mainSceneTrackDef.SoundBankName = d.SoundBankName;
-            mainSceneTrackDef.CustomStates = new List<SoundAPI.Music.CustomMusicTrackDef.CustomState>();
-
-            var cstate1 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
-            cstate1.GroupId = 3148870334U;
-            cstate1.StateId = 145640315U;
-            mainSceneTrackDef.CustomStates.Add(cstate1);
-
-            var cstate2 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
-            cstate2.GroupId = 792781730U;
-            cstate2.StateId = 89505537U;
-            mainSceneTrackDef.CustomStates.Add(cstate2);
-
-            Log.Debug(FBLContent.FBLSceneDef == null);
-            FBLContent.FBLSceneDef.mainTrack = mainSceneTrackDef;
-            Log.Debug(FBLContent.FBLSceneDef.mainTrack);
-            SoundAPI.Music.Add(d);
-            
-        }*/
+        
 
         [MethodImpl(MethodImplOptions.NoInlining | MethodImplOptions.NoOptimization)]
         private void AddSceneBlacklist()
         {
+            //This is Temporary
             Moonstorm.Components.SetupWeatherController.blacklistedScenes.Add("FBLScene");
         }
 
@@ -104,6 +79,21 @@ namespace FBLStage
         public void CollectLanguageRootFolders(List<string> folders)
         {
             folders.Add(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(base.Info.Location), "Language"));
+        }
+
+        private void ConfigSetup()
+        {
+            dlcPool =
+                base.Config.Bind<bool>("Monster Pool Settings",
+                                       "SoTV DLC Pool",
+                                       true,
+                                       "If you want to play with the non-DLC monster pool without turning off the DLC, set this to false. This doesn't effect void seeds or the void enemies that spawn out of them.");
+
+            legacyPool =
+                base.Config.Bind<bool>("Monster Pool Settings",
+                                       "Legacy Pool",
+                                       false,
+                                       "If you want to keep the monster pool prior to version 1.1.0, set this to true. If the DLC pool is also set to false you can play the legacy non-DLC pool.");
         }
     }
 }

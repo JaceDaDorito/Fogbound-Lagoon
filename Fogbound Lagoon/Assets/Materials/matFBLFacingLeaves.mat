@@ -62,7 +62,7 @@ Material:
     - _SpecularStrength: 0
     - _WindQuality: 2
     m_Colors:
-    - _Color: {r: 0.31163225, g: 0.4433962, b: 0.38526505, a: 1}
-    - _EmissionTint: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.504717, g: 0.89070344, b: 1, a: 1}
+    - _EmissionTint: {r: 1, g: 0.9889024, b: 0.8726415, a: 1}
     - _HueVariation: {r: 0.04, g: 0.58, b: 1, a: 0}
     - _ScrollSpeed: {r: 0, g: 0, b: 0, a: 0}
