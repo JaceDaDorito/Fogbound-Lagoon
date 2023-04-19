@@ -4,11 +4,12 @@
 Fogbound Lagoon is an alternate Stage 3 which intends to bring a new experience to the game with its water mechanics, unique enemy pool, and atmosphere. It should fit in nicely with the other stages in the game stylistically and balance wise. This also serves as an example stage for (hopefully) any stages created in the future. 
 ___
 
-![](https://imgur.com/xwHzyet.png)
+![](https://imgur.com/qEV0pa6.png)
 
 ## Features
 
 - Support for non-DLC players and DLC players. The interactable and monster pools will change depending on if SoTV is enabled.
+- Configs involving the legacy and DLC monster pools.
 - Four random newt statues.
 - Working bazaar seer.
 - Preon Accumulator Timed Chest similar to Rallypoint Delta. There are three spots.
@@ -20,14 +21,13 @@ ___
 
 ### Later down the road...
 
-- Language translations. (Please message me on discord @JaceDaDorito if you are interested in doing language translations)
-- Config options such as the DLC monster spawn pool being replaced by the normal one.
+- Language translations. (Please message me on discord @JaceDaDorito7035 if you are interested in doing language translations)
 - Starstorm storm support.
 - Bug fixes that crop up.
 
 ___
 
-![](https://imgur.com/rZqHknK.png)
+![](https://imgur.com/gMQeQDs.png)
 
 ## Known Issues
 
@@ -49,10 +49,10 @@ ___
 - Mystic - Russian translation
 - El-Freddy - Spanish translation
 - Damglador - Ukrainian translation
-- ICap_I, WoolieGaming, Race, Cran, Host, RayDans, Disputed, Cornipher, Cabbage, Bulrug, Mark, and the rest of the Risk of Resources team  - Thank you all for showcasing the mod! It has been an honor for my content to be deemed quality enough to showcase and race with.
+- ICap_I, WoolieGaming, Race, Cran, Host, RayDans, Disputed, Cornipher, Cabbage, Bulrug, Mark, Zinq, and the rest of the Risk of Resources team  - Thank you all for showcasing the mod! It has been an honor for my content to be deemed quality enough to showcase and race with.
 
 #### AND THANK YOU ALL FOR 50k+ DOWNLOADS. I've learned a lot and I'm very happy this map has become as widespread as it has.
 
 ___
 
-![](https://imgur.com/6LzMJz2.png)
+![](https://imgur.com/aqSLIpd.png)
