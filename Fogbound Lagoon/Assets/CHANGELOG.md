@@ -2,13 +2,13 @@
 - Plethora of visual improvements/changes
 - - Redid Terrain textures
 - - Redid Grass props
-- - Fog above ground is lessened
+- - Fog above ground is lessened by a tiny bit
 - - Made water more transparent
 - - Fixed water vfx clipping (If there was a void seed popping out of the water, you wouldn't see the top of it if your camera was in the water. This applies to most visual effects, most notably Xi Construct laser and barrier.)
 - - Due to terrain changes and some of the underwater grass having slight light sources, underwater map portions are now more visible
 - - Redid Brazier vfx
-- - Updated diorama.
-- - _**Developer's Note: The terrain changes and slight grass lighting was meant to make underwater a lot more visible._
+- - Updated diorama
+- - _**Developer's Note:** The terrain changes and slight grass lighting was meant to make underwater a lot more visible._
 - Monster pool changes
 - - Greater Wisp is replaced by Golems all around
 - - Blind Vermin is replaced by Jellyfish
