@@ -4,7 +4,7 @@
 Fogbound Lagoon is an alternate Stage 3 which intends to bring a new experience to the game with its water mechanics, unique enemy pool, and atmosphere. It should fit in nicely with the other stages in the game stylistically and balance wise. This also serves as an example stage for (hopefully) any stages created in the future. 
 ___
 
-![](https://imgur.com/xwHzyet.png)
+![](https://imgur.com/qEV0pa6.png)
 
 ## Features
 
@@ -22,13 +22,12 @@ ___
 ### Later down the road...
 
 - Language translations. (Please message me on discord @JaceDaDorito7035 if you are interested in doing language translations)
-- Config options such as the DLC monster spawn pool being replaced by the normal one.
 - Starstorm storm support.
 - Bug fixes that crop up.
 
 ___
 
-![](https://imgur.com/rZqHknK.png)
+![](https://imgur.com/gMQeQDs.png)
 
 ## Known Issues
 
@@ -56,4 +55,4 @@ ___
 
 ___
 
-![](https://imgur.com/6LzMJz2.png)
+![](https://imgur.com/aqSLIpd.png)
