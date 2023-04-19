@@ -32,8 +32,8 @@ namespace FBLStage.Content
         internal static UnlockableDef[] UnlockableDefs;
         internal static SlipDccs[] SlipDccsArray;
         private static string baseDCCSString = "dccsFBLMonsters";
-        private static string dlcPoolString = FBLStage.dlcPool.Value ? "DLC1" : string.Empty;
-        private static string legacyPoolString = FBLStage.dlcPool.Value ? "Legacy" : string.Empty;
+        private static string dlcPoolString => FBLStage.dlcPool.Value ? "DLC1" : string.Empty;
+        private static string legacyPoolString => FBLStage.legacyPool.Value ? "Legacy" : string.Empty;
         public static SlipDccs validNormalPool;
         public static SlipDccs validDLCPool;
         internal static SlipFamilyDccs[] SlipFamilyArray;

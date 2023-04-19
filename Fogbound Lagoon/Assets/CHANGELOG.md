@@ -2,11 +2,13 @@
 - Plethora of visual improvements/changes
 - - Redid Terrain textures
 - - Redid Grass props
-- - Lessened the above water fog so the map is a tiny bit more visible
+- - Fog above ground is lessened
 - - Made water more transparent
 - - Fixed water vfx clipping (If there was a void seed popping out of the water, you wouldn't see the top of it if your camera was in the water. This applies to most visual effects, most notably Xi Construct laser and barrier.)
 - - Due to terrain changes and some of the underwater grass having slight light sources, underwater map portions are now more visible
-- - _**Developer's Note: All these changes are meant to make the stage a bit more well lit akin to the other maps while still maintaining some difficulty to find loot._
+- - Redid Brazier vfx
+- - Updated diorama.
+- - _**Developer's Note: The terrain changes and slight grass lighting was meant to make underwater a lot more visible._
 - Monster pool changes
 - - Greater Wisp is replaced by Golems all around
 - - Blind Vermin is replaced by Jellyfish

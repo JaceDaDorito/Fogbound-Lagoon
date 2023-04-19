@@ -128,7 +128,7 @@ MonoBehaviour:
     value: 1
   fogPower:
     overrideState: 1
-    value: 0.6
+    value: 0.43
   fogZero:
     overrideState: 1
     value: -0.04

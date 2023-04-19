@@ -11,6 +11,8 @@ namespace AddressablesHelper
     {
         [Tooltip("The address to use to load the prefab")]
         [SerializeField] private string address;
+        [Tooltip("If the prefab will be instantiated with Network.Instantiate")]
+        [SerializeField] private bool networkInstantiate;
         [Tooltip("When the prefab is instantiated, and this is true, the prefab's position and rotation will be set to 0")]
         [SerializeField] private bool setPositionAndRotationToZero;
         [Tooltip("setPositionAndRotationToZero would work relative to it's parent")]
@@ -52,9 +54,9 @@ namespace AddressablesHelper
             }
 
             GameObject prefab = UnityEngine.AddressableAssets.Addressables.LoadAssetAsync<GameObject>(address).WaitForCompletion();
-            hasNetworkIdentity = prefab.GetComponent<NetworkIdentity>();
+            //hasNetworkIdentity = prefab.GetComponent<NetworkIdentity>();
 
-            if (hasNetworkIdentity && !Application.isEditor)
+            if (networkInstantiate && !Application.isEditor)
             {
                 if (NetworkServer.active)
                 {

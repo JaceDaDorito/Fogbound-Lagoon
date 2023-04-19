@@ -556,6 +556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -831,6 +832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkLongCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -1000,6 +1002,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTree.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -1276,6 +1279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/blackbeach/spmBbVine1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -1505,6 +1509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -1628,6 +1633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -1676,6 +1682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -1973,6 +1980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -2460,6 +2468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -2506,12 +2515,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -2624,6 +2635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -2653,7 +2665,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105392385}
   m_LocalRotation: {x: 0.37496886, y: 0.77949435, z: -0.41636142, w: -0.28005385}
-  m_LocalPosition: {x: 281.73, y: 207.91, z: 90.39}
+  m_LocalPosition: {x: 281.35, y: 207.51, z: 91.31}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_Children: []
   m_Father: {fileID: 37942398}
@@ -2672,6 +2684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -2785,6 +2798,81 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106423893}
   m_Mesh: {fileID: -5495902117074765545, guid: 9b3d806b93b65094da0ff445d0eff402, type: 3}
+--- !u!1001 &107048226
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1974731844}
+    m_Modifications:
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7709879463353253330, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_Name
+      value: FBLGrass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7e717917c3dc88d4694f9262e402c898, type: 3}
+--- !u!4 &107048227 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+    type: 3}
+  m_PrefabInstance: {fileID: 107048226}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &110456862
 GameObject:
   m_ObjectHideFlags: 0
@@ -3249,96 +3337,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120836627}
   m_Mesh: {fileID: -5495902117074765545, guid: 8725c28d10450e14594ec56355f639b2, type: 3}
---- !u!1001 &122242798
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 991116722}
-    m_Modifications:
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 274.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 217.56
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 149.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.05380853
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.5873341
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.77320486
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.23301823
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 25.059002
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -192.14
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -77.149
-      objectReference: {fileID: 0}
-    - target: {fileID: 7709879463353253330, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_Name
-      value: FBLGrassNoEmit (20)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 52c80ab1aa0f17048a662199a3bfb7ca, type: 3}
---- !u!4 &122242799 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-    type: 3}
-  m_PrefabInstance: {fileID: 122242798}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &130143739
 GameObject:
   m_ObjectHideFlags: 0
@@ -3462,6 +3460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -3679,6 +3678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -3950,6 +3950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -3998,6 +3999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -4200,6 +4202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkMediumCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -4310,6 +4313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -4508,6 +4512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -9514,6 +9519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -9593,6 +9599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJDistantTreeFoliage.st
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -9641,6 +9648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkMediumCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -10593,12 +10601,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -10742,6 +10752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -11426,6 +11437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTowerTreeFoliage.st
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -11628,6 +11640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -11676,6 +11689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -12368,6 +12382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTriangle.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -12760,6 +12775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkLongCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -12877,81 +12893,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &307427238
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1272442810}
-    m_Modifications:
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.14
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9963992
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.0029507284
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.03911507
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.075165585
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 4.4960003
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -8.628
-      objectReference: {fileID: 0}
-    - target: {fileID: 7709879463353253330, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_Name
-      value: FBLGrass
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7e717917c3dc88d4694f9262e402c898, type: 3}
---- !u!4 &307427239 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-    type: 3}
-  m_PrefabInstance: {fileID: 307427238}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &308274446
 GameObject:
   m_ObjectHideFlags: 0
@@ -12975,14 +12916,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 308274446}
-  m_LocalRotation: {x: 0.1483223, y: -0.9011201, z: 0.13841936, w: -0.38317516}
-  m_LocalPosition: {x: 268.73, y: 199.62, z: 123.43}
+  m_LocalRotation: {x: 0.22045943, y: -0.91078246, z: -0.040653065, w: -0.34672803}
+  m_LocalPosition: {x: 268.49, y: 199.42, z: 123.79}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 889426876}
   m_Father: {fileID: 1590629722}
   m_RootOrder: 73
-  m_LocalEulerAnglesHint: {x: 7.8050003, y: -227.60199, z: -22.141}
+  m_LocalEulerAnglesHint: {x: -13.116, y: -219.058, z: -22.544}
 --- !u!1 &308741941
 GameObject:
   m_ObjectHideFlags: 0
@@ -13013,6 +12954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/RescueshipBroken1.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -13552,52 +13494,52 @@ PrefabInstance:
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 320.55
+      value: 344.21
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 230.95
+      value: 220.2
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 106.88
+      value: 114.79
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.43174702
+      value: 0.4622804
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.41899985
+      value: -0.027419323
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7790373
+      value: -0.8861048
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.17644998
+      value: 0.019061815
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -4.984
+      value: 0.483
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -124.546005
+      value: -124.882
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 53.926003
+      value: 3.7970002
       objectReference: {fileID: 0}
     - target: {fileID: 7709879463353253330, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
@@ -14452,6 +14394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -14795,6 +14738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -15170,6 +15114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -15731,10 +15676,86 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/EelSkeleton.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
   hasNetworkIdentity: 0
+--- !u!1001 &401807821
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1403713467}
+    m_Modifications:
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7709879463353253330, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_Name
+      value: FBLGrass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7e717917c3dc88d4694f9262e402c898, type: 3}
+--- !u!4 &401807822 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+    type: 3}
+  m_PrefabInstance: {fileID: 401807821}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &403117771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20796,96 +20817,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eulerAngles: {x: -90, y: 0, z: 0}
---- !u!1001 &410477564
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 991116722}
-    m_Modifications:
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 277.86
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 219.59
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 142
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.05380853
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.5873341
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.77320486
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.23301823
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 25.059002
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -192.14
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -77.149
-      objectReference: {fileID: 0}
-    - target: {fileID: 7709879463353253330, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_Name
-      value: FBLGrassNoEmit (21)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 52c80ab1aa0f17048a662199a3bfb7ca, type: 3}
---- !u!4 &410477565 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-    type: 3}
-  m_PrefabInstance: {fileID: 410477564}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &410740494
 GameObject:
   m_ObjectHideFlags: 0
@@ -21316,6 +21247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/spmDanglingMossCluster.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -21406,12 +21338,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_RootOrder
@@ -22387,6 +22321,37 @@ Transform:
   m_Father: {fileID: 1272358150}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 19.768002, y: 20.957, z: -29.618002}
+--- !u!1 &441158185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 441158186}
+  m_Layer: 0
+  m_Name: GrassCluster (89)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &441158186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441158185}
+  m_LocalRotation: {x: -0.11864709, y: 0.19614954, z: -0.23280574, w: 0.94511896}
+  m_LocalPosition: {x: 431.18, y: 168.63, z: 113.13}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children:
+  - {fileID: 1313028726}
+  m_Father: {fileID: 1590629722}
+  m_RootOrder: 88
+  m_LocalEulerAnglesHint: {x: -7.6400003, y: -694.54297, z: -29.404001}
 --- !u!1001 &445912877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22878,12 +22843,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_RootOrder
@@ -23209,6 +23176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -23376,6 +23344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -23590,52 +23559,52 @@ PrefabInstance:
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 329.9
+      value: 341.53
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 230.21
+      value: 220.93
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 111.64
+      value: 120.01
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.35207713
+      value: 0.39071319
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.53834814
+      value: -0.15540646
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.75428635
+      value: -0.9052989
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.13143514
+      value: 0.060216565
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -10.416
+      value: -0.711
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -136.849
+      value: -133.432
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 66.90401
+      value: 19.175001
       objectReference: {fileID: 0}
     - target: {fileID: 7709879463353253330, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
@@ -23694,6 +23663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkStumpCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -23941,6 +23911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -24274,6 +24245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -24364,12 +24336,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -24482,6 +24456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/spmDanglingMossCluster.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -25599,6 +25574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -26545,12 +26521,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -26844,6 +26822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -27423,6 +27402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -27629,6 +27609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/spmDanglingMossCluster.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -27707,96 +27688,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3874423953881390460, guid: 2182abc687cd3c946b60bfed9cf765d1,
     type: 3}
   m_PrefabInstance: {fileID: 594240968}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &596655116
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 991116722}
-    m_Modifications:
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 26
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 260.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 229.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 90.91
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.67751604
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.21353392
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.6409538
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.29078087
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 41.460003
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -83.32101
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 9.236
-      objectReference: {fileID: 0}
-    - target: {fileID: 7709879463353253330, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_Name
-      value: FBLGrassNoEmit (26)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 52c80ab1aa0f17048a662199a3bfb7ca, type: 3}
---- !u!4 &596655117 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-    type: 3}
-  m_PrefabInstance: {fileID: 596655116}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &599525624
 PrefabInstance:
@@ -28976,6 +28867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -29024,6 +28916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTriangle.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -29257,6 +29150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -29305,6 +29199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -29598,6 +29493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -29646,6 +29542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/NewtStatue/NewtStatue.prefab
+  networkInstantiate: 1
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -29910,17 +29807,17 @@ PrefabInstance:
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 380.79
+      value: 380.5
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 227.03
+      value: 226.5
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -43.76
+      value: -42.9
       objectReference: {fileID: 0}
     - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
         type: 3}
@@ -30850,6 +30747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -31063,6 +30961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/skymeadow/SMVine2.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -31236,6 +31135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJDistantTreeFoliage.st
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -31442,6 +31342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -31490,6 +31391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -31538,6 +31440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -31695,6 +31598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkStumpCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -31774,6 +31678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkStumpCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -32141,6 +32046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -33147,6 +33053,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJDistantTreeFoliage.st
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -33307,6 +33214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/TimedChest/TimedChest.prefab
+  networkInstantiate: 1
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -33684,6 +33592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -33732,6 +33641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTriangle.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -33961,6 +33871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -34541,6 +34452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -34677,12 +34589,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -35011,6 +34925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/NewtStatue/NewtStatue.prefab
+  networkInstantiate: 1
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -35327,6 +35242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkLongCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -35375,6 +35291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/spmDanglingMossCluster.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -35454,6 +35371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -36006,6 +35924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTree.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -36459,6 +36378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -36824,12 +36744,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -36909,12 +36831,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -37224,6 +37148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -37762,12 +37687,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -37880,6 +37807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTriangle.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -38984,6 +38912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkLongCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -40414,6 +40343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -40890,6 +40820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkStumpCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -41066,7 +40997,7 @@ Transform:
   - {fileID: 967893670}
   - {fileID: 16723844}
   - {fileID: 886606819}
-  - {fileID: 1413355971}
+  - {fileID: 3874423952606708926}
   - {fileID: 2042341268}
   - {fileID: 1222009481}
   - {fileID: 801790622}
@@ -41081,13 +41012,13 @@ Transform:
   - {fileID: 2068525608}
   - {fileID: 119830001}
   - {fileID: 538744801}
-  - {fileID: 122242799}
-  - {fileID: 410477565}
+  - {fileID: 3874423953994029970}
+  - {fileID: 3874423953475387008}
   - {fileID: 682562624}
   - {fileID: 469523921}
   - {fileID: 1917264096}
   - {fileID: 231487353}
-  - {fileID: 596655117}
+  - {fileID: 3874423953402192240}
   - {fileID: 88574611}
   - {fileID: 1550263847}
   - {fileID: 1257368360}
@@ -41143,7 +41074,7 @@ Transform:
   - {fileID: 227964003}
   - {fileID: 1008148076}
   - {fileID: 1717778543}
-  - {fileID: 2018064501}
+  - {fileID: 3874423951863342344}
   - {fileID: 1018032723}
   - {fileID: 859632950}
   - {fileID: 269327781}
@@ -41422,6 +41353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/skymeadow/SMVine2.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -41630,6 +41562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTriangle.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -42557,6 +42490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTriangle.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -42832,6 +42766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -43504,6 +43439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -43627,6 +43563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -43754,6 +43691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -43956,6 +43894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTriangle.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -44002,12 +43941,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -44075,81 +44016,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
     type: 3}
   m_PrefabInstance: {fileID: 1096315063}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1099955147
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1992918644}
-    m_Modifications:
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.14
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9963992
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.0029507284
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.03911507
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.075165585
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 4.4960003
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -8.628
-      objectReference: {fileID: 0}
-    - target: {fileID: 7709879463353253330, guid: 7e717917c3dc88d4694f9262e402c898,
-        type: 3}
-      propertyPath: m_Name
-      value: FBLGrass
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7e717917c3dc88d4694f9262e402c898, type: 3}
---- !u!4 &1099955148 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
-    type: 3}
-  m_PrefabInstance: {fileID: 1099955147}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1102645776
 PrefabInstance:
@@ -44582,6 +44448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -44709,6 +44576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTowerTreeFoliage.st
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -45124,6 +44992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -45548,12 +45417,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_RootOrder
@@ -46036,6 +45907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -46291,12 +46163,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_RootOrder
@@ -46773,6 +46647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -46855,6 +46730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/EelSkeleton.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -46903,6 +46779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -46951,6 +46828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -48611,6 +48489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -49230,6 +49109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/TimedChest/TimedChest.prefab
+  networkInstantiate: 1
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -49261,7 +49141,7 @@ Transform:
   m_LocalPosition: {x: 279.316, y: 234.43, z: 230.464}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 307427239}
+  - {fileID: 3874423953641417434}
   m_Father: {fileID: 1590629722}
   m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: -58.403004, y: -204.122, z: -39.452003}
@@ -49309,6 +49189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -49648,6 +49529,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -49911,6 +49793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkMediumCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -50147,6 +50030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -50726,6 +50610,81 @@ Transform:
   m_Father: {fileID: 1308766393}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -2.013, y: -0.049000002, z: 1.394}
+--- !u!1001 &1313028725
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 441158186}
+    m_Modifications:
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7709879463353253330, guid: 7e717917c3dc88d4694f9262e402c898,
+        type: 3}
+      propertyPath: m_Name
+      value: FBLGrass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7e717917c3dc88d4694f9262e402c898, type: 3}
+--- !u!4 &1313028726 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3874423953881390460, guid: 7e717917c3dc88d4694f9262e402c898,
+    type: 3}
+  m_PrefabInstance: {fileID: 1313028725}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1315116857
 GameObject:
   m_ObjectHideFlags: 0
@@ -50838,6 +50797,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -51719,6 +51679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTowerTreeFoliage.st
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -51857,6 +51818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkStumpCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -52844,6 +52806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -53854,6 +53817,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403404177}
   m_Mesh: {fileID: -5495902117074765545, guid: 8725c28d10450e14594ec56355f639b2, type: 3}
+--- !u!1 &1403713466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1403713467}
+  m_Layer: 0
+  m_Name: GrassCluster (87)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1403713467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403713466}
+  m_LocalRotation: {x: -0.111607306, y: -0.75951546, z: -0.040355515, w: 0.63957137}
+  m_LocalPosition: {x: 377.92, y: 183.43, z: 157.06}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children:
+  - {fileID: 401807822}
+  m_Father: {fileID: 1590629722}
+  m_RootOrder: 86
+  m_LocalEulerAnglesHint: {x: -11.775001, y: -820.51404, z: 6.918}
 --- !u!1 &1403830330
 GameObject:
   m_ObjectHideFlags: 0
@@ -53898,6 +53892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/spmDanglingMossCluster.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -53991,96 +53986,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
     type: 3}
   m_PrefabInstance: {fileID: 1412082074}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1413355970
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 991116722}
-    m_Modifications:
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 259.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 229.17
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 161.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.1511702
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.108769774
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.6990132
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.6904327
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -68.805
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90.143005
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -86.36101
-      objectReference: {fileID: 0}
-    - target: {fileID: 7709879463353253330, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_Name
-      value: FBLGrassNoEmit (5)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 52c80ab1aa0f17048a662199a3bfb7ca, type: 3}
---- !u!4 &1413355971 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-    type: 3}
-  m_PrefabInstance: {fileID: 1413355970}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1417162437
 GameObject:
@@ -54315,6 +54220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -54768,6 +54674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/spmDanglingMossCluster.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -55111,6 +55018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -55468,6 +55376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -55516,6 +55425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -56193,6 +56103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -56478,6 +56389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -57623,6 +57535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -57804,6 +57717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/spmDanglingMossCluster.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -57852,6 +57766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -58410,6 +58325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -58458,6 +58374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTree.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -58827,6 +58744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTree.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -59214,6 +59132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -59515,6 +59434,9 @@ Transform:
   - {fileID: 1028470311}
   - {fileID: 2095492149}
   - {fileID: 681933335}
+  - {fileID: 1403713467}
+  - {fileID: 1974731844}
+  - {fileID: 441158186}
   m_Father: {fileID: 1315116858}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -59560,12 +59482,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -59740,6 +59664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -60136,6 +60061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -60338,6 +60264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -60386,6 +60313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -65708,6 +65636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTriangle.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -66799,12 +66728,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_RootOrder
@@ -68178,6 +68109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTriangle.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -68226,6 +68158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -68274,6 +68207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -68441,6 +68375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -68718,6 +68653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJDistantTreeFoliage.st
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -68810,6 +68746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTowerTreeFoliage.st
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -69244,12 +69181,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -70179,6 +70118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/TimedChest/TimedChest.prefab
+  networkInstantiate: 1
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -70473,6 +70413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -70583,6 +70524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -70939,12 +70881,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_RootOrder
@@ -71301,12 +71245,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -77185,6 +77131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -77233,6 +77180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/blackbeach/spmBbVine1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -77711,12 +77659,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 74ffa2c993b2b6b40845b5f62f75498c,
         type: 3}
       propertyPath: m_RootOrder
@@ -78018,6 +77968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/skymeadow/SMVine2.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -78176,6 +78127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -78646,6 +78598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -78694,6 +78647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -79241,6 +79195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -79474,6 +79429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJDistantTreeFoliage.st
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -80105,6 +80061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -80353,6 +80310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -80401,6 +80359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/NewtStatue/NewtStatue.prefab
+  networkInstantiate: 1
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -80777,6 +80736,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971656036}
   m_Mesh: {fileID: -5495902117074765545, guid: 8725c28d10450e14594ec56355f639b2, type: 3}
+--- !u!1 &1974731843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1974731844}
+  m_Layer: 0
+  m_Name: GrassCluster (88)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1974731844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974731843}
+  m_LocalRotation: {x: -0.08048362, y: 0.21464892, z: -0.054719903, w: 0.97183025}
+  m_LocalPosition: {x: 390.77, y: 180.49, z: 139}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children:
+  - {fileID: 107048227}
+  m_Father: {fileID: 1590629722}
+  m_RootOrder: 87
+  m_LocalEulerAnglesHint: {x: -7.6400003, y: -694.54297, z: -8.173}
 --- !u!1 &1976073547
 GameObject:
   m_ObjectHideFlags: 0
@@ -80821,6 +80811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -80837,6 +80828,7 @@ GameObject:
   - component: {fileID: 1976819451}
   - component: {fileID: 1976819450}
   - component: {fileID: 1976819449}
+  - component: {fileID: 1976819448}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -80858,6 +80850,21 @@ Transform:
   m_Father: {fileID: 142333714}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1976819448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976819446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5562c1cb54aff534ea43bff540f5869b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  address: RoR2/Base/blackbeach/matBbTerrain.mat
+  targetComponent: {fileID: 1976819450}
+  targetMemberInfoName: (Renderer) sharedMaterial
 --- !u!64 &1976819449
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -80890,7 +80897,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 09aa7f18e254e2941b661af00e9b01fa, type: 2}
+  - {fileID: 5703462666350819924, guid: 00000000000000000000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -81121,6 +81128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -81664,7 +81672,7 @@ Transform:
   m_LocalPosition: {x: 278.93, y: 227.99, z: 225.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1099955148}
+  - {fileID: 3874423952832112311}
   m_Father: {fileID: 1590629722}
   m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: -34.342003, y: -195.96199, z: -81.786}
@@ -81679,12 +81687,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 248191366700585411, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
+        type: 0}
     - target: {fileID: 1497940102737691139, guid: 96ef5e2cdbdacdb4aa53e447ae681521,
         type: 3}
       propertyPath: m_RootOrder
@@ -81841,6 +81851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -82011,6 +82022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/NewtStatue/NewtStatue.prefab
+  networkInstantiate: 1
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -82090,100 +82102,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJDistantTreeFoliage.st
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
   hasNetworkIdentity: 0
---- !u!1001 &2018064500
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 991116722}
-    m_Modifications:
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 82
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 365.87
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 192.31
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 105.38
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.41440335
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.3747398
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.8058754
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.19597116
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 38.788002
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 138.052
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 34.506
-      objectReference: {fileID: 0}
-    - target: {fileID: 7709879463353253330, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-        type: 3}
-      propertyPath: m_Name
-      value: FBLGrassNoEmit (80)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 52c80ab1aa0f17048a662199a3bfb7ca, type: 3}
---- !u!4 &2018064501 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3874423953881390460, guid: 52c80ab1aa0f17048a662199a3bfb7ca,
-    type: 3}
-  m_PrefabInstance: {fileID: 2018064500}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2019357762
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83793,6 +83716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -84042,6 +83966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -84714,6 +84639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -85649,6 +85575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJDistantTreeFoliage.st
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -86077,6 +86004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/blackbeach/spmBbVine1.spm
+  networkInstantiate: 0
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
@@ -86316,14 +86244,48 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146622446}
-  m_LocalRotation: {x: -0.16626947, y: -0.9806454, z: 0.057777993, w: 0.08573641}
-  m_LocalPosition: {x: 391.45, y: 183.22, z: 173.29}
+  m_LocalRotation: {x: -0.10977078, y: -0.9885653, z: 0.052767254, w: 0.08890807}
+  m_LocalPosition: {x: 391.39, y: 183.5, z: 173.27}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 885109706}
   m_Father: {fileID: 1590629722}
   m_RootOrder: 48
-  m_LocalEulerAnglesHint: {x: 4.8650002, y: -889.161, z: 19.708}
+  m_LocalEulerAnglesHint: {x: 4.8650002, y: -889.161, z: 13.134001}
+--- !u!1 &103627676088862820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5766259883401306054}
+  - component: {fileID: 3664839756071878535}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &103627677427041289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5766259884788372395}
+  - component: {fileID: 3664839755221808106}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &186810090209029365
 GameObject:
   m_ObjectHideFlags: 0
@@ -86372,6 +86334,34 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5788175712452122034, guid: 294157e3ff40ef7468ebccc7dc7e0b21, type: 3}
+--- !u!4 &221619632383326752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4295313533594059169}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.088, y: -0.072, z: 2.288}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3874423953641417434}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &221619633678513741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4295313534437313996}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.088, y: -0.072, z: 2.288}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3874423952832112311}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &283439756113328660
 Transform:
   m_ObjectHideFlags: 0
@@ -86888,6 +86878,559 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!33 &2700233749932493536
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233749932493538}
+  m_Mesh: {fileID: 4300000, guid: f79c50a0f2b0ed44e85dc8d22121cc4d, type: 2}
+--- !u!23 &2700233749932493537
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233749932493538}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0598e47b82c252247bd3a32e914d76f0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &2700233749932493538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2700233749932493543}
+  - component: {fileID: 2700233749932493536}
+  - component: {fileID: 2700233749932493537}
+  m_Layer: 0
+  m_Name: spmSMGrass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2700233749932493543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233749932493538}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3874423952606708926}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2700233750256462056
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233750256462059}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 21aa643bc18b3c34ea7dcc7ac4d8e552, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &2700233750256462057
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233750256462059}
+  m_Mesh: {fileID: 4300000, guid: f79c50a0f2b0ed44e85dc8d22121cc4d, type: 2}
+--- !u!1 &2700233750256462059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2700233750256462062}
+  - component: {fileID: 2700233750256462057}
+  - component: {fileID: 2700233750256462056}
+  m_Layer: 0
+  m_Name: spmSMGrass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2700233750256462062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233750256462059}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3874423952832112311}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2700233750671289169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233750671289172}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3874423951863342344}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2700233750671289172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2700233750671289169}
+  - component: {fileID: 2700233750671289174}
+  - component: {fileID: 2700233750671289175}
+  m_Layer: 0
+  m_Name: spmSMGrass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!33 &2700233750671289174
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233750671289172}
+  m_Mesh: {fileID: 4300000, guid: f79c50a0f2b0ed44e85dc8d22121cc4d, type: 2}
+--- !u!23 &2700233750671289175
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233750671289172}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0598e47b82c252247bd3a32e914d76f0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!4 &2700233751041123459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233751041123462}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3874423953641417434}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2700233751041123460
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233751041123462}
+  m_Mesh: {fileID: 4300000, guid: f79c50a0f2b0ed44e85dc8d22121cc4d, type: 2}
+--- !u!23 &2700233751041123461
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233751041123462}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 21aa643bc18b3c34ea7dcc7ac4d8e552, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &2700233751041123462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2700233751041123459}
+  - component: {fileID: 2700233751041123460}
+  - component: {fileID: 2700233751041123461}
+  m_Layer: 0
+  m_Name: spmSMGrass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2700233751211159769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233751211159772}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3874423953475387008}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2700233751211159772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2700233751211159769}
+  - component: {fileID: 2700233751211159774}
+  - component: {fileID: 2700233751211159775}
+  m_Layer: 0
+  m_Name: spmSMGrass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!33 &2700233751211159774
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233751211159772}
+  m_Mesh: {fileID: 4300000, guid: f79c50a0f2b0ed44e85dc8d22121cc4d, type: 2}
+--- !u!23 &2700233751211159775
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233751211159772}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0598e47b82c252247bd3a32e914d76f0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!4 &2700233751224915403
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233751224915406}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3874423953994029970}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2700233751224915404
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233751224915406}
+  m_Mesh: {fileID: 4300000, guid: f79c50a0f2b0ed44e85dc8d22121cc4d, type: 2}
+--- !u!23 &2700233751224915405
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233751224915406}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0598e47b82c252247bd3a32e914d76f0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &2700233751224915406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2700233751224915403}
+  - component: {fileID: 2700233751224915404}
+  - component: {fileID: 2700233751224915405}
+  m_Layer: 0
+  m_Name: spmSMGrass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2700233751833702185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233751833702188}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3874423953402192240}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2700233751833702188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2700233751833702185}
+  - component: {fileID: 2700233751833702190}
+  - component: {fileID: 2700233751833702191}
+  m_Layer: 0
+  m_Name: spmSMGrass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!33 &2700233751833702190
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233751833702188}
+  m_Mesh: {fileID: 4300000, guid: f79c50a0f2b0ed44e85dc8d22121cc4d, type: 2}
+--- !u!23 &2700233751833702191
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233751833702188}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0598e47b82c252247bd3a32e914d76f0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!33 &3010172806713347278
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -87109,6 +87652,128 @@ Transform:
   m_Father: {fileID: 935365835}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -62.795002, y: 45.542004, z: -90.00001}
+--- !u!108 &3664839755221808106
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103627677427041289}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 0.9056604, g: 0.7294367, b: 0.07262372, a: 1}
+  m_Intensity: 1
+  m_Range: 30
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!108 &3664839756071878535
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103627676088862820}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 0.9056604, g: 0.7294367, b: 0.07262372, a: 1}
+  m_Intensity: 1
+  m_Range: 30
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!4 &3745622627684753296
 Transform:
   m_ObjectHideFlags: 0
@@ -87153,6 +87818,115 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   surfaceDefAddress: RoR2/Base/Common/sdStone.asset
+--- !u!4 &3874423951863342344
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709879461612012966}
+  m_LocalRotation: {x: 0.3747398, y: 0.8058754, z: -0.19597116, w: 0.41440335}
+  m_LocalPosition: {x: 365.87, y: 192.31, z: 105.38}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children:
+  - {fileID: 2700233750671289169}
+  m_Father: {fileID: 991116722}
+  m_RootOrder: 82
+  m_LocalEulerAnglesHint: {x: 38.788002, y: 138.052, z: 34.506}
+--- !u!4 &3874423952606708926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709879462074115088}
+  m_LocalRotation: {x: 0.108769774, y: -0.6990132, z: -0.6904327, w: 0.1511702}
+  m_LocalPosition: {x: 259.1, y: 229.17, z: 161.24}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_Children:
+  - {fileID: 2700233749932493543}
+  m_Father: {fileID: 991116722}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -68.805, y: -90.143005, z: -86.36101}
+--- !u!4 &3874423952832112311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709879462303630873}
+  m_LocalRotation: {x: -0.0029507284, y: 0.03911507, z: -0.075165585, w: 0.9963992}
+  m_LocalPosition: {x: -0.04, y: -0.14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2700233750256462062}
+  - {fileID: 5766259884788372395}
+  - {fileID: 221619633678513741}
+  m_Father: {fileID: 1992918644}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 4.4960003, z: -8.628}
+--- !u!4 &3874423953402192240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709879462806929886}
+  m_LocalRotation: {x: 0.21353392, y: -0.6409538, z: 0.29078087, w: 0.67751604}
+  m_LocalPosition: {x: 260.32, y: 229.13, z: 90.91}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2700233751833702185}
+  m_Father: {fileID: 991116722}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 41.460003, y: -83.32101, z: 9.236}
+--- !u!4 &3874423953475387008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709879463219600942}
+  m_LocalRotation: {x: 0.5873341, y: -0.77320486, z: 0.23301823, w: 0.05380853}
+  m_LocalPosition: {x: 277.86, y: 219.59, z: 142}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children:
+  - {fileID: 2700233751211159769}
+  m_Father: {fileID: 991116722}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 25.059002, y: -192.14, z: -77.149}
+--- !u!4 &3874423953641417434
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709879463054215796}
+  m_LocalRotation: {x: -0.0029507284, y: 0.03911507, z: -0.075165585, w: 0.9963992}
+  m_LocalPosition: {x: -0.04, y: -0.14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2700233751041123459}
+  - {fileID: 5766259883401306054}
+  - {fileID: 221619632383326752}
+  m_Father: {fileID: 1272442810}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 4.4960003, z: -8.628}
+--- !u!4 &3874423953994029970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709879463407172412}
+  m_LocalRotation: {x: 0.5873341, y: -0.77320486, z: 0.23301823, w: 0.05380853}
+  m_LocalPosition: {x: 274.02, y: 217.56, z: 149.11}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_Children:
+  - {fileID: 2700233751224915403}
+  m_Father: {fileID: 991116722}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 25.059002, y: -192.14, z: -77.149}
 --- !u!4 &4083501150744656563
 Transform:
   m_ObjectHideFlags: 0
@@ -87299,6 +88073,40 @@ Transform:
   m_Father: {fileID: 382710816}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4295313533594059169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 221619632383326752}
+  - component: {fileID: 7946483826760208151}
+  m_Layer: 0
+  m_Name: Point Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &4295313534437313996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 221619633678513741}
+  - component: {fileID: 7946483828056441722}
+  m_Layer: 0
+  m_Name: Point Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!23 &4539702727454864849
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -87388,6 +88196,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 543450652751004917}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &5766259883401306054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103627676088862820}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.91, y: 0.79, z: -0.95}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3874423953641417434}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &5766259884788372395
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103627677427041289}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.91, y: 0.79, z: -0.95}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3874423952832112311}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6323308774350886549
 MeshFilter:
@@ -87560,6 +88396,139 @@ Transform:
   m_Father: {fileID: 4579975879221285750}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -62.559002, y: 90.00001, z: -107.29201}
+--- !u!205 &7334848820856952406
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709879461612012966}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.61559105, y: 0.7326999, z: 0.054617643}
+  m_Size: 5.9377794
+  m_FadeMode: 2
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.05049598
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 0}
+  m_Enabled: 1
+--- !u!205 &7334848821280232937
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709879462303630873}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.61559105, y: 0.7326999, z: 0.054617643}
+  m_Size: 5.9377794
+  m_FadeMode: 2
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.05049598
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 0}
+  m_Enabled: 1
+--- !u!205 &7334848821591554016
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709879462074115088}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.61559105, y: 0.7326999, z: 0.054617643}
+  m_Size: 5.9377794
+  m_FadeMode: 2
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.05049598
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 0}
+  m_Enabled: 1
+--- !u!205 &7334848821849362990
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709879462806929886}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.61559105, y: 0.7326999, z: 0.054617643}
+  m_Size: 5.9377794
+  m_FadeMode: 2
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.05049598
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 0}
+  m_Enabled: 1
+--- !u!205 &7334848822450809036
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709879463407172412}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.61559105, y: 0.7326999, z: 0.054617643}
+  m_Size: 5.9377794
+  m_FadeMode: 2
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.05049598
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 0}
+  m_Enabled: 1
+--- !u!205 &7334848822467710430
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709879463219600942}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.61559105, y: 0.7326999, z: 0.054617643}
+  m_Size: 5.9377794
+  m_FadeMode: 2
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.05049598
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 0}
+  m_Enabled: 1
+--- !u!205 &7334848822633617796
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709879463054215796}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.61559105, y: 0.7326999, z: 0.054617643}
+  m_Size: 5.9377794
+  m_FadeMode: 2
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.05049598
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 0}
+  m_Enabled: 1
 --- !u!23 &7696714172403693915
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -87599,6 +88568,125 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &7709879461612012966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3874423951863342344}
+  - component: {fileID: 7334848820856952406}
+  m_Layer: 0
+  m_Name: FBLGrassNoEmit (80)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7709879462074115088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3874423952606708926}
+  - component: {fileID: 7334848821591554016}
+  m_Layer: 0
+  m_Name: FBLGrassNoEmit (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7709879462303630873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3874423952832112311}
+  - component: {fileID: 7334848821280232937}
+  m_Layer: 0
+  m_Name: FBLGrass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7709879462806929886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3874423953402192240}
+  - component: {fileID: 7334848821849362990}
+  m_Layer: 0
+  m_Name: FBLGrassNoEmit (26)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7709879463054215796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3874423953641417434}
+  - component: {fileID: 7334848822633617796}
+  m_Layer: 0
+  m_Name: FBLGrass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7709879463219600942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3874423953475387008}
+  - component: {fileID: 7334848822467710430}
+  m_Layer: 0
+  m_Name: FBLGrassNoEmit (21)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7709879463407172412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3874423953994029970}
+  - component: {fileID: 7334848822450809036}
+  m_Layer: 0
+  m_Name: FBLGrassNoEmit (20)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &7720556151673504650
 GameObject:
   m_ObjectHideFlags: 0
@@ -87695,6 +88783,128 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!108 &7946483826760208151
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4295313533594059169}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 0.7830189, g: 0.5933806, b: 0.1735938, a: 1}
+  m_Intensity: 0.7
+  m_Range: 20
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!108 &7946483828056441722
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4295313534437313996}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 0.7830189, g: 0.5933806, b: 0.1735938, a: 1}
+  m_Intensity: 0.7
+  m_Range: 20
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!23 &8040412727973131627
 MeshRenderer:
   m_ObjectHideFlags: 0

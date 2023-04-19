@@ -7,10 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: matFBLWaterDiorama
-  m_Shader: {fileID: 4800000, guid: 409d35eb1d402634dadb1a48dd5a006c, type: 3}
-  m_ShaderKeywords: _BUMPLARGE_ON _DISPLACEMENTMODE_OFF _DISTORTIONQUALITY_HIGH _FOAM_ON
-    _REFLECTIONTYPE_CUBEMAP
+  m_Name: matBrazierorb
+  m_Shader: {fileID: 4800000, guid: bd3280d07a5a3f0459cc68bdc2b5feaa, type: 2}
+  m_ShaderKeywords: CLOUDOFFSET FRESNEL USE_CLOUDS
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -21,16 +20,16 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 73b62506bbb016e4385e916513fc46af, type: 3}
-        m_Scale: {x: 5, y: 5}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMapLarge:
-        m_Texture: {fileID: 2800000, guid: 1c13187416881c546abb804a3d824289, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Cube:
-        m_Texture: {fileID: 8900000, guid: f45e2cb2b9e87b34b86c47bce741bf83, type: 3}
-        m_Scale: {x: 1, y: 1}
+    - _Cloud1Tex:
+        m_Texture: {fileID: 2800000, guid: e063d1860e92f9e4e8a9a322068745a1, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _Cloud2Tex:
+        m_Texture: {fileID: 2800000, guid: 8b7da681096bbb74da8135f7c889ffe5, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
@@ -48,12 +47,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _FoamTex:
-        m_Texture: {fileID: 2800000, guid: 1139d55774232ff47bf4e41b4e79f8fc, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: f2f1d47780edf184b953c8b6535f5f0d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -68,58 +63,54 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _ReflectionTex:
-        m_Texture: {fileID: 0}
+    - _RemapTex:
+        m_Texture: {fileID: 2800000, guid: f4dcb1f212d8aa246a80e0e3835079d1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Amplitude: 2
-    - _BumpLargeStrength: 1
+    - _AlphaBias: 0.414
+    - _AlphaBoost: 8.2
+    - _Boost: 1.5
     - _BumpScale: 1
-    - _BumpStrength: 1
+    - _CalcTextureAlphaOn: 0
+    - _CloudOffsetOn: 1
+    - _CloudsOn: 1
+    - _Cull: 2
     - _Cutoff: 0.5
-    - _Depth: 10
+    - _DepthOffset: 0
     - _DetailNormalMapScale: 1
-    - _DisplacementMode: 0
-    - _Distortion: 0
-    - _DistortionQuality: 0
+    - _DisableRemapOn: 0
+    - _DistortionStrength: 0.93
     - _DstBlend: 0
-    - _EdgeFade: 6.34
-    - _EnableFog: 0
-    - _EnableLargeBump: 1
-    - _FOAM: 1
-    - _FoamSize: 1
-    - _Frequency: 0.97
+    - _ExternalAlpha: 1
+    - _Fade: 1
+    - _FadeCloseDistance: 0.5
+    - _FadeCloseOn: 0
+    - _FresnelOn: 1
+    - _FresnelPower: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _InternalSimpleBlendMode: 0
+    - _InvFade: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
+    - _OffsetAmount: 0
     - _Parallax: 0.02
-    - _Reflection: 1
-    - _ReflectionType: 3
-    - _RimPower: 3.530266
-    - _Smoothing: 0
-    - _Smoothness: 0.4570461
+    - _SkyboxOnly: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 1
     - _SrcBlend: 1
-    - _Steepness: 0.54
-    - _Tess: 1
     - _UVSec: 0
-    - _WorldSpace: 0
+    - _UseUV1On: 0
+    - _VertexAlphaOn: 0
+    - _VertexColorOn: 0
+    - _VertexOffsetOn: 0
+    - _ZTest: 4
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.90588, g: 0.949019, b: 0.94117, a: 1}
-    - _CubeColor: {r: 1, g: 1, b: 1, a: 1}
-    - _DepthColor: {r: 0.29019, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CutoffScroll: {r: 2, g: 2, b: 2, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColor: {r: 0.76557493, g: 0.8679245, b: 0.84655255, a: 1}
-    - _SpecColor: {r: 0.31764704, g: 0.1568627, b: 0.16470589, a: 1}
-    - _Speeds: {r: 0.1, g: 0.1, b: 0.25, a: 0.25}
-    - _SpeedsLarge: {r: 0.2, g: 1.5, b: 0, a: 0}
-    - _WDirectionAB: {r: -0.17, g: 0.55, b: -0.62, a: -0.25}
-    - _WDirectionCD: {r: 0.44, g: 0.71, b: 0.41, a: 0.5}
-    - _WSpeed: {r: 0.35, g: 0.5, b: 0.35, a: 0.5}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
