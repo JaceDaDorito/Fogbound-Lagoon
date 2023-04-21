@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Networking;
+using RoR2.Networking;
 
 namespace AddressablesHelper
 {
@@ -11,8 +12,8 @@ namespace AddressablesHelper
     {
         [Tooltip("The address to use to load the prefab")]
         [SerializeField] private string address;
-        [Tooltip("If the prefab will be instantiated with Network.Instantiate")]
-        [SerializeField] private bool networkInstantiate;
+        /*[Tooltip("If the prefab will be instantiated with Network.Instantiate")]
+        [SerializeField] private bool networkInstantiate;*/
         [Tooltip("When the prefab is instantiated, and this is true, the prefab's position and rotation will be set to 0")]
         [SerializeField] private bool setPositionAndRotationToZero;
         [Tooltip("setPositionAndRotationToZero would work relative to it's parent")]
@@ -27,7 +28,7 @@ namespace AddressablesHelper
         public GameObject Instance => instance;
         private GameObject instance;
 
-        private void Awake() => Refresh();
+        //private void Awake() => Refresh();
         private void OnEnable() => Refresh();
         private void OnDisable()
         {
@@ -54,22 +55,22 @@ namespace AddressablesHelper
             }
 
             GameObject prefab = UnityEngine.AddressableAssets.Addressables.LoadAssetAsync<GameObject>(address).WaitForCompletion();
-            //hasNetworkIdentity = prefab.GetComponent<NetworkIdentity>();
+            hasNetworkIdentity = prefab.GetComponent<NetworkIdentity>();
 
-            if (networkInstantiate && !Application.isEditor)
+            if (hasNetworkIdentity && !Application.isEditor)
             {
                 if (NetworkServer.active)
                 {
-                    instance = Instantiate(prefab, transform);
+                    instance = Instantiate(prefab, gameObject.transform);
                     NetworkServer.Spawn(instance);
                 }
             }
             else
             {
-                instance = Instantiate(prefab, transform);
+                instance = Instantiate(prefab, gameObject.transform);
             }
 
-            instance.hideFlags |= HideFlags.DontSaveInEditor | HideFlags.DontSaveInBuild | HideFlags.NotEditable;
+            instance.hideFlags = HideFlags.DontSaveInEditor | HideFlags.DontSaveInBuild | HideFlags.NotEditable;
             foreach (Transform t in instance.GetComponentsInChildren<Transform>())
             {
                 t.gameObject.hideFlags = instance.hideFlags;
