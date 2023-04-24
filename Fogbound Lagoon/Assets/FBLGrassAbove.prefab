@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2700233751337718565}
   - component: {fileID: 2700233751337718562}
   - component: {fileID: 2700233751337718563}
+  - component: {fileID: 5944032663949652029}
   m_Layer: 0
   m_Name: spmSMGrass
   m_TagString: Untagged
@@ -80,6 +81,15 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!193 &5944032663949652029
+Tree:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700233751337718560}
+  m_SpeedTreeWindAsset: {fileID: 0}
+  m_TreeData: {fileID: 0}
 --- !u!1 &7709879463353253330
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,8 +136,8 @@ LODGroup:
   m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.05049598
+  - screenRelativeHeight: 0.047101766
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 0}
+    - renderer: {fileID: 2700233751337718563}
   m_Enabled: 1

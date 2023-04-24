@@ -224,50 +224,42 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 2905970885477508610, guid: 2e2b00de462b5e14c922d63833ebb4a5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 6088109419877602735, guid: 2e2b00de462b5e14c922d63833ebb4a5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 6088109420293832469, guid: 2e2b00de462b5e14c922d63833ebb4a5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 7399862098173938694, guid: 2e2b00de462b5e14c922d63833ebb4a5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 7399862098892285628, guid: 2e2b00de462b5e14c922d63833ebb4a5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 8185778899856614722, guid: 2e2b00de462b5e14c922d63833ebb4a5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 8185778900195233784, guid: 2e2b00de462b5e14c922d63833ebb4a5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 8550966964810437937, guid: 2e2b00de462b5e14c922d63833ebb4a5,
         type: 3}
       propertyPath: m_Name
@@ -332,14 +324,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -4151714838851874200, guid: 00000000000000000000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 9153905511384092174, guid: 2e2b00de462b5e14c922d63833ebb4a5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -7442990788814530625, guid: 00000000000000000000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7729064072424869076, guid: 2e2b00de462b5e14c922d63833ebb4a5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2e2b00de462b5e14c922d63833ebb4a5, type: 3}
@@ -372,8 +362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  address: RoR2/Base/skymeadow/SkyMeadowDioramaDisplay.prefab
-  networkInstantiate: 0
+  address: RoR2/Base/skymeadow/spmSMGrass.spm
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1

@@ -1,3 +1,6 @@
+# 1.1.1
+- Fixed LOD issues with the grass. This should boost low end PC performance.
+
 # 1.1.0
 - Plethora of visual improvements/changes
 - - Redid Terrain textures
