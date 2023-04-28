@@ -1,3 +1,10 @@
+# 1.1.2
+- (Hopefully) Removed abnormal lag for low end PCs.
+- - Hired a guy to trim the grass a bit
+- - Redid all the grass light sources
+- By extension, I made the grass a bit less intrusive on your camera and made the lights flicker. Underwater looks a tad better.
+- Preview image updated.
+
 # 1.1.1
 - Fixed LOD issues with the grass. This should boost low end PC performance.
 

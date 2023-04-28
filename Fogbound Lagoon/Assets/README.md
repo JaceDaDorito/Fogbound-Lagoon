@@ -31,7 +31,7 @@ ___
 
 ## Known Issues
 
-- None known at the moment.
+- Report immediately if you are experiencing more lag than usual on this stage. It should be gone by now but I want to put this here.
 
 ## Special Thanks and Credits
 

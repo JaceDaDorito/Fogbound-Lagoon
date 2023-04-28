@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  address: RoR2/Base/skymeadow/spmSMGrass.spm
+  address: RoR2/Base/skymeadow/HumanTempLight1On.prefab
   setPositionAndRotationToZero: 0
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
