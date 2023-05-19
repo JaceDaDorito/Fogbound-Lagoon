@@ -1,0 +1,16 @@
+{
+    "strings": {
+        "FOGBOUND_SCENEDEF_NAME_TOKEN": "Sis Kaplı Lagün",
+        "FOGBOUND_SCENEDEF_SUBTITLE_TOKEN": "Stygian Sığlıkları",
+        "BAZAAR_SEER_FBLSCENE": "<style=cWorldEvent>Boğulmayı hayal ediyorsun.</style>",
+        "FOGBOUND_SCENEDEF_LORE_TOKEN": "<style=cMono>\r\DataScraper'a hoş geldiniz (v3.1.53 \u2013 beta sürümü)\r\n$ Bilgi kazınıyor... bitti.\r\n$ Çözümleniyor... bitti.\r\n$ Alakalı veriler için taranıyor... bitti.\r\nTamamlandı!\r\nLokal ses kayıtları dışa aktarılıyor...\r\n</style>\r\nDaha fazla dayanamıyorum.\n\nBuraya düştüğümden beri ıraktaki okyanusa karşı tuhaf bir cazibe hissettim. Kaba ufuk ötesini göremiyorum, ne de her gün daha da yaklaşıyor gibi duran kayalıkların üzerini ...Buradan çıkamayacağımı biliyorum, ve dünyamın bu ekolojik balonla sınırlı olması ruhumu emiyor... Çıkmanın bir yolunu bulmalıyım...
+\n\nBenim sesimi çağıran, yorgun gözlerimi kandıran ve her gece rüyalarımı kabuslarlan işgal eden şeyin ne olduğunu sonunda görmem lazım. Beni delirtiyor. Bana dalmamı, sadece zıplayıp birazcık yüzmemi, sadece rahatlayıp buradaki zamanımın tadını çıkarmamı söylüyor. Teslim olamam. Ne tür bir şeyin bir yabancının rahatlamasını ve gardını düşürmesini isteyeceğini bilmek istemiyorum... \n\nSuda kendi yansımamı bile göremiyorum...\nsadece gizemli kan kırmızısı ışıklar...\r\n<style=cMono>\r\nLokal ses kayıtları tamamlandı.\r\n</style>\r\n",
+
+        "BONE_FOGBOUND_NAME": "Hank",
+
+        "UNLOCKABLE_LOG_STAGES_FBLSCENE": "Ortam Seyir Defteri: Sis Kaplı Lagün",
+
+        "FBL_FAMILY_BLIND": "<style=cWorldEvent>[DİKKAT] Dizginsiz üreme alanlarını işgal ettin...</style>"
+
+    }
+}

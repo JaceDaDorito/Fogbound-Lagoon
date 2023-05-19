@@ -1,0 +1,16 @@
+{
+    "strings": {
+        "FOGBOUND_SCENEDEF_NAME_TOKEN": "Nebelverhangene Lagune",
+        "FOGBOUND_SCENEDEF_SUBTITLE_TOKEN": "Stygische Untiefen",
+        "BAZAAR_SEER_FBLSCENE": "<style=cWorldEvent>Du träumst von Ersticken.</style>",
+        "FOGBOUND_SCENEDEF_LORE_TOKEN": "<style=cMono>\r\nWillkommen beim DataScraper (v3.1.53 \u2013 Betaversion)\r\n$ Speicher wird ausgelesen… fertig.\r\n$ Abschließen… fertig. \r\n$ Relevante Daten werden gesucht… fertig.\r\nAbgeschlossen!\r\nAusgabe lokaler Audiotranskripte…\r\n</style>\r\nIch halte es nicht länger aus.\n\nSeit ich hier abgestürzt bin, verspüre ich eine seltsame Anziehungskraft zum fernen Ozean. Ich kann nicht über den düsteren Horizont hinaussehen, auch nicht über die drohenden Felsen, die jeden Tag näher zu kommen scheinen. Ich weiß, dass ich unmöglich da rauskommen kann, und es verzehrt mich, dass meine Welt auf diese ökologische Blase beschränkt ist... Ich muss einen Weg finden, zu entkommen...
+\n\nIch muss endlich herausfinden, was meine Stimme gerufen, meine müden Augen getäuscht und meinen Kopf jede Nacht mit alptraumhaften Träumen überschwemmt hat. Es treibt mich in den Wahnsinn, sagt mir, ich solle abtauchen, einfach reinspringen und ein bisschen umherschwimmen, mich einfach entspannen und meine Zeit hier genießen. Ich kann nicht nachgeben. Ich will gar nicht wissen, was für ein Etwas will, dass ein Fremder sich entspannt und seine Deckung fallen lässt...\n\nIch kann nicht einmal mein Spiegelbild im Wasser sehen…\nnur jene mysteriösen purpurroten Lichter…\r\n<style=cMono>\r\nLokale Audiotranskripte abgeschlossen.\r\n</style>\r\n",
+
+        "BONE_FOGBOUND_NAME": "Hank",
+
+        "UNLOCKABLE_LOG_STAGES_FBLSCENE": "Umgebungs-Log: Nebelverhangene Lagune",
+
+        "FBL_FAMILY_BLIND": "<style=cWorldEvent>[WARNUNG] Du bist in wuchernde Brutgebiete eingedrungen…</style>"
+
+    }
+}

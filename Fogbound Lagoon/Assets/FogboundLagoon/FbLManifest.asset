@@ -19,7 +19,7 @@ MonoBehaviour:
   - languageName: en
     languageFiles:
     - {fileID: 4900000, guid: d9be7da9255d38045868e4918f2a7192, type: 3}
-  - languageName: ES
+  - languageName: es-ES
     languageFiles:
     - {fileID: 4900000, guid: 1c7f9080ed211bd48a9f6d74e264c123, type: 3}
   - languageName: RU
@@ -28,6 +28,15 @@ MonoBehaviour:
   - languageName: UA
     languageFiles:
     - {fileID: 4900000, guid: 842614c97b0963b4d8212f3dafd5677d, type: 3}
+  - languageName: de
+    languageFiles:
+    - {fileID: 4900000, guid: 31bda886628dd1f40b4f695c5256eedb, type: 3}
+  - languageName: ja
+    languageFiles:
+    - {fileID: 4900000, guid: da105a3e078748b4692ad477d4098688, type: 3}
+  - languageName: tr
+    languageFiles:
+    - {fileID: 4900000, guid: 203c9baccdf71fb4781e72fa62904bb4, type: 3}
 --- !u!114 &-7521479713221564423
 MonoBehaviour:
   m_ObjectHideFlags: 0

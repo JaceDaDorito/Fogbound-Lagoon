@@ -1,0 +1,16 @@
+{
+    "strings": {
+        "FOGBOUND_SCENEDEF_NAME_TOKEN": "霧の潟湖",
+        "FOGBOUND_SCENEDEF_SUBTITLE_TOKEN": "スティクスの浅瀬",
+        "BAZAAR_SEER_FBLSCENE": "<style=cWorldEvent>窒息を夢見る.</style>",
+        "FOGBOUND_SCENEDEF_LORE_TOKEN": "<style=cMono>\r\nデータスクレーパーにようこそ (v3.1.53 \u2013 beta branch)\r\n$ メモリーを収集しています... 　完了。\r\n$ 解決しています...　完了。\r\n$ 対応するデータを結合しています...　完了。\r\n完了しました！\r\n音声コピーを出力しています...\r\n</style>\r\nもう耐えないのだ。.\n\nここに墜落して以来、私は遠くの海に魅了されている。険しい水平線も、日に日に迫ってくるように感じている岩山も、見渡すことができない。外に出られないのは分かっているし、自分の世界がこのエコロジーバブルに閉じ込められているのは魂が抜けているようだ...いかに外に出る方法を見つけないと...
+\n\n毎晩、私の声を呼び、疲れた目を欺き、悪夢のような夢で私の頭を侵食してきたものを、この目で見ないと。「飛び込め」「飛び込んで泳げ」「寛げ、ここに居られるのを楽しめ」と言わんばかりに、私を狂わせる。屈しかねる。部外者にリラックスして、気を緩めてほしいなんてもの...\n\n水面に映る自分の姿も見えないし...\nその神秘的な真紅の光しか...\r\n<style=cMono>\r\n音声コピーを終了しました。\r\n</style>\r\n",
+
+        "BONE_FOGBOUND_NAME": "ハンク",
+
+        "UNLOCKABLE_LOG_STAGES_FBLSCENE": "環境ログ:霧の潟湖",
+
+        "FBL_FAMILY_BLIND": "<style=cWorldEvent>[警告] 奔放な繁殖地に侵入した。</style>"
+
+    }
+}

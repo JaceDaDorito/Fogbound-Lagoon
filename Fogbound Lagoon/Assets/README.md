@@ -31,7 +31,7 @@ ___
 
 ## Known Issues
 
-- Report immediately if you are experiencing more lag than usual on this stage. It should be gone by now but I want to put this here.
+- Report any lag issues to me (JaceDaDorito#7035) immediately, not sure if I got it all.
 
 ## Special Thanks and Credits
 
@@ -49,9 +49,11 @@ ___
 - Mystic - Russian translation
 - El-Freddy - Spanish translation
 - Damglador - Ukrainian translation
+- doctoberfest - Turkish translation
+- Kei - German and Japanese translation. Also another Risk of Resources racer listed below.
 - ICap_I, WoolieGaming, Race, Cran, Host, RayDans, Disputed, Cornipher, Cabbage, Bulrug, Mark, Zinq, and the rest of the Risk of Resources team  - Thank you all for showcasing the mod! It has been an honor for my content to be deemed quality enough to showcase and race with.
 
-#### AND THANK YOU ALL FOR 50k+ DOWNLOADS. I've learned a lot and I'm very happy this map has become as widespread as it has.
+#### AND THANK YOU ALL FOR 78k+ DOWNLOADS. Hopefully I have eliminated all lag issues and I can move on to my next project
 
 ___
 

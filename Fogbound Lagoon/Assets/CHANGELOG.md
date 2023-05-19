@@ -1,5 +1,12 @@
+# 1.1.3
+- Added Turkish, Japanese, and German language translations
+- Corrected the Spanish folder to be es-ES.
+- Reduced performance issues
+- - Added Occlusion culling to the stage (whoops didn't know about this)
+- - Decimated the surrounded lagoon a bit.
+
 # 1.1.2
-- (Hopefully) Removed abnormal lag for low end PCs.
+- Removed some abnormal lag for low end PCs
 - - Hired a guy to trim the grass a bit
 - - Redid all the grass light sources
 - By extension, I made the grass a bit less intrusive on your camera and made the lights flicker. Underwater looks a tad better.
