@@ -1,3 +1,6 @@
+#1.1.4
+- SS2 Storm support (removed the stage blacklist)
+
 # 1.1.3
 - Added Turkish, Japanese, and German language translations
 - Corrected the Spanish folder to be es-ES.

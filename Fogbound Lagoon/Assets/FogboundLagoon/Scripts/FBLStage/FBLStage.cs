@@ -50,9 +50,8 @@ namespace FBLStage
 
             ContentManager.collectContentPackProviders += GiveToRoR2OurContentPackProviders;
 
-            //Just to make sure theres no NREs that slip through. Will remove once I have proper storm support.
-            if (Chainloader.PluginInfos.ContainsKey("com.TeamMoonstorm.MoonstormSharedUtils"))
-                AddSceneBlacklist();
+            /*if (Chainloader.PluginInfos.ContainsKey("com.TeamMoonstorm.MoonstormSharedUtils"))
+                AddSceneBlacklist();*/
 
             Language.collectLanguageRootFolders += CollectLanguageRootFolders;
         }
@@ -64,12 +63,12 @@ namespace FBLStage
 
         
 
-        [MethodImpl(MethodImplOptions.NoInlining | MethodImplOptions.NoOptimization)]
+        /*[MethodImpl(MethodImplOptions.NoInlining | MethodImplOptions.NoOptimization)]
         private void AddSceneBlacklist()
         {
             //This is Temporary
             Moonstorm.Components.SetupWeatherController.blacklistedScenes.Add("FBLScene");
-        }
+        }*/
 
         private static void GiveToRoR2OurContentPackProviders(ContentManager.AddContentPackProviderDelegate addContentPackProvider)
         {
