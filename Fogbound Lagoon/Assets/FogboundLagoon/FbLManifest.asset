@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
-  m_Name: FBLManifest
+  m_Name: FbLManifest
   m_EditorClassIdentifier: 
   Data:
   - {fileID: 5397937181683376793}
@@ -165,4 +165,4 @@ MonoBehaviour:
     crimson lights...
   Version: 1.1.0
   Dependencies:
-  - {fileID: 11400000, guid: 2d4d09ec817c24698d35dc9bf0704fdc, type: 2}
+  - {fileID: 0}

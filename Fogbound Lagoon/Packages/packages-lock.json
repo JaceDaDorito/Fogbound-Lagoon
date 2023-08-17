@@ -16,11 +16,10 @@
       "hash": "2cce48d97a8474e52552c8bd9a362496bcd2766a"
     },
     "com.unity.multiplayer-hlapi": {
-      "version": "https://github.com/risk-of-thunder/UnityMultiplayerHLAPI.git",
+      "version": "file:RoR2MultiplayerHLAPI",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "ab4c0e7aca99354e4b5b211906e4acd83264ed12"
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.postprocessing": {
       "version": "2.3.0",
@@ -50,6 +49,18 @@
     },
     "riskofrain2": {
       "version": "file:Risk of Rain 2",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "riskofthunder-bepinex_gui": {
+      "version": "file:BepInEx_GUI",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "riskofthunder-fixplugintypesserialization": {
+      "version": "file:FixPluginTypesSerialization",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
@@ -186,6 +197,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "riskofthunder-r2api_skins": {
+      "version": "file:R2API_Skins",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "riskofthunder-r2api_sound": {
       "version": "file:R2API_Sound",
       "depth": 0,
@@ -204,12 +221,17 @@
       "source": "embedded",
       "dependencies": {}
     },
-    "riskofthunder-ror2editorkit": {
-      "version": "https://github.com/risk-of-thunder/RoR2EditorKit.git#4.0.0",
+    "riskofthunder-ror2bepinexpack": {
+      "version": "file:RoR2BepInExPack",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "2ada60d2536c863bce224179471fe7b62e836eaa"
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "riskofthunder-ror2editorkit": {
+      "version": "file:RoR2EditorKit",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
     },
     "riskofthunder-ror2importextensions": {
       "version": "https://github.com/risk-of-thunder/RoR2ImportExtensions.git#1.3.5",
@@ -224,6 +246,12 @@
       "source": "git",
       "dependencies": {},
       "hash": "916dd889afca071cbd01d21e81fe777abee6fd9f"
+    },
+    "tristanmcpherson-r2api": {
+      "version": "file:R2API",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
