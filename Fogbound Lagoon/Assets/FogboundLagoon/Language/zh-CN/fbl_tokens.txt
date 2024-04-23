@@ -1,0 +1,16 @@
+{
+	"strings": {
+		"FOGBOUND_SCENEDEF_NAME_TOKEN": "雾隐泻湖",
+		"FOGBOUND_SCENEDEF_SUBTITLE_TOKEN": "幽暗浅滩",
+		"BAZAAR_SEER_FBLSCENE": "<style=cWorldEvent>你梦见窒息。</style>",
+		"FOGBOUND_SCENEDEF_LORE_TOKEN": "<style=cMono>\r\n欢迎来到[数据损坏] (v3.1.53 \u2013 测试分支)\r\n$ 搜索内存......完成。\r\n$ 解析......完成。\r\n$ 处理数据......完成。\r\n结束！\r\n输出本地音频转录...\r\n<\/style>\r\n我再也受不了了。\n\n自从我在这里降落后，我就感觉远处有一片海洋在吸引着我。我看不清灰暗的地平线，也看不清隐约出现的峭壁，这些峭壁似乎每天都在向我逼近。我知道我不可能去那里，我被限制在这个生态球里，我感觉我的灵魂被吸走了……我得想办法出去…
+\n\n我需要亲眼看到是什么声音在呼唤我，欺骗我疲惫的双眼，每晚用噩梦入侵我的大脑。它快把我逼疯了，那声音想让我下水，跳进水里游一会儿，放松一下，享受在水里的时刻。我不能屈服。我不想知道水下是什么东西能让一个外来人放松警惕……\n\n我甚至看不见自己在水中的倒影……\n只有那些神秘的深红色的光……\r\n<style=cMono>\r\n本地音频转录完成。\r\n<\/style>\r\n",
+
+		"BONE_FOGBOUND_NAME": "Hank",
+
+		"UNLOCKABLE_LOG_STAGES_FBLSCENE": "环境日志：雾隐泻湖",
+
+		"FBL_FAMILY_BLIND": "<style=cWorldEvent>[警告] 你入侵了繁殖地。</style>"
+		
+	}
+}
