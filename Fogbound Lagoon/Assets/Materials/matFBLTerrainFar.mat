@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: matFBLTerrainFar
-  m_Shader: {fileID: 4800000, guid: 05c0ecf38ec5c7c4f822f36331ff431d, type: 2}
+  m_Shader: {fileID: 4800000, guid: 3e611fcdeb23ee94288ac0e95a9db6d7, type: 3}
   m_ShaderKeywords: DOUBLESAMPLE USE_ALPHA_AS_MASK USE_VERTEX_COLORS
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

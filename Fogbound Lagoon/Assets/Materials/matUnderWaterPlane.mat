@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: matUnderWaterPlane
-  m_Shader: {fileID: 4800000, guid: 409d35eb1d402634dadb1a48dd5a006c, type: 3}
+  m_Shader: {fileID: 4800000, guid: e956c2ff4af6b2243a7b9036cfaf0b20, type: 3}
   m_ShaderKeywords: DISABLEREMAP USE_CLOUDS _BUMPLARGE_ON _DEPTHFOG_ON _DISPLACEMENTMODE_OFF
     _DISTORTIONQUALITY_HIGH _FOAM_ON _REFLECTIONTYPE_CUBEMAP
   m_LightmapFlags: 4

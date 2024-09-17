@@ -6,7 +6,7 @@ OcclusionCullingSettings:
   serializedVersion: 2
   m_OcclusionBakeSettings:
     smallestOccluder: 5
-    smallestHole: 0.1
+    smallestHole: 0.25
     backfaceThreshold: 90
   m_SceneGUID: 090dfead73fa0b542a0f36f96245eefd
   m_OcclusionCullingData: {fileID: 36300000, guid: 3a543299c6d863948b10223590dd530b,
@@ -27245,8 +27245,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 735395767}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 130, z: 183}
-  m_LocalScale: {x: 750, y: 550, z: 764.81}
+  m_LocalPosition: {x: 0, y: 78, z: 183}
+  m_LocalScale: {x: 750, y: 350.4545, z: 817.1995}
   m_Children: []
   m_Father: {fileID: 942627649}
   m_RootOrder: 2

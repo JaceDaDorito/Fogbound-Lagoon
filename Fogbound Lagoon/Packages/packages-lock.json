@@ -1,25 +1,20 @@
 {
   "dependencies": {
-    "bbepis-bepinexpack": {
-      "version": "file:BepInExPack",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "com.passivepicasso.thunderkit": {
-      "version": "https://github.com/PassivePicasso/ThunderKit.git#7.1.2",
+      "version": "https://github.com/PassivePicasso/ThunderKit.git#8.0.3",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.scriptablebuildpipeline": "1.16.1"
       },
-      "hash": "2cce48d97a8474e52552c8bd9a362496bcd2766a"
+      "hash": "4e3d3c17593fe72bffe9d8c6d32bb53be948c31e"
     },
     "com.unity.multiplayer-hlapi": {
-      "version": "file:RoR2MultiplayerHLAPI",
+      "version": "https://github.com/risk-of-thunder/UnityMultiplayerHLAPI.git",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "ab4c0e7aca99354e4b5b211906e4acd83264ed12"
     },
     "com.unity.postprocessing": {
       "version": "2.3.0",
@@ -35,223 +30,26 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "iharbhd-debugtoolkit": {
-      "version": "file:DebugToolkit",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "mmhook-assemblies": {
-      "version": "file:mmhook-assemblies",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofrain2": {
-      "version": "file:Risk of Rain 2",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-bepinex_gui": {
-      "version": "file:BepInEx_GUI",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-fixplugintypesserialization": {
-      "version": "file:FixPluginTypesSerialization",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-hookgenpatcher": {
-      "version": "file:HookGenPatcher",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_artifactcode": {
-      "version": "file:R2API_ArtifactCode",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_colors": {
-      "version": "file:R2API_Colors",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_commandhelper": {
-      "version": "file:R2API_CommandHelper",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_contentmanagement": {
-      "version": "file:R2API_ContentManagement",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_core": {
-      "version": "file:R2API_Core",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_damagetype": {
-      "version": "file:R2API_DamageType",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_deployable": {
-      "version": "file:R2API_Deployable",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_difficulty": {
-      "version": "file:R2API_Difficulty",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_director": {
-      "version": "file:R2API_Director",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_dot": {
-      "version": "file:R2API_Dot",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_elites": {
-      "version": "file:R2API_Elites",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_items": {
-      "version": "file:R2API_Items",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_language": {
-      "version": "file:R2API_Language",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_loadout": {
-      "version": "file:R2API_Loadout",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_lobbyconfig": {
-      "version": "file:R2API_LobbyConfig",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_networking": {
-      "version": "file:R2API_Networking",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_orb": {
-      "version": "file:R2API_Orb",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_prefab": {
-      "version": "file:R2API_Prefab",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_recalculatestats": {
-      "version": "file:R2API_RecalculateStats",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_rulebook": {
-      "version": "file:R2API_Rulebook",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_sceneasset": {
-      "version": "file:R2API_SceneAsset",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_skins": {
-      "version": "file:R2API_Skins",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_sound": {
-      "version": "file:R2API_Sound",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_tempvisualeffect": {
-      "version": "file:R2API_TempVisualEffect",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_unlockable": {
-      "version": "file:R2API_Unlockable",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-ror2bepinexpack": {
-      "version": "file:RoR2BepInExPack",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "riskofthunder-ror2editorkit": {
-      "version": "file:RoR2EditorKit",
+      "version": "https://github.com/risk-of-thunder/RoR2EditorKit.git",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "4aebbcf14fdb18255cf5cb6c9d1f7dde5d7b0272"
     },
     "riskofthunder-ror2importextensions": {
-      "version": "https://github.com/risk-of-thunder/RoR2ImportExtensions.git#1.3.5",
+      "version": "https://github.com/risk-of-thunder/RoR2ImportExtensions.git#1.3.7",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "9acf13ca9731e1fea43d89b88c6bc054eb6cf32c"
+      "hash": "ebe4d6e4a27e4b766b33e5bdd3ab6c7d17518dfb"
     },
     "teammoonstorm-moonstormsharedutils": {
-      "version": "https://github.com/TeamMoonstorm/MoonstormSharedUtils.git#916dd889afca071cbd01d21e81fe777abee6fd9f",
+      "version": "https://github.com/TeamMoonstorm/MoonstormSharedUtils.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "916dd889afca071cbd01d21e81fe777abee6fd9f"
-    },
-    "tristanmcpherson-r2api": {
-      "version": "file:R2API",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "hash": "8bb6260f546627cf35824ac89436424fdfc839f0"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
