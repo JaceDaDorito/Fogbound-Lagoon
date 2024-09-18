@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using RoR2;
-using AK;
 
 namespace FBLStage.Content
 {

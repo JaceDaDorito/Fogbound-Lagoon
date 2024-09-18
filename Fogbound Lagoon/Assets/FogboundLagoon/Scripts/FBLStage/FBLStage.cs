@@ -11,7 +11,6 @@ using RoR2;
 using System.Linq;
 using System.Security;
 using BepInEx.Configuration;
-using Moonstorm;
 using BepInEx.Bootstrap;
 using System.Runtime.CompilerServices;
 //Copied from Nuketown

@@ -1,5 +1,5 @@
 #1.1.4
-- SS2 Storm support (removed the stage blacklist)
+- Removed blacklist for SS2 storms, report if there are any errors
 
 # 1.1.3
 - Added Turkish, Japanese, and German language translations

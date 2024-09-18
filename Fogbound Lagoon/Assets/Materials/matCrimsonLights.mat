@@ -2,14 +2,16 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: matCrimsonLights
-  m_Shader: {fileID: 4800000, guid: fe9dd399ed18a9648b9029c2d521d125, type: 3}
-  m_ShaderKeywords: USE_CLOUDS
+  m_Shader: {fileID: 4800000, guid: 2f0be783e58ebc540a22d193bad24e7b, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - USE_CLOUDS
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -67,6 +69,7 @@ Material:
         m_Texture: {fileID: 2800000, guid: 444b49dfc654d134c89f347792819610, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AlphaBias: 0.09722888
     - _AlphaBoost: 1.305813
@@ -114,3 +117,4 @@ Material:
     - _CutoffScroll: {r: 23, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _TintColor: {r: 0.30980393, g: 0, b: 0.003921569, a: 1}
+  m_BuildTextureStacks: []

@@ -1,9 +1,9 @@
 {
     "name": "FblAssembly",
+    "rootNamespace": "",
     "references": [
         "GUID:d60799ab2a985554ea1a39cd38695018",
-        "GUID:a44f47cf3ada4435dbc516bad0bc86fe",
-        "GUID:027c693fefcac6548859a0eec81eed3d"
+        "GUID:a44f47cf3ada4435dbc516bad0bc86fe"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -17,13 +17,16 @@
         "HGUnityUtils.dll",
         "KinematicCharacterController.dll",
         "MMHOOK_RoR2.dll",
-        "Wwise.dll",
         "LegacyResourcesAPI.dll",
         "Unity.Addressables.dll",
         "UnityEngine.UI.dll",
         "Unity.TextMeshPro.dll",
         "RoR2.dll",
-        "Unity.ResourceManager.dll"
+        "Unity.ResourceManager.dll",
+        "AK.Wwise.Unity.API.dll",
+        "AK.Wwise.Unity.API.WwiseTypes.dll",
+        "AK.Wwise.Unity.MonoBehaviour.dll",
+        "AK.Wwise.Unity.Timeline.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],
