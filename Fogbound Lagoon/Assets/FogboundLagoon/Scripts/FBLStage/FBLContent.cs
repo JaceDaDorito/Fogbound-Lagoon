@@ -11,13 +11,14 @@ using FBLStage.Utils;
 using RoR2.ExpansionManagement;
 using System.Collections.Generic;
 using RoR2.Networking;
+using ShaderSwapper;
+using R2API;
 
 namespace FBLStage.Content
 {
     public static class FBLContent
     {
         internal const string SoundBankFileName = "fblsoundbank.bnk";
-        //internal const string MusicBankFileName = "fblmusicsoundbank.bnk";
 
         internal const string ScenesAssetBundleFileName = "fblstage";
         internal const string AssetsAssetBundleFileName = "fblassets";
@@ -28,14 +29,8 @@ namespace FBLStage.Content
         private static AssetBundle _scenesAssetBundle;
         private static AssetBundle _assetsAssetBundle;
 
-        //internal static GameObject[] NetworkedObjectPrefabs;
         internal static UnlockableDef[] UnlockableDefs;
         internal static SlipDccs[] SlipDccsArray;
-        private static string baseDCCSString = "dccsFBLMonsters";
-        private static string dlcPoolString => FBLStage.dlcPool.Value ? "DLC1" : string.Empty;
-        private static string legacyPoolString => FBLStage.legacyPool.Value ? "Legacy" : string.Empty;
-        public static SlipDccs validNormalPool;
-        public static SlipDccs validDLCPool;
         internal static SlipFamilyDccs[] SlipFamilyArray;
         internal static SlipDccsPool[] SlipDccsPoolsArray;
         private static string baseDPMonsterString = "dpFBLMonsters";
@@ -43,26 +38,10 @@ namespace FBLStage.Content
         internal static SceneDef[] SceneDefs;
 
         internal static SceneDef FBLSceneDef;
-        internal static MusicTrackDef FBLMusicDef;
-        //internal static DccsPool FBLInteractablesPool;
-        //internal static DccsPool FBLMonstersPool;
         internal static Sprite FBLSceneDefPreviewSprite;
         internal static Material FBLBazaarSeer;
 
-        public static List<Material> SwappedMaterials = new List<Material>(); //debug
-
-        public static Dictionary<string, string> ShaderLookup = new Dictionary<string, string>()
-        {
-            {"stubbedror2/base/shaders/hgstandard", "RoR2/Base/Shaders/HGStandard.shader"},
-            {"stubbedror2/base/shaders/hgsnowtopped", "RoR2/Base/Shaders/HGSnowTopped.shader"},
-            {"stubbedror2/base/shaders/hgtriplanarterrainblend", "RoR2/Base/Shaders/HGTriplanarTerrainBlend.shader"},
-            {"stubbedror2/base/shaders/hgintersectioncloudremap", "RoR2/Base/Shaders/HGIntersectionCloudRemap.shader" },
-            {"stubbedror2/base/shaders/hgcloudremap", "RoR2/Base/Shaders/HGCloudRemap.shader" },
-            {"stubbedror2/base/shaders/hgdistortion", "RoR2/Base/Shaders/HGDistortion.shader" },
-            {"stubbedcalm water/calmwater - dx11 - doublesided", "Calm Water/CalmWater - DX11 - DoubleSided.shader" },
-            {"stubbedcalm water/calmwater - dx11", "Calm Water/CalmWater - DX11.shader" },
-            {"stubbednature/speedtree", "RoR2/Base/Shaders/SpeedTreeCustom.shader"}
-        };
+        public static List<Material> SwappedMaterials = new List<Material>(); 
 
         internal static void LoadSoundBank(string assetsFolderFullPath)
         {
@@ -97,36 +76,11 @@ namespace FBLStage.Content
             _scenesAssetBundle = scenesAssetBundle;
             _assetsAssetBundle = assetsAssetBundle;
 
-            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<Material[]>)((assets) =>
+            var upgradeStubbedShaders = _assetsAssetBundle.UpgradeStubbedShadersAsync();
+            while (upgradeStubbedShaders.MoveNext())
             {
-                var materials = assets;
-
-
-                foreach (Material material in materials)
-                {
-                    Log.Debug(material.name + " " + material.shader);
-                    if (!material.shader.name.StartsWith("Stubbed")) { continue; }
-
-                    var replacementShader = Addressables.LoadAssetAsync<Shader>(ShaderLookup[material.shader.name.ToLower()]).WaitForCompletion();
-                    Log.Debug(replacementShader.name);
-                    if (replacementShader)
-                    {
-                        material.shader = replacementShader;
-                        SwappedMaterials.Add(material);
-                    }
-                    Log.Debug(material.name + " " + material.shader);
-                }
-            }));
-
-            /*yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<GameObject[]>)((assets) =>
-            {
-                var networkedAssets = assets.Where(a => a.GetComponent<NetworkIdentity>()).ToArray();
-                NetworkedObjectPrefabs = networkedAssets;
-                foreach (var prefab in NetworkedObjectPrefabs)
-                {
-                    prefab.RegisterNetworkPrefab();
-                }
-            }));*/
+                yield return upgradeStubbedShaders.Current;
+            }
 
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<NetworkSoundEventDef[]>)((assets) =>
             {
@@ -140,17 +94,9 @@ namespace FBLStage.Content
                 contentPack.unlockableDefs.Add(assets);
             }));
 
-            //I didn't showcase stuff relating to slipDccs yet
-
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipDccs[]>)((assets) =>
             {
                 SlipDccsArray = assets;
-                //Sets the valid enemy pool based on config
-                for(int i = 0; i < SlipDccsArray.Length; i++)
-                {
-                    if (baseDCCSString + dlcPoolString + legacyPoolString == SlipDccsArray[i].name) validDLCPool = SlipDccsArray[i];
-                    if (baseDCCSString + legacyPoolString == SlipDccsArray[i].name) validNormalPool = SlipDccsArray[i];
-                }
             }));
 
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipFamilyDccs[]>)((assets) =>
@@ -165,8 +111,6 @@ namespace FBLStage.Content
                 {
                     if (baseDPMonsterString == SlipDccsPoolsArray[i].name) monsterDP = SlipDccsPoolsArray[i];
                 }
-                //FBLInteractablesPool = DccsPools.First(dp => dp.name == "dpFogboundLagoonInteractables");
-                //FBLMonstersPool = DccsPools.First(dp => dp.name == "dpFogboundLagoonMonsters");
             }));
 
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<Sprite[]>)((assets) =>
@@ -182,21 +126,8 @@ namespace FBLStage.Content
                 contentPack.sceneDefs.Add(assets);
             }));
 
-            //FBLStage.Utils.SlipDirectorUtils().Init();
-            
-            var matBazaarSeerWispgraveyardRequest = Addressables.LoadAssetAsync<Material>("RoR2/Base/bazaar/matBazaarSeerWispgraveyard.mat");
-            while (!matBazaarSeerWispgraveyardRequest.IsDone)
-            {
-                yield return null;
-            }
-            FBLBazaarSeer = UnityEngine.Object.Instantiate(matBazaarSeerWispgraveyardRequest.Result);
-            FBLBazaarSeer.mainTexture = FBLSceneDefPreviewSprite.texture;
-            FBLSceneDef.portalMaterial = FBLBazaarSeer;
+            FBLSceneDef.portalMaterial = R2API.StageRegistration.MakeBazaarSeerMaterial((Texture2D)FBLSceneDef.previewTexture);
 
-            //FBLStage.instance.LoadMusicBank();
-
-            //Commented code below shows you how to reuse vanilla music for normal gameplay
-            //RoR2/Base/Common/muFULLSong07.asset
             var mainTrackDefRequest = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/Base/Common/muFULLSong06.asset");
             while (!mainTrackDefRequest.IsDone)
             {
@@ -210,52 +141,7 @@ namespace FBLStage.Content
             FBLSceneDef.mainTrack = mainTrackDefRequest.Result;
             FBLSceneDef.bossTrack = bossTrackDefRequest.Result;
 
-            var stage3SceneCollectionRequest = Addressables.LoadAssetAsync<SceneCollection>("RoR2/Base/SceneGroups/sgStage3.asset");
-            while (!stage3SceneCollectionRequest.IsDone)
-            {
-                yield return null;
-            }
-
-            AddFBLSceneDefToStage3SceneCollection(stage3SceneCollectionRequest);
-
-            var stage4SceneCollectionRequest = Addressables.LoadAssetAsync<SceneCollection>("RoR2/Base/SceneGroups/sgStage4.asset");
-            while (!stage4SceneCollectionRequest.IsDone)
-            {
-                yield return null;
-            }
-            FBLSceneDef.destinationsGroup = stage4SceneCollectionRequest.Result;
-
-            /*Make sure the expansion is being filled in appropriate fields.
-             *This code here assumes that you want to fill the SoTV expansion on the first element of the "Included If Conditions Met" array in your first PoolCategory.
-             *
-             *If you don't want expansion support or if your stage already relies on the expansion, remove this code below. Don't remove "yield break;" though.
-             */
-
-            /*ExpansionDef[] dlcExpansion = { Addressables.LoadAssetAsync<ExpansionDef>("RoR2/DLC1/Common/DLC1.asset").WaitForCompletion() };
-            DccsPool.Category intStandard = FBLInteractablesPool.poolCategories[0];
-            if(intStandard.includedIfConditionsMet[0] != null)
-                intStandard.includedIfConditionsMet[0].requiredExpansions = dlcExpansion;
-
-            DccsPool.Category monStandard = FBLMonstersPool.poolCategories[0];
-            if (monStandard.includedIfConditionsMet[0] != null)
-                monStandard.includedIfConditionsMet[0].requiredExpansions = dlcExpansion;
-
-            yield break;*/
-        }
-
-        private static void AddFBLSceneDefToStage3SceneCollection(AsyncOperationHandle<SceneCollection> stage3SceneCollectionRequest)
-        {
-            var sceneEntries = stage3SceneCollectionRequest.Result._sceneEntries.ToList();
-            //This Loop was to make Fogbound more common, I accidently left this here.
-            /*for (int i = 0; i < sceneEntries.Count; i++)
-            {
-                var sceneEntry = sceneEntries[i];
-                sceneEntry.weightMinusOne = -0.75f;
-                sceneEntries[i] = sceneEntry;
-            }*/
-            sceneEntries.Add(new SceneCollection.SceneEntry { sceneDef = FBLSceneDef, weightMinusOne = 0 });
-            
-            stage3SceneCollectionRequest.Result._sceneEntries = sceneEntries.ToArray();
+            R2API.StageRegistration.RegisterSceneDefToNormalProgression(FBLSceneDef);
         }
 
         internal static void Unload()
@@ -289,9 +175,5 @@ namespace FBLStage.Content
 
             yield break;
         }
-
-
-
-        
     }
 }

@@ -31,7 +31,7 @@ ___
 
 ## Known Issues
 
-- Report any lag issues to me (JaceDaDorito#7035) immediately, not sure if I got it all.
+- Report any lag issues to me (jacecascade on discord) immediately, not sure if I got it all.
 
 ## Special Thanks and Credits
 

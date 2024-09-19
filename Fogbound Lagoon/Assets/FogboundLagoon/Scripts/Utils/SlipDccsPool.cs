@@ -20,25 +20,12 @@ namespace FBLStage.Utils
     {
         public void ResolveAddressableCategories()
         {
-			ResolvePoolConfig();
             poolCategories = new Category[addressablePoolCategories.Length];
             for (int i = 0; i < poolCategories.Length; i++)
             {
                 poolCategories[i] = addressablePoolCategories[i].ToCategory();
             }
         }
-
-		//A bit gross to do it here but it doesn't matter, it is a stand alone stage. I will clean this up if needed though.
-		public void ResolvePoolConfig()
-		{
-			//Accessing "Standard" Category"
-			AddressableCategory[] cat = FBLContent.monsterDP.addressablePoolCategories;
-			if (cat.Length > 0)
-            {
-				if(cat[0].includedIfConditionsMet.Length > 0) cat[0].includedIfConditionsMet[0].dccs = FBLContent.validDLCPool;
-				if (cat[0].includedIfNoConditionsMet.Length > 0) cat[0].includedIfNoConditionsMet[0].dccs = FBLContent.validNormalPool;
-			}
-		}
 
 		[SerializeField]
         private AddressableCategory[] addressablePoolCategories;

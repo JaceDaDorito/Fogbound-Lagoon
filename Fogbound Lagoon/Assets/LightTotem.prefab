@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 248191366076627832}
   - component: {fileID: 248191366076627833}
   - component: {fileID: 248191366076627834}
-  - component: {fileID: 4661393001715717473}
+  - component: {fileID: 8501803314932648357}
   m_Layer: 11
   m_Name: BbRuinBowl_LOD0
   m_TagString: Untagged
@@ -193,7 +193,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 9328223c6019e564f8b1d996711e44b6, type: 2}
---- !u!114 &4661393001715717473
+--- !u!114 &8501803314932648357
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -202,7 +202,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 248191366076627813}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5562c1cb54aff534ea43bff540f5869b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bbfee4d9ab2a2744b203e7e08720110, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/blackbeach/matBbRuinBowl.mat
@@ -220,7 +220,7 @@ GameObject:
   - component: {fileID: 248191366700585410}
   - component: {fileID: 248191366700585411}
   - component: {fileID: 248191366700585420}
-  - component: {fileID: 8330014990245791323}
+  - component: {fileID: 4736912844864538590}
   m_Layer: 11
   m_Name: BbRuinMarker_LOD0
   m_TagString: Untagged
@@ -307,7 +307,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 9bc3d0061878e514ab83cc226a1d4c70, type: 2}
---- !u!114 &8330014990245791323
+--- !u!114 &4736912844864538590
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 248191366700585423}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5562c1cb54aff534ea43bff540f5869b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bbfee4d9ab2a2744b203e7e08720110, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/TrimSheets/matTrimSheetGrassyRuinsProjected.mat

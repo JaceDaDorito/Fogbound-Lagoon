@@ -150,8 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &2856826
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -562,7 +561,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 14727791}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -840,7 +839,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 22805722}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkLongCollision.prefab
@@ -979,7 +978,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 27447427}
-  - component: {fileID: 27447428}
+  - component: {fileID: 27447429}
   m_Layer: 0
   m_Name: GameObject (3)
   m_TagString: Untagged
@@ -1002,7 +1001,7 @@ Transform:
   m_Father: {fileID: 1189350606}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &27447428
+--- !u!114 &27447429
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1011,7 +1010,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 27447426}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTree.spm
@@ -1214,7 +1213,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 38219268}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31d3e89c943cf484f8242934a3f71b2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b3f6bc89640549408c2a4c5f9a7d0f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   surfaceDefAddress: RoR2/Base/Common/sdDirt.asset
@@ -1366,7 +1365,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 48991025}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/blackbeach/spmBbVine1.spm
@@ -1597,7 +1596,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 61258585}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -1837,7 +1836,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 65904020}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -1886,7 +1885,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 66886788}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -1941,8 +1940,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &67111433
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2190,7 +2188,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 87137256}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -2683,7 +2681,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 99342693}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -2924,7 +2922,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 105253073}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
@@ -2973,7 +2971,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 105392385}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -3028,8 +3026,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &106423897
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3606,7 +3603,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 130663169}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
@@ -3903,7 +3900,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 133175390}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
@@ -4181,7 +4178,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 152219816}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -4230,7 +4227,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 153538442}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -4362,7 +4359,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 157070056}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkMediumCollision.prefab
@@ -4550,7 +4547,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 164762379}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -4749,7 +4746,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 173609635}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -5079,7 +5076,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 186262259}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -5128,7 +5125,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 190055280}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJDistantTreeFoliage.st
@@ -5177,7 +5174,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 202433853}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkMediumCollision.prefab
@@ -6302,7 +6299,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 252422470}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -6738,8 +6735,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &265706652
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6999,7 +6995,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 270847076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTowerTreeFoliage.st
@@ -7296,7 +7292,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 275720684}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -7345,7 +7341,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 276774616}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -7654,8 +7650,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &285356082
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8041,7 +8036,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 291393805}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJ_Triangle.prefab
@@ -8306,8 +8301,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &299962784
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8438,7 +8432,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 304358801}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkLongCollision.prefab
@@ -8601,7 +8595,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 308741943}
-  - component: {fileID: 308741942}
+  - component: {fileID: 308741944}
   m_Layer: 0
   m_Name: 'HOLDER: Stage Count Toggle Obj'
   m_TagString: Untagged
@@ -8609,23 +8603,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &308741942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 308741941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  address: RoR2/Base/Common/Props/RescueshipBroken1.prefab
-  setPositionAndRotationToZero: 0
-  useLocalPositionAndRotation: 1
-  refreshInEditor: 1
-  hasNetworkIdentity: 0
 --- !u!4 &308741943
 Transform:
   m_ObjectHideFlags: 0
@@ -8641,6 +8618,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: -7.7900004, y: 160.48601, z: -20.931002}
+--- !u!114 &308741944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308741941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  address: RoR2/Base/Common/Props/RescueshipBroken1.prefab
+  setPositionAndRotationToZero: 0
+  useLocalPositionAndRotation: 1
+  refreshInEditor: 1
+  hasNetworkIdentity: 0
 --- !u!1001 &311177382
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9073,8 +9067,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &319038073
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9662,8 +9655,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &349524583
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10445,7 +10437,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 367883161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -10767,7 +10759,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 380662827}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -10920,8 +10912,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &381836455
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11107,7 +11098,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 382710815}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31d3e89c943cf484f8242934a3f71b2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b3f6bc89640549408c2a4c5f9a7d0f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   surfaceDefAddress: RoR2/Base/Common/sdDirt.asset
@@ -11152,7 +11143,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 385031780}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
@@ -11456,8 +11447,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &396498604
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11691,7 +11681,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 398553641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31d3e89c943cf484f8242934a3f71b2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b3f6bc89640549408c2a4c5f9a7d0f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   surfaceDefAddress: RoR2/Base/Common/sdDirt.asset
@@ -11736,7 +11726,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 401717139}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/GL_EelSkeleton.prefab
@@ -11937,8 +11927,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &403117776
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17358,7 +17347,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 417888156}
-  - component: {fileID: 417888157}
+  - component: {fileID: 417888158}
   m_Layer: 0
   m_Name: Moss (6)
   m_TagString: Untagged
@@ -17381,7 +17370,7 @@ Transform:
   m_Father: {fileID: 1752204568}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -29.762001, z: 0}
---- !u!114 &417888157
+--- !u!114 &417888158
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17390,7 +17379,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 417888155}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/spmDanglingMossCluster.spm
@@ -18566,8 +18555,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &447023751
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19282,7 +19270,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 471033919}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -19451,7 +19439,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 474691455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -19680,7 +19668,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 485835553}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkStumpCollision.prefab
@@ -19932,7 +19920,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 500549232}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -20268,7 +20256,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 506590507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -20445,7 +20433,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 512055336}
-  - component: {fileID: 512055337}
+  - component: {fileID: 512055338}
   m_Layer: 0
   m_Name: Moss (2)
   m_TagString: Untagged
@@ -20468,7 +20456,7 @@ Transform:
   m_Father: {fileID: 1752204568}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -29.762001, z: 0}
---- !u!114 &512055337
+--- !u!114 &512055338
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20477,7 +20465,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 512055335}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/spmDanglingMossCluster.spm
@@ -20607,8 +20595,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &515720303
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21090,7 +21077,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 526168506}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31d3e89c943cf484f8242934a3f71b2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b3f6bc89640549408c2a4c5f9a7d0f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   surfaceDefAddress: RoR2/Base/Common/sdDirt.asset
@@ -21216,8 +21203,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &531667322
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21482,7 +21468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 535608086}
   - component: {fileID: 535608087}
-  - component: {fileID: 535608088}
+  - component: {fileID: 535608092}
   - component: {fileID: 535608090}
   - component: {fileID: 535608091}
   - component: {fileID: 535608089}
@@ -21521,21 +21507,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10, y: 10, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &535608088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 535608085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5562c1cb54aff534ea43bff540f5869b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  address: RoR2/Base/Common/sdWater.asset
-  targetComponent: {fileID: 535608089}
-  targetMemberInfoName: (SurfaceDefProvider) surfaceDef
 --- !u!114 &535608089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21576,6 +21547,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   elevation: 245
   antiGravCoeff: 0.6
+--- !u!114 &535608092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535608085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bbfee4d9ab2a2744b203e7e08720110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  address: RoR2/Base/Common/sdWater.asset
+  targetComponent: {fileID: 535608089}
+  targetMemberInfoName: 
 --- !u!1001 &535785612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21692,7 +21678,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 536374679}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -22953,7 +22939,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 566642372}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -23385,8 +23371,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &586559703
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23555,7 +23540,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 588032527}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -23738,7 +23723,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 593069720}
-  - component: {fileID: 593069721}
+  - component: {fileID: 593069722}
   m_Layer: 0
   m_Name: Moss (4)
   m_TagString: Untagged
@@ -23761,7 +23746,7 @@ Transform:
   m_Father: {fileID: 1752204568}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -29.762001, z: 0}
---- !u!114 &593069721
+--- !u!114 &593069722
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23770,7 +23755,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 593069719}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/spmDanglingMossCluster.spm
@@ -24551,8 +24536,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &608289444
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24664,8 +24648,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &608933288
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24880,8 +24863,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &609875587
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24975,8 +24957,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &612022261
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25082,7 +25063,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 613806918}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -25131,7 +25112,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 614131466}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJ_Triangle.prefab
@@ -25370,7 +25351,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 624855721}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -25419,7 +25400,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 625019028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -25628,8 +25609,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &635051864
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25717,7 +25697,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 650098210}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -25766,7 +25746,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 651555855}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/NewtStatue/NewtStatue.prefab
@@ -26338,8 +26318,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &675929948
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26900,7 +26879,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 694107065}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -26949,7 +26928,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 704138298}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/skymeadow/SM_Vine2.prefab
@@ -27125,7 +27104,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 705974546}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJDistantTreeFoliage.st
@@ -27340,7 +27319,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 712160512}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -27389,7 +27368,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 716596409}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
@@ -27438,7 +27417,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 725763132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -27493,8 +27472,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &726061128
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27600,7 +27578,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 729967405}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkStumpCollision.prefab
@@ -27681,7 +27659,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 731265318}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkStumpCollision.prefab
@@ -28098,7 +28076,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 739657589}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
@@ -28621,7 +28599,7 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   useCallbacks: 0
   Callbacks: []
-  playingId: 387
+  playingId: 0
   soundEmitterObject: {fileID: 746475244}
   transitionDuration: 0
   eventIdInternal: 0
@@ -28968,8 +28946,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &752808255
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29081,8 +29058,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &753066934
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29188,7 +29164,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 761313473}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJDistantTreeFoliage.st
@@ -29354,7 +29330,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 766061629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/TimedChest/TimedChest.prefab
@@ -29607,8 +29583,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &774351923
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29714,7 +29689,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 776566664}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -29763,7 +29738,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 777352339}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJ_Triangle.prefab
@@ -29994,7 +29969,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 783438142}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -30581,7 +30556,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 800821327}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -31059,7 +31034,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 813609411}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/NewtStatue/NewtStatue.prefab
@@ -31389,7 +31364,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 824974034}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkLongCollision.prefab
@@ -31406,6 +31381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 832834234}
+  - component: {fileID: 832834236}
   - component: {fileID: 832834235}
   m_Layer: 0
   m_Name: Moss (5)
@@ -31438,11 +31414,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 832834233}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/spmDanglingMossCluster.spm
   setPositionAndRotationToZero: 0
+  useLocalPositionAndRotation: 1
+  refreshInEditor: 1
+  hasNetworkIdentity: 0
+--- !u!114 &832834236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832834233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  address: 
+  setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
   hasNetworkIdentity: 0
@@ -31519,7 +31512,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 835962410}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -31869,7 +31862,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 855273386}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31d3e89c943cf484f8242934a3f71b2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b3f6bc89640549408c2a4c5f9a7d0f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   surfaceDefAddress: RoR2/Base/Common/sdDirt.asset
@@ -31957,7 +31950,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 857167622}
-  - component: {fileID: 857167623}
+  - component: {fileID: 857167624}
   m_Layer: 0
   m_Name: GameObject (1)
   m_TagString: Untagged
@@ -31980,7 +31973,7 @@ Transform:
   m_Father: {fileID: 1189350606}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -72.961006, z: 0}
---- !u!114 &857167623
+--- !u!114 &857167624
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -31989,7 +31982,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 857167621}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTree.spm
@@ -32044,8 +32037,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &858539746
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32456,7 +32448,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 863912419}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
@@ -33232,7 +33224,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 886535659}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -33870,7 +33862,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 909956978}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJ_Triangle.prefab
@@ -34562,8 +34554,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &922577950
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35147,7 +35138,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 935365834}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31d3e89c943cf484f8242934a3f71b2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b3f6bc89640549408c2a4c5f9a7d0f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   surfaceDefAddress: RoR2/Base/Common/sdDirt.asset
@@ -35192,7 +35183,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 941206121}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkLongCollision.prefab
@@ -35908,8 +35899,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &953623607
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36140,8 +36130,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &959178638
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36779,7 +36768,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 971622926}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -37157,8 +37146,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &983403040
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37264,7 +37252,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 984199390}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkStumpCollision.prefab
@@ -37319,8 +37307,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &986051958
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37872,7 +37859,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 999342513}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/skymeadow/SM_Vine2.prefab
@@ -38025,8 +38012,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1002234287
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38082,7 +38068,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1004435852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJ_Triangle.prefab
@@ -38799,8 +38785,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1023894740
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39077,7 +39062,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1034480866}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJ_Triangle.prefab
@@ -39355,7 +39340,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1050079401}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -39670,8 +39655,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1058671944
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40131,7 +40115,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1073050176}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -40255,7 +40239,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1078402881}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -40387,7 +40371,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1083823643}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -40594,7 +40578,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1089241183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJ_Triangle.prefab
@@ -41159,7 +41143,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1121288410}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -41291,7 +41275,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1122996964}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTowerTreeFoliage.st
@@ -41421,8 +41405,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1124934512
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41624,7 +41607,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1149659804}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -41904,8 +41887,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1160829832
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42476,7 +42458,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1172837565}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -43223,7 +43205,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1186590104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -43307,7 +43289,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1194780576}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/GL_EelSkeleton.prefab
@@ -43356,7 +43338,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1195682128}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -43405,7 +43387,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1202127499}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -43725,8 +43707,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1211286454
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43913,8 +43894,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1215130295
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44116,8 +44096,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1216841979
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45234,7 +45213,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1254668342}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -45364,8 +45343,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1256145434
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45674,8 +45652,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1270389342
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45867,7 +45844,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1272358149}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/TimedChest/TimedChest.prefab
@@ -45916,7 +45893,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1274546754}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -46262,7 +46239,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1286063574}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -46603,7 +46580,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1293882039}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkMediumCollision.prefab
@@ -46816,8 +46793,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1300052272
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46923,7 +46899,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1300212842}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
@@ -47246,8 +47222,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1305126566
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47699,7 +47674,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1317046019}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -48297,8 +48272,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1325720864
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48670,7 +48644,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1336026540}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTowerTreeFoliage.st
@@ -48809,7 +48783,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1336528538}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSTreeTrunkStumpCollision.prefab
@@ -48935,7 +48909,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1345274038}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31d3e89c943cf484f8242934a3f71b2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b3f6bc89640549408c2a4c5f9a7d0f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   surfaceDefAddress: RoR2/Base/Common/sdDirt.asset
@@ -49227,8 +49201,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1361429414
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49525,8 +49498,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1369634170
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49893,7 +49865,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1380516636}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
@@ -50128,8 +50100,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1385270237
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -51086,7 +51057,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1403830330}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/spmDanglingMossCluster.spm
@@ -51423,7 +51394,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1424731995}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -51976,7 +51947,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1441271190}
-  - component: {fileID: 1441271191}
+  - component: {fileID: 1441271192}
   m_Layer: 0
   m_Name: Moss (3)
   m_TagString: Untagged
@@ -51999,7 +51970,7 @@ Transform:
   m_Father: {fileID: 1752204568}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -29.762001, z: 0}
---- !u!114 &1441271191
+--- !u!114 &1441271192
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -52008,7 +51979,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1441271189}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/spmDanglingMossCluster.spm
@@ -52362,7 +52333,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1453884540}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
@@ -52449,8 +52420,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1454941731
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -52725,7 +52695,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1459997158}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
@@ -52774,7 +52744,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1463996020}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -53435,7 +53405,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1503125742}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -53733,7 +53703,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1510930242}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -53978,8 +53948,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1522852320
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -54521,8 +54490,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1533323880
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -54983,7 +54951,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1543704654}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -55209,7 +55177,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1551834158}
-  - component: {fileID: 1551834159}
+  - component: {fileID: 1551834160}
   m_Layer: 0
   m_Name: Moss (1)
   m_TagString: Untagged
@@ -55232,7 +55200,7 @@ Transform:
   m_Father: {fileID: 1752204568}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -29.762001, z: 0}
---- !u!114 &1551834159
+--- !u!114 &1551834160
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55241,7 +55209,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1551834157}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/spmDanglingMossCluster.spm
@@ -55290,7 +55258,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1554598515}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -55741,8 +55709,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1561631824
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -55848,7 +55815,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1572817157}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
@@ -55865,7 +55832,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1574108659}
-  - component: {fileID: 1574108660}
+  - component: {fileID: 1574108661}
   m_Layer: 0
   m_Name: GameObject (2)
   m_TagString: Untagged
@@ -55888,7 +55855,7 @@ Transform:
   m_Father: {fileID: 1189350606}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1574108660
+--- !u!114 &1574108661
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55897,7 +55864,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1574108658}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTree.spm
@@ -55994,8 +55961,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1577445640
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56253,7 +56219,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1583086571}
-  - component: {fileID: 1583086572}
+  - component: {fileID: 1583086573}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -56276,7 +56242,7 @@ Transform:
   m_Father: {fileID: 1189350606}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1583086572
+--- !u!114 &1583086573
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56285,7 +56251,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1583086570}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTree.spm
@@ -56682,7 +56648,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1589396108}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -56812,8 +56778,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1590573268
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57208,7 +57173,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1599725950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -57441,8 +57406,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1606760137
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57609,7 +57573,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1609369700}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -57816,7 +57780,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1616514615}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -57865,7 +57829,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1622742069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -58068,7 +58032,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1627706577}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31d3e89c943cf484f8242934a3f71b2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b3f6bc89640549408c2a4c5f9a7d0f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   surfaceDefAddress: RoR2/Base/Common/sdDirt.asset
@@ -63266,7 +63230,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1650353076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJ_Triangle.prefab
@@ -63567,8 +63531,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1669491608
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64852,8 +64815,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1707811474
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64997,8 +64959,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1715206079
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -65699,7 +65660,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1740166664}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJ_Triangle.prefab
@@ -65823,7 +65784,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1742814652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -65872,7 +65833,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1743302271}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -66191,7 +66152,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1752022046}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -66287,8 +66248,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1753874550
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -66478,7 +66438,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1758050940}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJDistantTreeFoliage.st
@@ -66572,7 +66532,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1759479884}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJTowerTreeFoliage.st
@@ -67620,8 +67580,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1780052838
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -67970,7 +67929,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1785823685}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/TimedChest/TimedChest.prefab
@@ -68271,7 +68230,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1793592435}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
@@ -68384,7 +68343,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1803617435}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -68471,8 +68430,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1806144714
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -68842,7 +68800,7 @@ GameObject:
   - component: {fileID: 1823527346}
   - component: {fileID: 1823527345}
   - component: {fileID: 1823527344}
-  - component: {fileID: 1823527343}
+  - component: {fileID: 1823527349}
   m_Layer: 0
   m_Name: Director
   m_TagString: Untagged
@@ -68865,21 +68823,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1823527343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823527341}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5562c1cb54aff534ea43bff540f5869b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  address: RoR2/Base/Teleporters/iscTeleporter.asset
-  targetComponent: {fileID: 1823527346}
-  targetMemberInfoName: (SceneDirector) teleporterSpawnCard
 --- !u!114 &1823527344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69042,6 +68985,21 @@ MonoBehaviour:
     i15: 0
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &1823527349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823527341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bbfee4d9ab2a2744b203e7e08720110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  address: RoR2/Base/Teleporters/iscTeleporter.asset
+  targetComponent: {fileID: 1823527346}
+  targetMemberInfoName: (SceneDirector) teleporterSpawnCard
 --- !u!1001 &1827800915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69454,8 +69412,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1832619840
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -75107,7 +75064,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1864701786}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -75156,7 +75113,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1864826797}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/blackbeach/spmBbVine1.spm
@@ -75964,7 +75921,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1891206778}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/skymeadow/SM_Vine2.prefab
@@ -76128,7 +76085,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1895227098}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -76618,7 +76575,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1910885562}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
@@ -76667,7 +76624,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1911646567}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -76694,7 +76651,7 @@ GameObject:
   - component: {fileID: 1915712185}
   - component: {fileID: 1915712182}
   - component: {fileID: 1915712181}
-  - component: {fileID: 1915712180}
+  - component: {fileID: 1915712187}
   m_Layer: 0
   m_Name: BadToTheBone
   m_TagString: Untagged
@@ -76819,21 +76776,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   entity: {fileID: 1915712174}
   entityZoneIndex: 0
---- !u!114 &1915712180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1915712174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5562c1cb54aff534ea43bff540f5869b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  address: RoR2/Base/AltarSkeleton/matAltarSkeleton.mat
-  targetComponent: {fileID: 1915712182}
-  targetMemberInfoName: (Renderer) sharedMaterial
 --- !u!64 &1915712181
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -76956,6 +76898,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07377f86ff233834c9739b56ba80d106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1915712187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915712174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bbfee4d9ab2a2744b203e7e08720110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  address: RoR2/Base/AltarSkeleton/matAltarSkeleton.mat
+  targetComponent: {fileID: 1915712182}
+  targetMemberInfoName: (Renderer) sharedMaterial
 --- !u!1 &1916148426
 GameObject:
   m_ObjectHideFlags: 0
@@ -77003,8 +76960,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1916148430
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -77232,7 +77188,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1918129108}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/FSRootBundleLargeCollision.prefab
@@ -77471,7 +77427,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1923581464}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJDistantTreeFoliage.st
@@ -77906,8 +77862,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1952517257
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -78128,7 +78083,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1955540633}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -78382,7 +78337,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1963126698}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -78431,7 +78386,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1963151895}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/NewtStatue/NewtStatue.prefab
@@ -78865,7 +78820,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1976073547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -78885,7 +78840,7 @@ GameObject:
   - component: {fileID: 1976819451}
   - component: {fileID: 1976819450}
   - component: {fileID: 1976819449}
-  - component: {fileID: 1976819448}
+  - component: {fileID: 1976819452}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -78908,21 +78863,6 @@ Transform:
   m_Father: {fileID: 142333714}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1976819448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1976819446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5562c1cb54aff534ea43bff540f5869b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  address: RoR2/Base/blackbeach/matBbTerrain.mat
-  targetComponent: {fileID: 1976819450}
-  targetMemberInfoName: (Renderer) sharedMaterial
 --- !u!64 &1976819449
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -78987,6 +78927,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976819446}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1976819452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976819446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bbfee4d9ab2a2744b203e7e08720110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  address: RoR2/Base/blackbeach/matBbTerrain.mat
+  targetComponent: {fileID: 1976819450}
+  targetMemberInfoName: (Renderer) sharedMaterial
 --- !u!1 &1978674086
 GameObject:
   m_ObjectHideFlags: 0
@@ -79310,7 +79265,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1981605590}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -79365,8 +79320,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1981902298
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -79478,8 +79432,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1984670557
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -79591,8 +79544,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1987624208
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -80125,7 +80077,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2007171315}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/Props/spmTreeCollision.prefab
@@ -80180,8 +80132,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &2010940377
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -80287,7 +80238,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2012628788}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/NewtStatue/NewtStatue.prefab
@@ -80336,7 +80287,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2016378654}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJDistantTreeFoliage.st
@@ -80902,8 +80853,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &2028313881
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -81366,8 +81316,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &2038765159
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -81983,7 +81932,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2058847114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/goolake/spmGlBamboo1.spm
@@ -82038,8 +81987,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &2059077260
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -82228,7 +82176,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2062344299}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -82462,8 +82410,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &2066429514
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -82986,7 +82933,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2075812830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/dampcave/spmDCFern1.spm
@@ -83208,8 +83155,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &2090245417
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -83715,8 +83661,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &2116544271
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -83822,7 +83767,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2116864891}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/rootjungle/RJDistantTreeFoliage.st
@@ -83953,8 +83898,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &2119112797
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -84157,8 +84101,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &2129730225
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -84264,7 +84207,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2131307275}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/blackbeach/spmBbVine1.spm
@@ -84567,8 +84510,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 7317754273265066030, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &186810090209029368
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -84807,8 +84749,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!4 &862780035920680894
 Transform:
   m_ObjectHideFlags: 0
@@ -84856,8 +84797,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &919132148368735990
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -84904,7 +84844,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 919132149030706767}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31d3e89c943cf484f8242934a3f71b2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b3f6bc89640549408c2a4c5f9a7d0f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   surfaceDefAddress: RoR2/Base/Common/sdDirt.asset
@@ -84998,8 +84938,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 7317754273265066030, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &1717106533308582000
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -85777,8 +85716,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &3576130905315877470
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -85825,8 +85763,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 7317754273265066030, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &3580729904381033873
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -85873,8 +85810,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 7317754273265066030, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &3610677170167244491
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -85990,7 +85926,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4579975879221285750}
-  - component: {fileID: 3802312863912544717}
+  - component: {fileID: 4579975879221285751}
   m_Layer: 11
   m_Name: MdlBones
   m_TagString: Untagged
@@ -85998,19 +85934,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3802312863912544717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3802312863912544716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31d3e89c943cf484f8242934a3f71b2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  surfaceDefAddress: RoR2/Base/Common/sdStone.asset
 --- !u!4 &3874423951863342344
 Transform:
   m_ObjectHideFlags: 0
@@ -86155,8 +86078,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 7317754273265066030, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &4104257729301494641
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -86203,8 +86125,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &4163519798410175710
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -86321,6 +86242,19 @@ Transform:
   m_Father: {fileID: 307384844}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4579975879221285751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3802312863912544716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b3f6bc89640549408c2a4c5f9a7d0f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceDefAddress: RoR2/Base/Common/sdDirt.asset
 --- !u!33 &5334037120271902990
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -86407,8 +86341,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 7317754273265066030, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &6332267661090471023
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -86497,8 +86430,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 7317754273265066030, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &6671190217523656045
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -87019,8 +86951,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!64 &8201271194276173969
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -87075,8 +87006,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!33 &8494124548305060450
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -87159,8 +87089,7 @@ MonoBehaviour:
   m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceDef: {fileID: 2328346994976287871, guid: 00000000000000000000000000000000,
-    type: 0}
+  surfaceDef: {fileID: 0}
 --- !u!4 &8834677214907318836
 Transform:
   m_ObjectHideFlags: 0

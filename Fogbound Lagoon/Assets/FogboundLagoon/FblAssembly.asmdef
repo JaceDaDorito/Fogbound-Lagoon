@@ -26,7 +26,9 @@
         "AK.Wwise.Unity.API.dll",
         "AK.Wwise.Unity.API.WwiseTypes.dll",
         "AK.Wwise.Unity.MonoBehaviour.dll",
-        "AK.Wwise.Unity.Timeline.dll"
+        "AK.Wwise.Unity.Timeline.dll",
+        "ShaderSwapper.dll",
+        "R2API.Stages.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],

@@ -30,7 +30,7 @@ namespace FBLStage
 
         public const string Name = nameof(FBLStage);
 
-        public const string Version = "1.1.0";
+        public const string Version = "1.1.4";
 
         public const string GUID = Author + "." + Name;
 
@@ -49,9 +49,6 @@ namespace FBLStage
 
             ContentManager.collectContentPackProviders += GiveToRoR2OurContentPackProviders;
 
-            /*if (Chainloader.PluginInfos.ContainsKey("com.TeamMoonstorm.MoonstormSharedUtils"))
-                AddSceneBlacklist();*/
-
             Language.collectLanguageRootFolders += CollectLanguageRootFolders;
         }
 
@@ -59,15 +56,6 @@ namespace FBLStage
         {
             Language.collectLanguageRootFolders -= CollectLanguageRootFolders;
         }
-
-        
-
-        /*[MethodImpl(MethodImplOptions.NoInlining | MethodImplOptions.NoOptimization)]
-        private void AddSceneBlacklist()
-        {
-            //This is Temporary
-            Moonstorm.Components.SetupWeatherController.blacklistedScenes.Add("FBLScene");
-        }*/
 
         private static void GiveToRoR2OurContentPackProviders(ContentManager.AddContentPackProviderDelegate addContentPackProvider)
         {
@@ -83,15 +71,9 @@ namespace FBLStage
         {
             dlcPool =
                 base.Config.Bind<bool>("Monster Pool Settings",
-                                       "SoTV DLC Pool",
+                                       "DLC Monster pools",
                                        true,
                                        "If you want to play with the non-DLC monster pool without turning off the DLC, set this to false. This doesn't effect void seeds or the void enemies that spawn out of them.");
-
-            legacyPool =
-                base.Config.Bind<bool>("Monster Pool Settings",
-                                       "Legacy Pool",
-                                       false,
-                                       "If you want to keep the monster pool prior to version 1.1.0, set this to true. If the DLC pool is also set to false you can play the legacy non-DLC pool.");
         }
     }
 }
