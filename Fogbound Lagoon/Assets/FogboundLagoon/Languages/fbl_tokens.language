@@ -25,7 +25,7 @@
 		"FBL_FAMILY_BLIND": "<style=cWorldEvent>[ВНИМАНИЕ] Вы вторглись в земли буйного размножения..</style>"
 		
 	},
-	"UA": {
+	"uk": {
 	"FOGBOUND_SCENEDEF_NAME_TOKEN": "Туманна лагуна",
 	"FOGBOUND_SCENEDEF_SUBTITLE_TOKEN": "Похмурі мілини",
 	"BAZAAR_SEER_FBLSCENE": "<style=cWorldEvent>Ви мрієте про задуху.</style>",
