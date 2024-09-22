@@ -5,7 +5,6 @@ using System.Security.Permissions;
 using BepInEx;
 using FBLStage.Content;
 using RoR2.ContentManagement;
-using FBLStage.Utils;
 using UnityEngine;
 using RoR2;
 using System.Linq;

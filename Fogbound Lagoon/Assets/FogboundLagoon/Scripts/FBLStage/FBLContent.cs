@@ -7,7 +7,6 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.Networking;
 using UnityEngine.ResourceManagement.AsyncOperations;
-using FBLStage.Utils;
 using RoR2.ExpansionManagement;
 using System.Collections.Generic;
 using RoR2.Networking;
@@ -30,11 +29,7 @@ namespace FBLStage.Content
         private static AssetBundle _assetsAssetBundle;
 
         internal static UnlockableDef[] UnlockableDefs;
-        internal static SlipDccs[] SlipDccsArray;
-        internal static SlipFamilyDccs[] SlipFamilyArray;
-        internal static SlipDccsPool[] SlipDccsPoolsArray;
         private static string baseDPMonsterString = "dpFBLMonsters";
-        internal static SlipDccsPool monsterDP;
         internal static SceneDef[] SceneDefs;
 
         internal static SceneDef FBLSceneDef;
@@ -94,7 +89,7 @@ namespace FBLStage.Content
                 contentPack.unlockableDefs.Add(assets);
             }));
 
-            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipDccs[]>)((assets) =>
+            /*yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipDccs[]>)((assets) =>
             {
                 SlipDccsArray = assets;
             }));
@@ -111,7 +106,7 @@ namespace FBLStage.Content
                 {
                     if (baseDPMonsterString == SlipDccsPoolsArray[i].name) monsterDP = SlipDccsPoolsArray[i];
                 }
-            }));
+            }));*/
 
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<Sprite[]>)((assets) =>
             {

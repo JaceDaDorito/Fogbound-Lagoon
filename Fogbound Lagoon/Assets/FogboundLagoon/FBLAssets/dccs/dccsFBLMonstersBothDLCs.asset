@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 140337805, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: dccsBlindFamily
+  m_Script: {fileID: 2099981080, guid: 45feadaaa90b2d2217207fb8b533753e, type: 3}
+  m_Name: dccsFBLMonstersBothDLCs
   m_EditorClassIdentifier: 
+  targetCardCategorySelection: {fileID: 11400000, guid: 3e925448a35ffed40ab76fca26ef93f3,
+    type: 2}
   categories: []
-  selectionChatString: FBL_FAMILY_BLIND
-  minimumStageCompletion: 1
-  maximumStageCompletion: 2147483647
