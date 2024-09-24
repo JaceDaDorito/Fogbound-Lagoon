@@ -21458,12 +21458,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 535608085}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bbfee4d9ab2a2744b203e7e08720110, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b3f6bc89640549408c2a4c5f9a7d0f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  address: RoR2/Base/Common/sdWater.asset
-  targetComponent: {fileID: 535608089}
-  targetMemberInfoName: 
+  surfaceDefAddress: RoR2/Base/Common/sdWater.asset
 --- !u!1001 &535785612
 PrefabInstance:
   m_ObjectHideFlags: 0

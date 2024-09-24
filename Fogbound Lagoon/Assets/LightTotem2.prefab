@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 248191366700585410}
   - component: {fileID: 248191366700585411}
   - component: {fileID: 248191366700585420}
-  - component: {fileID: 8330014990245791323}
+  - component: {fileID: 5130880688174620596}
   m_Layer: 11
   m_Name: BbRuinMarker_LOD0
   m_TagString: Untagged
@@ -404,7 +404,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 9bc3d0061878e514ab83cc226a1d4c70, type: 2}
---- !u!114 &8330014990245791323
+--- !u!114 &5130880688174620596
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -413,7 +413,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 248191366700585423}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5562c1cb54aff534ea43bff540f5869b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bbfee4d9ab2a2744b203e7e08720110, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   address: RoR2/Base/Common/TrimSheets/matTrimSheetGrassyRuinsProjected.mat

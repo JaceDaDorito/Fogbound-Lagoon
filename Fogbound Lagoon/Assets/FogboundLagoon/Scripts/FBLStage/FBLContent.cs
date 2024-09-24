@@ -123,12 +123,12 @@ namespace FBLStage.Content
 
             FBLSceneDef.portalMaterial = R2API.StageRegistration.MakeBazaarSeerMaterial((Texture2D)FBLSceneDef.previewTexture);
 
-            var mainTrackDefRequest = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/Base/Common/muFULLSong06.asset");
+            var mainTrackDefRequest = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/Base/Common/MusicTrackDefs/muFULLSong06.asset");
             while (!mainTrackDefRequest.IsDone)
             {
                 yield return null;
             }
-            var bossTrackDefRequest = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/Base/Common/muSong16.asset");
+            var bossTrackDefRequest = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/DLC2/Common/muSong_Lakes&HabitatBoss.asset");
             while (!bossTrackDefRequest.IsDone)
             {
                 yield return null;

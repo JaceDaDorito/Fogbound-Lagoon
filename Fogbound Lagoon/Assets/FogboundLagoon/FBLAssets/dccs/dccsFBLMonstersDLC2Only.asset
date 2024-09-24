@@ -14,4 +14,208 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetCardCategorySelection: {fileID: 11400000, guid: bb57b1b4e52759a4a95377babeb1c763,
     type: 2}
-  categories: []
+  categories:
+  - name: Champions
+    cards:
+    - spawnCard:
+        _asset: {fileID: 0}
+        _address: RoR2/Base/Vagrant/cscVagrant.asset
+        _useDirectReference: 0
+      selectionWeight: 1
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 0
+      requiredUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      forbiddenUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+    - spawnCard:
+        _asset: {fileID: 0}
+        _address: RoR2/Base/MagmaWorm/cscMagmaWorm.asset
+        _useDirectReference: 0
+      selectionWeight: 1
+      spawnDistance: 2
+      preventOverhead: 0
+      minimumStageCompletions: 0
+      requiredUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      forbiddenUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+    - spawnCard:
+        _asset: {fileID: 0}
+        _address: RoR2/Base/ImpBoss/cscImpBoss.asset
+        _useDirectReference: 0
+      selectionWeight: 1
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 0
+      requiredUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      forbiddenUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+    selectionWeight: 2
+  - name: Minibosses
+    cards:
+    - spawnCard:
+        _asset: {fileID: 0}
+        _address: RoR2/Base/Nullifier/cscNullifier.asset
+        _useDirectReference: 0
+      selectionWeight: 1
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 6
+      requiredUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      forbiddenUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+    - spawnCard:
+        _asset: {fileID: 0}
+        _address: RoR2/Base/Beetle/cscBeetleGuard.asset
+        _useDirectReference: 0
+      selectionWeight: 1
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 0
+      requiredUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      forbiddenUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+    - spawnCard:
+        _asset: {fileID: 0}
+        _address: RoR2/Base/Golem/cscGolemNature.asset
+        _useDirectReference: 0
+      selectionWeight: 1
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 0
+      requiredUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      forbiddenUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+    - spawnCard:
+        _asset: {fileID: 0}
+        _address: RoR2/Base/Bell/cscBell.asset
+        _useDirectReference: 0
+      selectionWeight: 1
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 0
+      requiredUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      forbiddenUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+    selectionWeight: 3
+  - name: Basic Monsters
+    cards:
+    - spawnCard:
+        _asset: {fileID: 0}
+        _address: RoR2/Base/Imp/cscImp.asset
+        _useDirectReference: 0
+      selectionWeight: 1
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 0
+      requiredUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      forbiddenUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+    - spawnCard:
+        _asset: {fileID: 0}
+        _address: RoR2/DLC2/Child/cscChild.asset
+        _useDirectReference: 0
+      selectionWeight: 1
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 0
+      requiredUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      forbiddenUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+    - spawnCard:
+        _asset: {fileID: 0}
+        _address: RoR2/Base/Jellyfish/cscJellyfish.asset
+        _useDirectReference: 0
+      selectionWeight: 1
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 0
+      requiredUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      forbiddenUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+    - spawnCard:
+        _asset: {fileID: 0}
+        _address: RoR2/Base/Vulture/cscVulture.asset
+        _useDirectReference: 0
+      selectionWeight: 1
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 0
+      requiredUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      forbiddenUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+    selectionWeight: 3
+  - name: Special
+    cards:
+    - spawnCard:
+        _asset: {fileID: 0}
+        _address: RoR2/Base/Scav/cscScav.asset
+        _useDirectReference: 0
+      selectionWeight: 1
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 5
+      requiredUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      forbiddenUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+    selectionWeight: 1
