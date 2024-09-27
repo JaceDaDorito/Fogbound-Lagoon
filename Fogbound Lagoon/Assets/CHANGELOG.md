@@ -1,4 +1,4 @@
-#1.1.4
+# 1.1.4
 - Updated for SoTS!
 - Updated the mod to use more modern apis. This mod should be a lot less awful to update in the future.
 - - Added R2API.Stages as a Dependency
@@ -11,6 +11,7 @@
 - Added config to remove underwater muffling.
 - Added unique SoTS monster pools.
 - - Added Children
+- Replaced teleporter theme with "A Tempestuous Noise of Thunder and Lightning Heard"
 
 # 1.1.3
 - Added Turkish, Japanese, and German language translations
