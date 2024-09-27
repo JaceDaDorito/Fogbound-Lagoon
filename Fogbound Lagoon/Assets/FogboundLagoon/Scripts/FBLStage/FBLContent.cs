@@ -29,7 +29,6 @@ namespace FBLStage.Content
         private static AssetBundle _assetsAssetBundle;
 
         internal static UnlockableDef[] UnlockableDefs;
-        private static string baseDPMonsterString = "dpFBLMonsters";
         internal static SceneDef[] SceneDefs;
 
         internal static SceneDef FBLSceneDef;
@@ -89,24 +88,15 @@ namespace FBLStage.Content
                 contentPack.unlockableDefs.Add(assets);
             }));
 
-            /*yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipDccs[]>)((assets) =>
+            if (!FBLStage.dlcPool.Value)
             {
-                SlipDccsArray = assets;
-            }));
-
-            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipFamilyDccs[]>)((assets) =>
-            {
-                SlipFamilyArray = assets;
-            }));
-
-            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SlipDccsPool[]>)((assets) =>
-            {
-                SlipDccsPoolsArray = assets;
-                for (int i = 0; i < SlipDccsPoolsArray.Length; i++)
+                yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<R2API.AddressableDCCSPool[]>)((assets) =>
                 {
-                    if (baseDPMonsterString == SlipDccsPoolsArray[i].name) monsterDP = SlipDccsPoolsArray[i];
-                }
-            }));*/
+                    var MonsterPool = assets.First(a => a.name == "dpFBLMonsters"); ;
+                    MonsterPool.poolCategories[0].includedIfConditionsMet = Array.Empty<AddressableDCCSPool.ConditionalPoolEntry>();
+                }));
+            }
+            
 
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<Sprite[]>)((assets) =>
             {

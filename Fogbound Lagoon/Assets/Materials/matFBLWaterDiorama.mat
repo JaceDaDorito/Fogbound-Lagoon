@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: matFBLWaterDiorama
-  m_Shader: {fileID: 4800000, guid: 680d7c7dc271ffa488f37d0bbd44bc93, type: 3}
+  m_Shader: {fileID: 4800000, guid: 0499a28ea96b9c746a9ef4fcfb48a37f, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _BUMPLARGE_ON

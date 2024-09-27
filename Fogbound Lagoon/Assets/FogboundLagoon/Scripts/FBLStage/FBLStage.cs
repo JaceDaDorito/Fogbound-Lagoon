@@ -36,7 +36,7 @@ namespace FBLStage
         public static FBLStage instance;
 
         public static ConfigEntry<bool> dlcPool;
-        public static ConfigEntry<bool> legacyPool;
+        public static ConfigEntry<bool> waterMuffle;
 
         private void Awake()
         {
@@ -73,6 +73,12 @@ namespace FBLStage
                                        "DLC Monster pools",
                                        true,
                                        "If you want to play with the non-DLC monster pool without turning off the DLC, set this to false. This doesn't effect void seeds or the void enemies that spawn out of them.");
+
+            waterMuffle =
+                base.Config.Bind<bool>("Audio Settings",
+                                       "Water Muffle",
+                                       true,
+                                       "Being underwater muffles your game.");
         }
     }
 }

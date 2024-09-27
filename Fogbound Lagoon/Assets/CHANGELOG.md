@@ -2,11 +2,14 @@
 - Updated for SoTS!
 - Updated the mod to use more modern apis. This mod should be a lot less awful to update in the future.
 - - Added R2API.Stages as a Dependency
+- - Added R2API.Director as a Dependency
 - - Added Locations of Precipitation as a Dependency
-- Removed blacklist for SS2 storms, report if there are any errors
+- Removed blacklist for SS2 storms, report if there are any errors. Visuals for it are not good but there will be proper compatibility soon.
 - Added LODs to some vfx
 - Removed legacy monster pools
-- Added unique SoTS monster pool
+- Added config to remove underwater muffling.
+- Added unique SoTS monster pools.
+- - Added Children
 
 # 1.1.3
 - Added Turkish, Japanese, and German language translations

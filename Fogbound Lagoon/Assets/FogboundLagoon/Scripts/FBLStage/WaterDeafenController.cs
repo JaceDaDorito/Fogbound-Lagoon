@@ -12,12 +12,12 @@ namespace FBLStage.Content
         
         void OnEnable()
         {
-            On.RoR2.MusicController.RecalculateHealth += MusicController_RecalculateHealth;
+            if(FBLStage.waterMuffle.Value) On.RoR2.MusicController.RecalculateHealth += MusicController_RecalculateHealth;
         }
 
         void OnDisable()
         {
-            On.RoR2.MusicController.RecalculateHealth -= MusicController_RecalculateHealth;
+            if (FBLStage.waterMuffle.Value) On.RoR2.MusicController.RecalculateHealth -= MusicController_RecalculateHealth;
         }
 
         private void MusicController_RecalculateHealth(On.RoR2.MusicController.orig_RecalculateHealth orig, RoR2.MusicController self, GameObject playerObject)

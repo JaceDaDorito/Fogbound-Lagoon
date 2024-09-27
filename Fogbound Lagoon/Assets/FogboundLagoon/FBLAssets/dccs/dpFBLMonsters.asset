@@ -15,10 +15,14 @@ MonoBehaviour:
   targetPool: {fileID: 11400000, guid: b32dcceee93d59447b5b970d96913366, type: 2}
   poolCategories:
   - name: Standard
-    categoryWeight: 1
+    categoryWeight: 0.98
     alwaysIncluded: []
     includedIfConditionsMet:
     - dccs: {fileID: 11400000, guid: 9b29464d8cefb824aabd1d024f9ab095, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
       weight: 1
       requiredExpansions:
       - _asset: {fileID: 0}
@@ -28,12 +32,20 @@ MonoBehaviour:
         _address: RoR2/DLC2/Common/DLC2.asset
         _useDirectReference: 0
     - dccs: {fileID: 11400000, guid: 73073f87955ffde4fa5db9bd83649377, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
       weight: 1
       requiredExpansions:
       - _asset: {fileID: 0}
         _address: RoR2/DLC1/Common/DLC1.asset
         _useDirectReference: 0
     - dccs: {fileID: 11400000, guid: 82f646367eaa51745b9f9098feadc0f5, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
       weight: 1
       requiredExpansions:
       - _asset: {fileID: 0}
@@ -41,4 +53,72 @@ MonoBehaviour:
         _useDirectReference: 0
     includedIfNoConditionsMet:
     - dccs: {fileID: 11400000, guid: 65235d823dcc8a741bb0b629b07d4cc4, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
       weight: 1
+  - name: Family
+    categoryWeight: 0.02
+    alwaysIncluded: []
+    includedIfConditionsMet:
+    - dccs: {fileID: 0}
+      familyDccs:
+        _asset: {fileID: 11400000, guid: 80bfc49cb8ff6804a8cd653a70baf4b0, type: 2}
+        _address: 
+        _useDirectReference: 0
+      weight: 1
+      requiredExpansions:
+      - _asset: {fileID: 0}
+        _address: RoR2/DLC1/Common/DLC1.asset
+        _useDirectReference: 0
+    - dccs: {fileID: 0}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: RoR2/DLC1/Common/dccsConstructFamily.asset
+        _useDirectReference: 0
+      weight: 1
+      requiredExpansions:
+      - _asset: {fileID: 0}
+        _address: RoR2/DLC1/Common/DLC1.asset
+        _useDirectReference: 0
+    - dccs: {fileID: 0}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: RoR2/Base/Common/dccsImpFamily.asset
+        _useDirectReference: 0
+      weight: 1
+      requiredExpansions: []
+    - dccs: {fileID: 0}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: RoR2/DLC1/Common/dccsAcidLarvaFamily.asset
+        _useDirectReference: 0
+      weight: 1
+      requiredExpansions:
+      - _asset: {fileID: 0}
+        _address: RoR2/DLC1/Common/DLC1.asset
+        _useDirectReference: 0
+    - dccs: {fileID: 0}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: RoR2/Base/Common/dccsGolemFamilyNature.asset
+        _useDirectReference: 0
+      weight: 1
+      requiredExpansions: []
+    includedIfNoConditionsMet: []
+  - name: VoidInvasion
+    categoryWeight: 0.02
+    alwaysIncluded: []
+    includedIfConditionsMet:
+    - dccs: {fileID: 0}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: RoR2/DLC1/Common/dccsVoidFamily.asset
+        _useDirectReference: 0
+      weight: 1
+      requiredExpansions:
+      - _asset: {fileID: 0}
+        _address: RoR2/DLC1/Common/DLC1.asset
+        _useDirectReference: 0
+    includedIfNoConditionsMet: []

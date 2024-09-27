@@ -131,7 +131,7 @@ Material:
     - _AlphaBoost: 1
     - _BlueChannelBias: 0
     - _BlueChannelSmoothness: 0
-    - _Boost: 1
+    - _Boost: 20
     - _BumpScale: 1
     - _CalcTextureAlphaOn: 0
     - _CloudOffsetOn: 0
