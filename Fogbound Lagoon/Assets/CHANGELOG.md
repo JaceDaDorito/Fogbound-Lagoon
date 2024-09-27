@@ -4,6 +4,7 @@
 - - Added R2API.Stages as a Dependency
 - - Added R2API.Director as a Dependency
 - - Added Locations of Precipitation as a Dependency
+- - Added ShaderSwapper as a Dependency
 - Removed blacklist for SS2 storms, report if there are any errors. Visuals for it are not good but there will be proper compatibility soon.
 - Added LODs to some vfx
 - Removed legacy monster pools
