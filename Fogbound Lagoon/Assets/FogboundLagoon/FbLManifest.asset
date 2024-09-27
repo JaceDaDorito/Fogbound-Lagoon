@@ -110,7 +110,7 @@ MonoBehaviour:
   Name: FogboundLagoon
   Description: I can't even see my reflection in the water... only those mysterious
     crimson lights...
-  Version: 1.1.4
+  Version: 1.1.5
   Dependencies:
   - {fileID: 11400000, guid: d7d8ed5ac59df8acbbc4983f1ebba079, type: 2}
   - {fileID: 11400000, guid: 48f050b3512173aba0a952f846a557fa, type: 2}

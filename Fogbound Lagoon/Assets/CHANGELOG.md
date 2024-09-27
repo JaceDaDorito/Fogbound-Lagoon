@@ -1,3 +1,7 @@
+# 1.1.5
+- Fixed Tri-shops from being bugged in the DLC interactable pool.
+- - Fixed Compatibility issues with other mods by extension.
+
 # 1.1.4
 - Updated for SoTS!
 - Updated the mod to use more modern apis. This mod should be a lot less awful to update in the future.

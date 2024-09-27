@@ -29,7 +29,7 @@ namespace FBLStage
 
         public const string Name = nameof(FBLStage);
 
-        public const string Version = "1.1.4";
+        public const string Version = "1.1.5";
 
         public const string GUID = Author + "." + Name;
 

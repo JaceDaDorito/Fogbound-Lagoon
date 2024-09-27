@@ -67,7 +67,7 @@ MonoBehaviour:
         _useDirectReference: 0
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/TripleShop/iscTripleShop.assetRoR2/Base/TripleShop/iscTripleShop.asset
+        _address: RoR2/Base/TripleShop/iscTripleShop.asset
         _useDirectReference: 0
       selectionWeight: 80
       spawnDistance: 0
