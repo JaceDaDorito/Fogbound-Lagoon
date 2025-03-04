@@ -28269,6 +28269,8 @@ MonoBehaviour:
   monsterDccsPool: {fileID: 11400000, guid: b32dcceee93d59447b5b970d96913366, type: 2}
   interactableDccsPool: {fileID: 11400000, guid: 484a4e67b7edfd94f8f11c619105d29e,
     type: 2}
+  contentSourceMixLimitOverride: 0
+  contentSourceMixLimitOverrideValue: 2
   sceneDirectorInteractibleCredits: 280
   sceneDirectorMonsterCredits: 100
   bonusInteractibleCreditObjects: []
@@ -28290,8 +28292,8 @@ MonoBehaviour:
   m_Script: {fileID: 1282871550, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundNodeGroup: {fileID: 860792208}
-  airNodeGroup: {fileID: 1066685191}
+  groundNodeGroup: {fileID: 0}
+  airNodeGroup: {fileID: 0}
   railNodeGroup: {fileID: 0}
   approximateMapBoundMesh: {fileID: 0}
   groundNodesAsset: {fileID: 11400000, guid: f773ee6111986df4898928be1036cd8c, type: 2}
@@ -31249,7 +31251,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 832834234}
-  - component: {fileID: 832834236}
   - component: {fileID: 832834235}
   m_Layer: 0
   m_Name: Moss (5)
@@ -31287,23 +31288,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   address: RoR2/Base/foggyswamp/spmDanglingMossCluster.spm
   setPositionAndRotationToZero: 0
-  useLocalPositionAndRotation: 1
-  refreshInEditor: 1
-  hasNetworkIdentity: 0
---- !u!114 &832834236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832834233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  address: 
-  setPositionAndRotationToZero: 1
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
   hasNetworkIdentity: 0
@@ -68731,6 +68715,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   combatSquad: {fileID: 0}
+  maxSquadCount: 0
   spawnEffectPrefab: {fileID: 0}
   ignoreTeamSizeLimit: 0
   _monsterCards: {fileID: 0}
@@ -68776,6 +68761,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   combatSquad: {fileID: 0}
+  maxSquadCount: 0
   spawnEffectPrefab: {fileID: 0}
   ignoreTeamSizeLimit: 0
   _monsterCards: {fileID: 0}

@@ -16,14 +16,22 @@ MonoBehaviour:
   poolCategories:
   - name: 
     categoryWeight: 1
-    alwaysIncluded: []
+    alwaysIncluded:
+    - dccs: {fileID: 11400000, guid: 6be35da8baa58f54cb54c55588eb3113, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      weight: 0
     includedIfConditionsMet:
     - dccs: {fileID: 11400000, guid: 63b872e0dead1fa4c93cb2b1fb2e58b8, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
       weight: 1
       requiredExpansions:
       - _asset: {fileID: 0}
         _address: RoR2/DLC1/Common/DLC1.asset
         _useDirectReference: 0
-    includedIfNoConditionsMet:
-    - dccs: {fileID: 11400000, guid: 6be35da8baa58f54cb54c55588eb3113, type: 2}
-      weight: 1
+    includedIfNoConditionsMet: []

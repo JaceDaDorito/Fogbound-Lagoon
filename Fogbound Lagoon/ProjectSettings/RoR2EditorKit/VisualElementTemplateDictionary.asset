@@ -21,3 +21,7 @@ MonoBehaviour:
     _hexRepresentation: d8821e738f95f48498530303e90d440d
   - k_templateName: MapNodeGroupInspector
     _hexRepresentation: b345abf5b27531443ba58f574bc59102
+  - k_templateName: ShaderDictionary
+    _hexRepresentation: eb748256c0573e64aa147f2339196579
+  - k_templateName: EditorSettingsElement
+    _hexRepresentation: 265068b42b0081049b3077b0c70c968f

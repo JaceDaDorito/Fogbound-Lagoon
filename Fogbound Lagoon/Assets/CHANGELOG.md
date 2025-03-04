@@ -1,3 +1,13 @@
+# 1.1.6
+- Fixed a duplicate entry for Utility chests.
+- Added Casino Chests
+- Updated the mod's DCCS to reflect the new DCCS system in 1.3.7.
+- - Monster pools are no longer exclusive
+- - Vagrants and Xi will spawn together
+- - Gup and Beetle Guards will spawn together
+- - Vultures and Larva will spawn together
+- - Lemurians and Alpha Constructs will spawn together
+
 # 1.1.5
 - Fixed Tri-shops from being bugged in the DLC interactable pool.
 - - Fixed Compatibility issues with other mods by extension.

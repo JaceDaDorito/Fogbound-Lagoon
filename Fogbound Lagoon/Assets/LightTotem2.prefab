@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 248191366076627832}
   - component: {fileID: 248191366076627833}
   - component: {fileID: 248191366076627834}
-  - component: {fileID: 8395641826072783364}
+  - component: {fileID: 5424951626792749305}
   m_Layer: 11
   m_Name: BbRuinBowl_LOD0
   m_TagString: Untagged
@@ -193,7 +193,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 9328223c6019e564f8b1d996711e44b6, type: 2}
---- !u!114 &8395641826072783364
+--- !u!114 &5424951626792749305
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 248191366700585410}
   - component: {fileID: 248191366700585411}
   - component: {fileID: 248191366700585420}
-  - component: {fileID: 5130880688174620596}
+  - component: {fileID: 3603149645136665049}
   m_Layer: 11
   m_Name: BbRuinMarker_LOD0
   m_TagString: Untagged
@@ -404,7 +404,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 9bc3d0061878e514ab83cc226a1d4c70, type: 2}
---- !u!114 &5130880688174620596
+--- !u!114 &3603149645136665049
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

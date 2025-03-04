@@ -68,5 +68,5 @@ MonoBehaviour:
   - {fileID: -9142004896743524884}
   - {fileID: -3576180096776599551}
   - {fileID: -216652644370084839}
-  QuickAccess: 0
+  QuickAccess: 1
   manifest: {fileID: 11400000, guid: 08ecbd0f0c5a8e240999b75093e1721d, type: 2}

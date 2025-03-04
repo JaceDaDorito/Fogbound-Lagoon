@@ -221,6 +221,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "riskofthunder-r2api_proctype": {
+      "version": "file:R2API_ProcType",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "riskofthunder-r2api_recalculatestats": {
       "version": "file:R2API_RecalculateStats",
       "depth": 0,
@@ -235,6 +241,12 @@
     },
     "riskofthunder-r2api_sceneasset": {
       "version": "file:R2API_SceneAsset",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "riskofthunder-r2api_skills": {
+      "version": "file:R2API_Skills",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
