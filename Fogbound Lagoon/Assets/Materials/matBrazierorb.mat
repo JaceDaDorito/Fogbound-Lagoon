@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: matBrazierorb
-  m_Shader: {fileID: 4800000, guid: 0d4838f326dd67140acbf335e7b3bffa, type: 3}
+  m_Shader: {fileID: 4800000, guid: 2f0be783e58ebc540a22d193bad24e7b, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
   - CLOUDOFFSET

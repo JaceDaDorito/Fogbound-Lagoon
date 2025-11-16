@@ -19,7 +19,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/DLC1/CategoryChest2/iscCategoryChest2Utility.asset
+        _address: 297a8d276224cb4429a9d1df8c3749a6
         _useDirectReference: 0
       selectionWeight: 3
       spawnDistance: 0
@@ -38,7 +38,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/DLC1/VoidChest/iscVoidChest.asset
+        _address: 1ac364f22c6dbf846afee12052e0f878
         _useDirectReference: 0
       selectionWeight: 15
       spawnDistance: 0
@@ -54,7 +54,7 @@ MonoBehaviour:
         _useDirectReference: 0
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/DLC1/VoidCamp/iscVoidCamp.asset
+        _address: dd4812090f7808b4b95d387977f4efe3
         _useDirectReference: 0
       selectionWeight: 7
       spawnDistance: 0

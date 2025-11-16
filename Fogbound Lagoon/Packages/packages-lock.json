@@ -13,7 +13,7 @@
       "dependencies": {
         "com.unity.scriptablebuildpipeline": "1.16.1"
       },
-      "hash": "2f048021a13d98a8600898a6f4203cfe18554f36"
+      "hash": "5012c9132d282d3e57446779936a43e72533b3f7"
     },
     "com.unity.editorcoroutines": {
       "version": "1.0.0",
@@ -39,7 +39,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.multiplayer-hlapi": {
-      "version": "https://github.com/risk-of-thunder/UnityMultiplayerHLAPI.git",
+      "version": "https://github.com/risk-of-thunder/UnityMultiplayerHLAPI.git#1.1.1",
       "depth": 0,
       "source": "git",
       "dependencies": {},
@@ -79,6 +79,18 @@
     },
     "mmhook-assemblies": {
       "version": "file:mmhook-assemblies",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "nebby-loadingscreenspritefix": {
+      "version": "file:LoadingScreenSpriteFix",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "pseudopulse-seekerspatcher": {
+      "version": "file:SeekersPatcher",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
@@ -125,12 +137,6 @@
       "source": "embedded",
       "dependencies": {}
     },
-    "riskofthunder-r2api_commandhelper": {
-      "version": "file:R2API_CommandHelper",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "riskofthunder-r2api_contentmanagement": {
       "version": "file:R2API_ContentManagement",
       "depth": 0,
@@ -145,18 +151,6 @@
     },
     "riskofthunder-r2api_damagetype": {
       "version": "file:R2API_DamageType",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_deployable": {
-      "version": "file:R2API_Deployable",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_difficulty": {
-      "version": "file:R2API_Difficulty",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
@@ -179,86 +173,14 @@
       "source": "embedded",
       "dependencies": {}
     },
-    "riskofthunder-r2api_items": {
-      "version": "file:R2API_Items",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_language": {
-      "version": "file:R2API_Language",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_loadout": {
-      "version": "file:R2API_Loadout",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_lobbyconfig": {
-      "version": "file:R2API_LobbyConfig",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "riskofthunder-r2api_networking": {
       "version": "file:R2API_Networking",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
     },
-    "riskofthunder-r2api_orb": {
-      "version": "file:R2API_Orb",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_prefab": {
-      "version": "file:R2API_Prefab",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_proctype": {
-      "version": "file:R2API_ProcType",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "riskofthunder-r2api_recalculatestats": {
       "version": "file:R2API_RecalculateStats",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_rulebook": {
-      "version": "file:R2API_Rulebook",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_sceneasset": {
-      "version": "file:R2API_SceneAsset",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_skills": {
-      "version": "file:R2API_Skills",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_skins": {
-      "version": "file:R2API_Skins",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_sound": {
-      "version": "file:R2API_Sound",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
@@ -275,18 +197,6 @@
       "source": "embedded",
       "dependencies": {}
     },
-    "riskofthunder-r2api_tempvisualeffect": {
-      "version": "file:R2API_TempVisualEffect",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_unlockable": {
-      "version": "file:R2API_Unlockable",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "riskofthunder-ror2bepinexpack": {
       "version": "file:RoR2BepInExPack",
       "depth": 0,
@@ -294,23 +204,29 @@
       "dependencies": {}
     },
     "riskofthunder-ror2editorkit": {
-      "version": "https://github.com/risk-of-thunder/RoR2EditorKit.git",
+      "version": "https://github.com/risk-of-thunder/RoR2EditorKit.git#5.5.2",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.editorcoroutines": "1.0.0"
       },
-      "hash": "fcca20a882b6fbe2d3db2333eef86711899ef381"
+      "hash": "b3bb5b23a60dcd89e32946276139de599962b5d1"
     },
     "riskofthunder-ror2importextensions": {
       "version": "https://github.com/risk-of-thunder/RoR2ImportExtensions.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "d101e5d64337681ec17093f88fb1ea01d07a55f4"
+      "hash": "b8704d045fd4c32e83778bf3e1792d6e0cf76e00"
     },
     "rune580-risk_of_options": {
       "version": "file:Risk_Of_Options",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "score-miscfixes": {
+      "version": "file:MiscFixes",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
@@ -322,11 +238,11 @@
       "dependencies": {}
     },
     "teammoonstorm-moonstormsharedutils": {
-      "version": "https://github.com/TeamMoonstorm/MoonstormSharedUtils.git#2.0Dev",
+      "version": "https://github.com/TeamMoonstorm/MoonstormSharedUtils.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "0d0fa215cef8fafba88c130489374786eb8502a4"
+      "hash": "82ec6a0202e3bed4dfc0b88ef6caf9b54efb2a42"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

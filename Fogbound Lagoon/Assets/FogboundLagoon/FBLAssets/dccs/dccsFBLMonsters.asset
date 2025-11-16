@@ -19,7 +19,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Vagrant/cscVagrant.asset
+        _address: 269d1b2378a798c40a10906879ffce45
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -35,7 +35,7 @@ MonoBehaviour:
         _useDirectReference: 0
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/MagmaWorm/cscMagmaWorm.asset
+        _address: a076d44b4ce5cb14b849360063a38063
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 2
@@ -51,7 +51,7 @@ MonoBehaviour:
         _useDirectReference: 0
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/ImpBoss/cscImpBoss.asset
+        _address: 8ddcbc7e2022f3241bd5ad5b6d29077e
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -70,7 +70,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Nullifier/cscNullifier.asset
+        _address: 0ba7495da6b34d8428cbde1bd022bbd8
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -86,7 +86,7 @@ MonoBehaviour:
         _useDirectReference: 0
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Beetle/cscBeetleGuard.asset
+        _address: 03978ad4a8751804a80940d5cfd4038b
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -102,7 +102,7 @@ MonoBehaviour:
         _useDirectReference: 0
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Golem/cscGolemNature.asset
+        _address: 10dbafc2b8f01ce4aacea2bc269628b5
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -118,7 +118,7 @@ MonoBehaviour:
         _useDirectReference: 0
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Bell/cscBell.asset
+        _address: bd7bf486555b2a44a9cf82acec23fd10
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -137,7 +137,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Imp/cscImp.asset
+        _address: f7a1bc2e4756beb448d61e9e1421a9e1
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -153,7 +153,7 @@ MonoBehaviour:
         _useDirectReference: 0
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Lemurian/cscLemurian.asset
+        _address: 94ec3e9c9692ff84a99fd8bb1962cbb0
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -169,7 +169,7 @@ MonoBehaviour:
         _useDirectReference: 0
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Jellyfish/cscJellyfish.asset
+        _address: 4b3ec516db7849f4d91c17e61f50c3b0
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -185,7 +185,7 @@ MonoBehaviour:
         _useDirectReference: 0
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Vulture/cscVulture.asset
+        _address: 79a0217696fe62f40a8e88f039987a2c
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -204,7 +204,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Scav/cscScav.asset
+        _address: a91a75aa7ea8e954c827db66eefedd98
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0

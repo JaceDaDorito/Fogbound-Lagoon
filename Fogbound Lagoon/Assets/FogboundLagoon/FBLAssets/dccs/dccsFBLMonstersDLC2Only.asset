@@ -19,7 +19,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/DLC2/Child/cscChild.asset
+        _address: db1a26c64dfaf5043949b2aedf193269
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -29,8 +29,10 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 3

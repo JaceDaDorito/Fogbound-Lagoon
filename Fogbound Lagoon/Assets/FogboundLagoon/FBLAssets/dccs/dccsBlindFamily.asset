@@ -19,7 +19,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/DLC1/FlyingVermin/cscFlyingVermin.asset
+        _address: 6bdce35cf28468143a510b96a03bb295
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -35,7 +35,7 @@ MonoBehaviour:
         _useDirectReference: 0
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/DLC1/Vermin/cscVermin.asset
+        _address: c0a6caf91aeba7442b3b261605fa41c4
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0

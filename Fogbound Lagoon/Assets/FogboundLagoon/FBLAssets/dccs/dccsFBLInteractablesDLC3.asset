@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 2099981080, guid: 45feadaaa90b2d2217207fb8b533753e, type: 3}
-  m_Name: dccsFBLMonstersDLC1Only
+  m_Name: dccsFBLInteractablesDLC3
   m_EditorClassIdentifier: 
-  targetCardCategorySelection: {fileID: 11400000, guid: 8102b4706039617408a5366277aa41ca,
+  targetCardCategorySelection: {fileID: 11400000, guid: 54a9800ed0148954b9aa4502b32bedca,
     type: 2}
   categories:
-  - name: Champions
+  - name: Drones
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: cf55a1f0cb720ec4eb136a5976013bd0
+        _address: d8aad1d9c0616c644869900039f7e3f3
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -29,18 +29,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
-        _canLoadFromCatalog: 1
+        _canLoadFromCatalog: 0
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
-        _canLoadFromCatalog: 1
-    selectionWeight: 2
-  - name: Minibosses
-    cards:
+        _canLoadFromCatalog: 0
     - spawnCard:
         _asset: {fileID: 0}
-        _address: 7534139f5f8f7ae48830da599d82c481
+        _address: 4e0d52fe3545f474b9076987b6ac92ec
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -50,20 +47,20 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
-        _canLoadFromCatalog: 1
+        _canLoadFromCatalog: 0
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
-        _canLoadFromCatalog: 1
-    selectionWeight: 3
-  - name: Basic Monsters
+        _canLoadFromCatalog: 0
+    selectionWeight: 4.5
+  - name: Duplicator
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: 0ca64dc7fa66f4e4a88352d08bf15e66
+        _address: d7e78d150bd132744934165e6471f5f6
         _useDirectReference: 0
-      selectionWeight: 1
+      selectionWeight: 6
       spawnDistance: 0
       preventOverhead: 0
       minimumStageCompletions: 0
@@ -71,28 +68,10 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
-        _canLoadFromCatalog: 1
+        _canLoadFromCatalog: 0
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
-        _canLoadFromCatalog: 1
-    - spawnCard:
-        _asset: {fileID: 0}
-        _address: 3c81aa0604ffbeb40a4ebf7b64e809a5
-        _useDirectReference: 0
-      selectionWeight: 1
-      spawnDistance: 0
-      preventOverhead: 0
-      minimumStageCompletions: 6
-      requiredUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-        _canLoadFromCatalog: 1
-      forbiddenUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-        _canLoadFromCatalog: 1
-    selectionWeight: 3
+        _canLoadFromCatalog: 0
+    selectionWeight: 8
