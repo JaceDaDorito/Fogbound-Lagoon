@@ -1,3 +1,9 @@
+# 1.1.7 (WIP)
+- Added Jailer and Junk drones to the drone pool (DLC3 only)
+- Added Drone Scrappers to the duplicator pool (DLC3 only)
+- Added Access Nodes to access DLC3 progression (DLC3 only)
+- Reduced Equipment drone chances from 2 -> 1
+
 # 1.1.6
 - Fixed a duplicate entry for Utility chests.
 - Added Casino Chests
