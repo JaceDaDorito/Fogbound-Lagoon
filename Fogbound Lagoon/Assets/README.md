@@ -13,7 +13,7 @@ ___
 - Four random newt statues.
 - Working bazaar seer.
 - Preon Accumulator Timed Chest similar to Rallypoint Delta. There are three spots.
-- Water! You can float and so will the gups! Don't Die! No it doesn't have Minecraft anti-fall damage. It doesn't have drowning either.
+- Water! Don't Drown!
 - A new (DLC1 dependent) family event!
 - Stage Aesthetic support.
 - Spikestrip 2.0 support. Sigma Constructs spawn on the stage.
@@ -32,6 +32,7 @@ ___
 
 ## Known Issues
 
+- DLC3 Route is currently inaccessible, support will come at later date.
 - Report any lag issues to me (jacecascade on discord) immediately, not sure if I got it all.
 
 ## Special Thanks and Credits
@@ -54,7 +55,7 @@ ___
 - Kei - German and Japanese translation. Also another Risk of Resources racer listed below.
 - ICap_I, WoolieGaming, Race, Cran, Host, RayDans, Disputed, Cornipher, Cabbage, Bulrug, Mark, Zinq, and the rest of the Risk of Resources team  - Thank you all for showcasing the mod! It has been an honor for my content to be deemed quality enough to showcase and race with.
 
-#### Why did 290k of you download this mod what is wrong with all of you.
+#### 540k yippie!
 
 ___
 

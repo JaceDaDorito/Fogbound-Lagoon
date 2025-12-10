@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 892ee265a9c0b884c8c9c36e42a802c6, type: 3}
   m_Name: Install BepInEx
   m_EditorClassIdentifier: 
-  enabled: 1
+  enabled: 0
 --- !u!114 &-2020724294533661426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,7 +208,7 @@ MonoBehaviour:
   - {fileID: -6025641616186027023}
   - {fileID: 5109684005819921289}
   - {fileID: -6238067626690952}
-  configurationIndex: -1
+  configurationIndex: 21
   totalImportExtensionCount: 21
 --- !u!114 &662984255592828262
 MonoBehaviour:
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1b0facc354ed134db02010df191c2d0, type: 3}
   m_Name: R2API Submodule Installer
   m_EditorClassIdentifier: 
-  enabled: 1
+  enabled: 0
   serializeSelectionIntoJson: 1
   r2apiSubmodules:
   - submoduleName: R2API_Core
@@ -292,7 +292,7 @@ MonoBehaviour:
   - submoduleName: R2API_ContentManagement
     description: R2API_ContentManagement
     dependedncyID: RiskofThunder-R2API_ContentManagement
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -301,7 +301,7 @@ MonoBehaviour:
   - submoduleName: R2API_Addressables
     description: R2API_Addressables
     dependedncyID: RiskofThunder-R2API_Addressables
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -310,7 +310,7 @@ MonoBehaviour:
   - submoduleName: R2API_Animations
     description: R2API_Animations
     dependedncyID: RiskofThunder-R2API_Animations
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -318,7 +318,7 @@ MonoBehaviour:
   - submoduleName: R2API_ArtifactCode
     description: R2API_ArtifactCode
     dependedncyID: RiskofThunder-R2API_ArtifactCode
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -327,7 +327,7 @@ MonoBehaviour:
   - submoduleName: R2API_CharacterBody
     description: R2API_CharacterBody
     dependedncyID: RiskofThunder-R2API_CharacterBody
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -336,7 +336,7 @@ MonoBehaviour:
   - submoduleName: R2API_Colors
     description: R2API_Colors
     dependedncyID: RiskofThunder-R2API_Colors
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -345,7 +345,7 @@ MonoBehaviour:
   - submoduleName: R2API_CommandHelper
     description: R2API_CommandHelper
     dependedncyID: RiskofThunder-R2API_CommandHelper
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -354,7 +354,7 @@ MonoBehaviour:
   - submoduleName: R2API_DamageType
     description: R2API_DamageType
     dependedncyID: RiskofThunder-R2API_DamageType
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -363,7 +363,7 @@ MonoBehaviour:
   - submoduleName: R2API_Deployable
     description: R2API_Deployable
     dependedncyID: RiskofThunder-R2API_Deployable
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -372,7 +372,7 @@ MonoBehaviour:
   - submoduleName: R2API_Difficulty
     description: R2API_Difficulty
     dependedncyID: RiskofThunder-R2API_Difficulty
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -381,7 +381,7 @@ MonoBehaviour:
   - submoduleName: R2API_Director
     description: R2API_Director
     dependedncyID: RiskofThunder-R2API_Director
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -391,7 +391,7 @@ MonoBehaviour:
   - submoduleName: R2API_Dot
     description: R2API_Dot
     dependedncyID: RiskofThunder-R2API_Dot
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -400,7 +400,7 @@ MonoBehaviour:
   - submoduleName: R2API_Elites
     description: R2API_Elites
     dependedncyID: RiskofThunder-R2API_Elites
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -410,7 +410,7 @@ MonoBehaviour:
   - submoduleName: R2API_Execute
     description: R2API_Execute
     dependedncyID: RiskofThunder-R2API_Execute
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -419,7 +419,7 @@ MonoBehaviour:
   - submoduleName: R2API_Items
     description: R2API_Items
     dependedncyID: RiskofThunder-R2API_Items
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -429,7 +429,7 @@ MonoBehaviour:
   - submoduleName: R2API_Language
     description: R2API_Language
     dependedncyID: RiskofThunder-R2API_Language
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -438,7 +438,7 @@ MonoBehaviour:
   - submoduleName: R2API_Loadout
     description: R2API_Loadout
     dependedncyID: RiskofThunder-R2API_Loadout
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -449,7 +449,7 @@ MonoBehaviour:
   - submoduleName: R2API_LobbyConfig
     description: R2API_LobbyConfig
     dependedncyID: RiskofThunder-R2API_LobbyConfig
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -458,7 +458,7 @@ MonoBehaviour:
   - submoduleName: R2API_Networking
     description: R2API_Networking
     dependedncyID: RiskofThunder-R2API_Networking
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -467,7 +467,7 @@ MonoBehaviour:
   - submoduleName: R2API_Orb
     description: R2API_Orb
     dependedncyID: RiskofThunder-R2API_Orb
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -476,7 +476,7 @@ MonoBehaviour:
   - submoduleName: R2API_Prefab
     description: R2API_Prefab
     dependedncyID: RiskofThunder-R2API_Prefab
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -486,7 +486,7 @@ MonoBehaviour:
   - submoduleName: R2API_ProcType
     description: R2API_ProcType
     dependedncyID: RiskofThunder-R2API_ProcType
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -495,7 +495,7 @@ MonoBehaviour:
   - submoduleName: R2API_RecalculateStats
     description: R2API_RecalculateStats
     dependedncyID: RiskofThunder-R2API_RecalculateStats
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -504,7 +504,7 @@ MonoBehaviour:
   - submoduleName: R2API_Rulebook
     description: R2API_Rulebook
     dependedncyID: RiskofThunder-R2API_Rulebook
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -513,7 +513,7 @@ MonoBehaviour:
   - submoduleName: R2API_SceneAsset
     description: R2API_SceneAsset
     dependedncyID: RiskofThunder-R2API_SceneAsset
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -522,7 +522,7 @@ MonoBehaviour:
   - submoduleName: R2API_Skills
     description: R2API_Skills
     dependedncyID: RiskofThunder-R2API_Skills
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -531,7 +531,7 @@ MonoBehaviour:
   - submoduleName: R2API_Skins
     description: R2API_Skins
     dependedncyID: RiskofThunder-R2API_Skins
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -540,7 +540,7 @@ MonoBehaviour:
   - submoduleName: R2API_Sound
     description: R2API_Sound
     dependedncyID: RiskofThunder-R2API_Sound
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -550,7 +550,7 @@ MonoBehaviour:
   - submoduleName: R2API_Stages
     description: R2API_Stages
     dependedncyID: RiskofThunder-R2API_Stages
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -559,7 +559,7 @@ MonoBehaviour:
   - submoduleName: R2API_StringSerializerExtensions
     description: R2API_StringSerializerExtensions
     dependedncyID: RiskofThunder-R2API_StringSerializerExtensions
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -568,7 +568,7 @@ MonoBehaviour:
   - submoduleName: R2API_Teams
     description: R2API_Teams
     dependedncyID: RiskofThunder-R2API_Teams
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -577,7 +577,7 @@ MonoBehaviour:
   - submoduleName: R2API_TempVisualEffect
     description: R2API_TempVisualEffect
     dependedncyID: RiskofThunder-R2API_TempVisualEffect
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack
@@ -587,7 +587,7 @@ MonoBehaviour:
   - submoduleName: R2API_Unlockable
     description: R2API_Unlockable
     dependedncyID: RiskofThunder-R2API_Unlockable
-    shouldInstall: 0
+    shouldInstall: 1
     isHardDependency: 1
     dependencies:
     - BepInExPack

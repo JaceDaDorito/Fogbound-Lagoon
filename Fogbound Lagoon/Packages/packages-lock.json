@@ -13,7 +13,7 @@
       "dependencies": {
         "com.unity.scriptablebuildpipeline": "1.16.1"
       },
-      "hash": "5012c9132d282d3e57446779936a43e72533b3f7"
+      "hash": "b3aaf6c979fe2794753c6e1c5de30ea7ec8552f5"
     },
     "com.unity.editorcoroutines": {
       "version": "1.0.0",
@@ -89,12 +89,6 @@
       "source": "embedded",
       "dependencies": {}
     },
-    "pseudopulse-seekerspatcher": {
-      "version": "file:SeekersPatcher",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "riskofrain2": {
       "version": "file:Risk of Rain 2",
       "depth": 0,
@@ -109,90 +103,6 @@
     },
     "riskofthunder-fixplugintypesserialization": {
       "version": "file:FixPluginTypesSerialization",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-hookgenpatcher": {
-      "version": "file:HookGenPatcher",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_addressables": {
-      "version": "file:R2API_Addressables",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_artifactcode": {
-      "version": "file:R2API_ArtifactCode",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_colors": {
-      "version": "file:R2API_Colors",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_contentmanagement": {
-      "version": "file:R2API_ContentManagement",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_core": {
-      "version": "file:R2API_Core",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_damagetype": {
-      "version": "file:R2API_DamageType",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_director": {
-      "version": "file:R2API_Director",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_dot": {
-      "version": "file:R2API_Dot",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_elites": {
-      "version": "file:R2API_Elites",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_networking": {
-      "version": "file:R2API_Networking",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_recalculatestats": {
-      "version": "file:R2API_RecalculateStats",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_stages": {
-      "version": "file:R2API_Stages",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "riskofthunder-r2api_stringserializerextensions": {
-      "version": "file:R2API_StringSerializerExtensions",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
@@ -221,12 +131,6 @@
     },
     "rune580-risk_of_options": {
       "version": "file:Risk_Of_Options",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "score-miscfixes": {
-      "version": "file:MiscFixes",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}

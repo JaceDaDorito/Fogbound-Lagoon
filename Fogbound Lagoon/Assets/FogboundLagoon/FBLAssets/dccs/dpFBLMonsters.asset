@@ -32,7 +32,7 @@ MonoBehaviour:
       weight: 1
       requiredExpansions:
       - _asset: {fileID: 0}
-        _address: d4f30c23b971a9b428e2796dc04ae099
+        _address: RoR2/DLC1/Common/DLC1.asset
         _useDirectReference: 0
         _canLoadFromCatalog: 1
     - dccs: {fileID: 11400000, guid: 82f646367eaa51745b9f9098feadc0f5, type: 2}
@@ -43,7 +43,7 @@ MonoBehaviour:
       weight: 1
       requiredExpansions:
       - _asset: {fileID: 0}
-        _address: 851f234056d389b42822523d1be6a167
+        _address: RoR2/DLC2/Common/DLC2.asset
         _useDirectReference: 0
         _canLoadFromCatalog: 1
     includedIfNoConditionsMet: []
@@ -51,7 +51,7 @@ MonoBehaviour:
     categoryWeight: 0.02
     alwaysIncluded: []
     includedIfConditionsMet:
-    - dccs: {fileID: 0}
+    - dccs: {fileID: 11400000, guid: 6ecd2ca80aba37d498a323b90df87846, type: 2}
       familyDccs:
         _asset: {fileID: 11400000, guid: 80bfc49cb8ff6804a8cd653a70baf4b0, type: 2}
         _address: 
@@ -65,7 +65,7 @@ MonoBehaviour:
     - dccs: {fileID: 0}
       familyDccs:
         _asset: {fileID: 0}
-        _address: RoR2/DLC1/Common/dccsConstructFamily.asset
+        _address: 25a5406a4dfeffe458128c11a2a321f7
         _useDirectReference: 0
       weight: 1
       requiredExpansions:
@@ -76,14 +76,14 @@ MonoBehaviour:
     - dccs: {fileID: 0}
       familyDccs:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Common/dccsImpFamily.asset
+        _address: fd0c45fdfe4d1994281f01743f10c4dd
         _useDirectReference: 0
       weight: 1
       requiredExpansions: []
     - dccs: {fileID: 0}
       familyDccs:
         _asset: {fileID: 0}
-        _address: RoR2/DLC1/Common/dccsAcidLarvaFamily.asset
+        _address: f3bfb4a77bbec33489b14d71aed64a13
         _useDirectReference: 0
       weight: 1
       requiredExpansions:
@@ -94,7 +94,7 @@ MonoBehaviour:
     - dccs: {fileID: 0}
       familyDccs:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Common/dccsGolemFamilyNature.asset
+        _address: 03c544fe32d3f1343bd25e1edea79acd
         _useDirectReference: 0
       weight: 1
       requiredExpansions: []
@@ -106,7 +106,7 @@ MonoBehaviour:
     - dccs: {fileID: 0}
       familyDccs:
         _asset: {fileID: 0}
-        _address: RoR2/DLC1/Common/dccsVoidFamily.asset
+        _address: 6cec6cade01c50048808fff67e245149
         _useDirectReference: 0
       weight: 1
       requiredExpansions:
