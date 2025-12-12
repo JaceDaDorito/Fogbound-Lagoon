@@ -89,13 +89,16 @@ WwiseProject/*.prof
 WwiseProject/*_WwiseProject.*.validationcache
 WwiseProject/*_WwiseProject.*.wsettings
 WwiseProject/**/*.akd
-Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
-#notes:
-#1) if any other files go in Assets/Wwise/Editor/ProjectData/ besides AkWwiseProjectData.asset*,
-#then don't ignore Assets/Wwise/Editor/ProjectData.meta. If AkWwiseProjectData.asset is the only item in there,
-#then, it's OK to ignore this file.
-Assets/Wwise/Editor/ProjectData.meta
-Assets/Wwise/Deployment/Plugins/Mac/*
+Fogbound Lagoon/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
+
+# notes:
+# 1) if any other files go in Assets/Wwise/Editor/ProjectData/ besides AkWwiseProjectData.asset*,
+#    then don't ignore Assets/Wwise/Editor/ProjectData.meta. If AkWwiseProjectData.asset is the only item in there,
+#    then, it's OK to ignore this file.
+# 
+Fogbound Lagoon/Assets/Wwise/Editor/ProjectData.meta
+Fogbound Lagoon/Assets/Wwise/Deployment/Plugins/Mac/*
 #Integration zips
 WwiseUnityIntegration_Windows_Src.zip
 WwiseUnityIntegration_Mac_Src.zip
+

@@ -3,7 +3,11 @@
     "rootNamespace": "",
     "references": [
         "GUID:d60799ab2a985554ea1a39cd38695018",
-        "GUID:a44f47cf3ada4435dbc516bad0bc86fe"
+        "GUID:a44f47cf3ada4435dbc516bad0bc86fe",
+        "GUID:af67b6d83135104488816bf630d22de7",
+        "GUID:29e640f769aba2f47af9522855387180",
+        "GUID:4e7c180f7daee5349b86672c068e5b79",
+        "GUID:2d6f93e873604414bbdd86f97ea45ede"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -23,10 +27,6 @@
         "Unity.TextMeshPro.dll",
         "RoR2.dll",
         "Unity.ResourceManager.dll",
-        "AK.Wwise.Unity.API.dll",
-        "AK.Wwise.Unity.API.WwiseTypes.dll",
-        "AK.Wwise.Unity.MonoBehaviour.dll",
-        "AK.Wwise.Unity.Timeline.dll",
         "ShaderSwapper.dll",
         "R2API.Stages.dll",
         "R2API.Director.dll"
