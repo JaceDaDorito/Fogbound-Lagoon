@@ -32,8 +32,7 @@ ___
 
 ## Known Issues
 
-- DLC3 Route is currently inaccessible, support will come at later date.
-- Report any lag issues to me (jacecascade on discord) immediately, not sure if I got it all.
+- Ambient sounds in the map are currently turned off, will return in a later date.
 
 ## Special Thanks and Credits
 

@@ -28303,10 +28303,7 @@ GameObject:
   - component: {fileID: 746475262}
   - component: {fileID: 746475261}
   - component: {fileID: 746475260}
-  - component: {fileID: 746475253}
-  - component: {fileID: 746475252}
   - component: {fileID: 746475248}
-  - component: {fileID: 746475259}
   m_Layer: 20
   m_Name: SceneInfo
   m_TagString: Untagged
@@ -28410,34 +28407,6 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   weatherLerp: 0
---- !u!114 &746475252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 746475244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 183b1e3160fdbdd4e8fbfaf82e0ff83b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  component: {fileID: 746475260}
-  key: Wwise/6F2ADD1C-BD55-431F-A62F-80CCD5F9631D.asset
---- !u!114 &746475253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 746475244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 183b1e3160fdbdd4e8fbfaf82e0ff83b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  component: {fileID: 746475261}
-  key: Wwise/3CC8F911-9CA7-416B-A6E9-9748E4CEA659.asset
 --- !u!114 &746475258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28461,18 +28430,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &746475259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 746475244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1662560420, guid: 2b6c926553287666f24ffd5af5ba21cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &746475260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28480,7 +28437,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 746475244}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3895e8bc112746949b6e813fc71c25c4, type: 3}
   m_Name: 
@@ -28497,7 +28454,7 @@ MonoBehaviour:
   useCallbacks: 0
   Callbacks: []
   playingId: 0
-  soundEmitterObject: {fileID: 0}
+  soundEmitterObject: {fileID: 746475244}
   transitionDuration: 0
   eventIdInternal: 0
   valueGuidInternal: 
@@ -28514,7 +28471,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 746475244}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3895e8bc112746949b6e813fc71c25c4, type: 3}
   m_Name: 
