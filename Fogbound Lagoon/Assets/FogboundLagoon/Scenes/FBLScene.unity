@@ -25668,6 +25668,66 @@ Transform:
   m_Father: {fileID: 1308766393}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: -0.124000005, y: -0.577, z: 12.01}
+--- !u!1 &653254135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 653254136}
+  - component: {fileID: 653254137}
+  m_Layer: 0
+  m_Name: SetupDLC3AccessNode
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &653254136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653254135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -121.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1571886085}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &653254137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653254135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ef1d29ff2a99c44b9864ea7784dbfa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideBossFight: 0
+  spawnCard:
+    spawnCardReference:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+    spawnCard: {fileID: 0}
+    selectionWeight: 0
+    spawnDistance: 0
+    preventOverhead: 0
+    minimumStageCompletions: 0
+    requiredUnlockable: 
+    forbiddenUnlockable: 
+    requiredUnlockableDef: {fileID: 0}
+    forbiddenUnlockableDef: {fileID: 0}
+  ignoreSolusWing: 0
 --- !u!1 &653758760
 GameObject:
   m_ObjectHideFlags: 0
@@ -28269,8 +28329,8 @@ MonoBehaviour:
   monsterDccsPool: {fileID: 11400000, guid: b32dcceee93d59447b5b970d96913366, type: 2}
   interactableDccsPool: {fileID: 11400000, guid: 484a4e67b7edfd94f8f11c619105d29e,
     type: 2}
-  contentSourceMixLimitOverride: 0
-  contentSourceMixLimitOverrideValue: 2
+  contentSourceMixLimitOverride: 1
+  contentSourceMixLimitOverrideValue: 3
   sceneDirectorInteractibleCredits: 280
   sceneDirectorMonsterCredits: 100
   bonusInteractibleCreditObjects: []
@@ -28425,28 +28485,6 @@ MonoBehaviour:
   m_Script: {fileID: 1478203354, guid: 2b6c926553287666f24ffd5af5ba21cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c958ca0ea
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 746475244}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
-  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
-  LargeModePositions: []
-  multiPositionArray: []
 --- !u!114 &746475261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28459,28 +28497,6 @@ MonoBehaviour:
   m_Script: {fileID: 1478203354, guid: 2b6c926553287666f24ffd5af5ba21cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 746475244}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
-  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
-  LargeModePositions: []
-  multiPositionArray: []
 --- !u!114 &746475262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28493,19 +28509,6 @@ MonoBehaviour:
   m_Script: {fileID: -130519023, guid: 2b6c926553287666f24ffd5af5ba21cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isStaticAfterDelay: 0
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 0
-  isStaticObject: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  doOrientation: 0
-  forceUpdateEveryFrame: 0
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
 --- !u!1001 &746672411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55649,7 +55652,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1571886085
 Transform:
   m_ObjectHideFlags: 0
@@ -55662,7 +55665,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1748218583}
+  - {fileID: 653254136}
   - {fileID: 1327595429}
   m_Father: {fileID: 0}
   m_RootOrder: 18
@@ -57681,6 +57684,64 @@ MonoBehaviour:
   useLocalPositionAndRotation: 1
   refreshInEditor: 1
   hasNetworkIdentity: 0
+--- !u!1 &1622275849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1622275851}
+  - component: {fileID: 1622275850}
+  m_Layer: 0
+  m_Name: WwiseGlobal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1622275850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622275849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 311568033ada5bd48bf615b2a5b2d9a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationSettings: {fileID: 11400000, guid: a2ce70d0945c2d049acf358f0b5ba9be,
+    type: 2}
+  basePath: 
+  language: 
+  defaultPoolSize: 0
+  lowerPoolSize: 0
+  streamingPoolSize: 0
+  memoryCutoffThreshold: 0
+  monitorPoolSize: 0
+  monitorQueuePoolSize: 0
+  callbackManagerBufferSize: 0
+  spatialAudioPoolSize: 0
+  maxSoundPropagationDepth: 0
+  engineLogging: 0
+--- !u!4 &1622275851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622275849}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1622742069
 GameObject:
   m_ObjectHideFlags: 0
@@ -66004,55 +66065,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   consumed: 0
---- !u!1 &1748218582
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1748218583}
-  - component: {fileID: 1748218584}
-  m_Layer: 0
-  m_Name: Access Code
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1748218583
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1748218582}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -519, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1571886085}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1748218584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1748218582}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  address: RoR2/DLC3/AccessCodesNode/GROUP_ Access Codes.prefab
-  setPositionAndRotationToZero: 0
-  useLocalPositionAndRotation: 0
-  refreshInEditor: 1
-  hasNetworkIdentity: 0
 --- !u!1 &1752022046
 GameObject:
   m_ObjectHideFlags: 0

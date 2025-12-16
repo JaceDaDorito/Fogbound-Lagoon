@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AssemblyDefinitions
   m_EditorClassIdentifier: 
   StagingPaths:
-  - <MSUBuildPathPlugins>
+  - <LOP_BuildPathPlugins>
   definitions:
   - {fileID: 5897886265953266890, guid: b450305ea6c7037428408d453a9961e7, type: 3}
 --- !u!114 &-7213700407249093860
@@ -29,7 +29,7 @@ MonoBehaviour:
   m_Name: Files
   m_EditorClassIdentifier: 
   StagingPaths:
-  - <MSUBuildPathStreamingLanguage>
+  - <LOP_BuildPathPlugins>
   includeMetaFiles: 0
   files:
   - {fileID: 102900000, guid: 45868b8fa69a49049bf98c9ef6421ed8, type: 3}
@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Name: Files
   m_EditorClassIdentifier: 
   StagingPaths:
-  - <MSUBuildPathPlugins>
+  - <LOP_BuildPathPlugins>
   includeMetaFiles: 0
   files:
   - {fileID: 102900000, guid: dd085598e56672049be70085bc34765c, type: 3}
@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Name: ThunderstoreData
   m_EditorClassIdentifier: 
   StagingPaths:
-  - <MSUBuildPath>
+  - <LOP_BuildPath>
   url: https://github.com/JaceDaDorito/Fogbound-Lagoon
 --- !u!114 &4573708044806723861
 MonoBehaviour:
@@ -110,7 +110,7 @@ MonoBehaviour:
   Name: FogboundLagoon
   Description: I can't even see my reflection in the water... only those mysterious
     crimson lights...
-  Version: 1.1.5
+  Version: 1.1.7
   Dependencies:
   - {fileID: 11400000, guid: d7d8ed5ac59df8acbbc4983f1ebba079, type: 2}
   - {fileID: 11400000, guid: 48f050b3512173aba0a952f846a557fa, type: 2}
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Name: Files
   m_EditorClassIdentifier: 
   StagingPaths:
-  - <MSUBuildPath>
+  - <LOP_BuildPath>
   includeMetaFiles: 0
   files:
   - {fileID: 2800000, guid: 50b93d9914260874fbc329a1f6f3614b, type: 3}
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Name: AssetBundleDefinitions
   m_EditorClassIdentifier: 
   StagingPaths:
-  - <MSUBuildPathPlugins>
+  - <LOP_BuildPathPlugins>
   assetBundles:
   - assetBundleName: fblassets
     assets:

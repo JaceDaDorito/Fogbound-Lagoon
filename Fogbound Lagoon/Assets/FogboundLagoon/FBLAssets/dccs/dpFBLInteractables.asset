@@ -32,7 +32,7 @@ MonoBehaviour:
       weight: 1
       requiredExpansions:
       - _asset: {fileID: 0}
-        _address: RoR2/DLC1/Common/DLC1.asset
+        _address: d4f30c23b971a9b428e2796dc04ae099
         _useDirectReference: 0
         _canLoadFromCatalog: 1
     - dccs: {fileID: 11400000, guid: 67d31d606c3a9004da50c761616bc729, type: 2}
@@ -43,7 +43,7 @@ MonoBehaviour:
       weight: 1
       requiredExpansions:
       - _asset: {fileID: 0}
-        _address: RoR2/DLC3/DLC3.asset
+        _address: 234e83997deed274291470be69e7662e
         _useDirectReference: 0
         _canLoadFromCatalog: 1
     includedIfNoConditionsMet: []

@@ -45,7 +45,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.multiplayer-hlapi": {
-      "version": "https://github.com/risk-of-thunder/UnityMultiplayerHLAPI.git#1.1.1",
+      "version": "https://github.com/risk-of-thunder/UnityMultiplayerHLAPI.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
@@ -335,13 +335,13 @@
       "dependencies": {}
     },
     "riskofthunder-ror2editorkit": {
-      "version": "https://github.com/risk-of-thunder/RoR2EditorKit.git#5.5.2",
+      "version": "https://github.com/risk-of-thunder/RoR2EditorKit.git",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.editorcoroutines": "1.0.0"
       },
-      "hash": "b3bb5b23a60dcd89e32946276139de599962b5d1"
+      "hash": "da03258116d957acf2c825ee5b7af44d43e06a08"
     },
     "riskofthunder-ror2importextensions": {
       "version": "https://github.com/risk-of-thunder/RoR2ImportExtensions.git",
@@ -367,13 +367,6 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
-    },
-    "teammoonstorm-moonstormsharedutils": {
-      "version": "https://github.com/TeamMoonstorm/MoonstormSharedUtils.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "82ec6a0202e3bed4dfc0b88ef6caf9b54efb2a42"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

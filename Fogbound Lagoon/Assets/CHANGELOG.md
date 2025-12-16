@@ -1,7 +1,11 @@
 # 1.1.7 (WIP)
 - Added Jailer and Junk drones to the drone pool (DLC3 only)
 - Added Drone Scrappers to the duplicator pool (DLC3 only)
+- Added Vulture family event (DLC3 only)
 - Reduced Equipment drone chances from 2 -> 1
+- Added Access Nodes
+- Bumped content source limit for the map from 2 -> 3 
+- - **Developer's Note:** this isn't anything major in this map's case, the map uses monsters from DLC 1 and 2, and interactables from 1 and 3. The bump is to prevent an edge case bug caused by the vanilla game.
 
 # 1.1.6
 - Fixed a duplicate entry for Utility chests.
