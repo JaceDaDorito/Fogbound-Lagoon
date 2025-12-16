@@ -28482,9 +28482,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 746475244}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1478203354, guid: 2b6c926553287666f24ffd5af5ba21cb, type: 3}
+  m_Script: {fileID: 11500000, guid: 3895e8bc112746949b6e813fc71c25c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triggerList: d96bb42a958ca0ea
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
 --- !u!114 &746475261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28494,9 +28516,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 746475244}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1478203354, guid: 2b6c926553287666f24ffd5af5ba21cb, type: 3}
+  m_Script: {fileID: 11500000, guid: 3895e8bc112746949b6e813fc71c25c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
 --- !u!114 &746475262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28506,9 +28550,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 746475244}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -130519023, guid: 2b6c926553287666f24ffd5af5ba21cb, type: 3}
+  m_Script: {fileID: 11500000, guid: f2edcfc7396fac44dbc7234ed3cc317a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 0
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &746672411
 PrefabInstance:
   m_ObjectHideFlags: 0
