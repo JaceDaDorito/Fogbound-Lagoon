@@ -1,0 +1,16 @@
+{
+	"strings": {
+		"FOGBOUND_SCENEDEF_NAME_TOKEN": "Logoa Nevoenta",
+		"FOGBOUND_SCENEDEF_SUBTITLE_TOKEN": "Rasos Estígios",
+		"BAZAAR_SEER_FBLSCENE": "<style=cWorldEvent>Você sonha com sufocação.</style>",
+		"FOGBOUND_SCENEDEF_LORE_TOKEN": "<style=cMono>\r\nBoas-vindas ao Extrator de Dados (v3.1.53 \u2013 versão beta)\r\n$ Extraindo memória... finalizado.\r\n$ Corrigindo... finalizado.\r\n$ Buscando por dados relevantes... finalizado.\r\nConcluído!\r\nGerando transcrições de áudio locais...\r\n<\/style>\r\nEu não aguento mais.\n\nDesde que caí aqui, eu tenho sentido uma estranha  atração para esse oceano distante. Não consigo ver além deste horizonte brumoso, nem através desses penhascos iminentes que parecem se fechar mais a cada dia. Eu sei que não vou conseguir sair daqui de maneira alguma, e é horrível ter meu mundo confinado a esta bolha ecológica… Preciso achar um jeito de sair...
+\n\nPreciso achar logo o que está chamando minha voz, enganando meus olhos já cansados e invadindo minha cabeça com esses pesadelos todas as noites. Está me deixando louco, me dizendo para dar um mergulho, apenas pular e nadar um pouco, para relaxar e aproveitar meu tempo aqui. Eu não posso ceder. Não quero saber que tipo de coisa iria querer que um estrangeiro relaxasse e baixasse a guarda...\n\nNão consigo nem mesmo ver meu reflexo na água...\napenas essas misteriosas luzes escarlates...\r\n<style=cMono>\r\nAs transcrições de áudio locais foram concluídas.\r\n<\/style>\r\n",
+
+		"BONE_FOGBOUND_NAME": "Hank",
+
+		"UNLOCKABLE_LOG_STAGES_FBLSCENE": "Registro de Cenário: Lagoa Nevoenta",
+
+		"FBL_FAMILY_BLIND": "<style=cWorldEvent>[AVISO] Você invadiu terras de criadouros desenfreados...</style>"
+		
+	}
+}
