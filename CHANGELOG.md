@@ -1,3 +1,10 @@
+# 1.1.8
+- Added support to DLC4 Wake Event
+- Added support for DLC4 interactables
+- Added Simplified Chinese language translation
+- Added DLC4 N'Tormat Page somewhere hidden in the map
+- Added support for Reincarnate spell.
+
 # 1.1.7
 - Added Jailer and Junk drones to the drone pool (DLC3 only)
 - Added Drone Scrappers to the duplicator pool (DLC3 only)
