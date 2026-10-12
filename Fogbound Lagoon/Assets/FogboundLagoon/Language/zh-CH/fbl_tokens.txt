@@ -1,0 +1,15 @@
+{
+	"strings": {
+		"FOGBOUND_SCENEDEF_NAME_TOKEN": "雾锁泻湖",
+		"FOGBOUND_SCENEDEF_SUBTITLE_TOKEN": "冥河浅滩",
+		"BAZAAR_SEER_FBLSCENE": "<style=cWorldEvent>你梦见了窒息.</style>",
+		"FOGBOUND_SCENEDEF_LORE_TOKEN": "<style=cMono>\r\n欢迎来到数据铲 (v3.1.53 \u2013 测试版)\r\n$ 正在挖掘记忆完成。\r\n$ 正在解析...完成。\r\n$ 正在整合相关数据...完成。\r\n完成！\r\n正在输出本地音频转录...\r\n</style>\r\n我再也受不了了。\n\n自从坠落到这里，远方的海洋就对我产生了一种奇怪的吸引力。我无法看透朦胧的地平线，也无法越过那些似乎一天天逼近的、赫然耸现的峭壁。我知道我不可能到达那里，而我的世界被限制在这个生态气泡里，这种感觉正在吞噬我的灵魂……我必须找到出去的方法……
+\n\n我必须在最终看清那个一直在召唤我的声音、欺骗我疲惫的双眼、每夜用噩梦般的梦境侵入我脑海的东西。它快把我逼疯了，告诉我去跳一次水，就跳进去游一会儿，放松一下，享受在这里的时光。我不能屈服。我不想明白是什么样的东西会想让一个外来者放松并放下戒备……\n\n我甚至看不见水中自己的倒影……\n只有那些神秘的血红色灯光……\r\n<style=cMono>\r\n本地音频转录完成。\r\n</style>\r\n",
+		"BONE_FOGBOUND_NAME": "汉克",
+
+		"UNLOCKABLE_LOG_STAGES_FBLSCENE": "环境日志：雾锁泻湖",
+
+		"FBL_FAMILY_BLIND": "<style=cWorldEvent>[WARNING] 你已经入侵了肆意繁殖的巢穴...</style>"
+		
+	}
+}

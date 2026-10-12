@@ -1,11 +1,5 @@
 {
   "dependencies": {
-    "amogus_lovers-standaloneancientscepter": {
-      "version": "file:StandaloneAncientScepter",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "bbepis-bepinexpack": {
       "version": "file:BepInExPack",
       "depth": 0,
@@ -88,12 +82,6 @@
       "source": "embedded",
       "dependencies": {}
     },
-    "nebby-loadingscreenspritefix": {
-      "version": "file:LoadingScreenSpriteFix",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "pseudopulse-seekerspatcher": {
       "version": "file:SeekersPatcher",
       "depth": 0,
@@ -138,6 +126,12 @@
     },
     "riskofthunder-r2api_artifactcode": {
       "version": "file:R2API_ArtifactCode",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "riskofthunder-r2api_buffs": {
+      "version": "file:R2API_Buffs",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
@@ -341,7 +335,7 @@
       "dependencies": {
         "com.unity.editorcoroutines": "1.0.0"
       },
-      "hash": "da03258116d957acf2c825ee5b7af44d43e06a08"
+      "hash": "4128710f74ffbd90bfebc523812e7155fa7bdee3"
     },
     "riskofthunder-ror2importextensions": {
       "version": "https://github.com/risk-of-thunder/RoR2ImportExtensions.git",
@@ -349,12 +343,6 @@
       "source": "git",
       "dependencies": {},
       "hash": "b8704d045fd4c32e83778bf3e1792d6e0cf76e00"
-    },
-    "rune580-risk_of_options": {
-      "version": "file:Risk_Of_Options",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
     },
     "score-miscfixes": {
       "version": "file:MiscFixes",

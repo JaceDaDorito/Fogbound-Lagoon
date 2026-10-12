@@ -53,7 +53,7 @@ MonoBehaviour:
     includedIfConditionsMet:
     - dccs: {fileID: 11400000, guid: 6ecd2ca80aba37d498a323b90df87846, type: 2}
       familyDccs:
-        _asset: {fileID: 11400000, guid: 80bfc49cb8ff6804a8cd653a70baf4b0, type: 2}
+        _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
       weight: 1
