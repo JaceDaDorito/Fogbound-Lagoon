@@ -19,11 +19,11 @@ ___
 - Spikestrip 2.0 support. Sigma Constructs spawn on the stage.
 - Starstorm 2 support. Wayfarer spawns on the stage.
 - Theres a funny guy hidden somewhere.
+- Hidden DLC4 interactables.
 
 ### Later down the road...
 
 - Language translations. (Please message me on discord @JaceDaDorito7035 if you are interested in doing language translations)
-- Starstorm storm support.
 - Bug fixes that crop up.
 
 ___
@@ -51,10 +51,11 @@ ___
 - El-Freddy - Spanish translation
 - Damglador - Ukrainian translation
 - doctoberfest - Turkish translation
+- guoba - Simplified Chinese translation
 - Kei - German and Japanese translation. Also another Risk of Resources racer listed below.
-- ICap_I, WoolieGaming, Race, Cran, Host, RayDans, Disputed, Cornipher, Cabbage, Bulrug, Mark, Zinq, and the rest of the Risk of Resources team  - Thank you all for showcasing the mod! It has been an honor for my content to be deemed quality enough to showcase and race with.
+- ICap_I, Race, Cran, Host, RayDans, Disputed, Cornipher, Cabbage, Bulrug, Mark, Zinq, and the rest of the Risk of Resources team  - Thank you all for showcasing the mod! It has been an honor for my content to be deemed quality enough to showcase and race with.
 
-#### 540k yippie!
+#### ough,.
 
 ___
 

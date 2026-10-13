@@ -3,7 +3,7 @@
 - Added support for DLC4 interactables
 - Added Simplified Chinese language translation
 - Added DLC4 N'Tormat Page somewhere hidden in the map
-- Added support for Reincarnate spell.
+- Added DLC4 Trial Gong
 
 # 1.1.7
 - Added Jailer and Junk drones to the drone pool (DLC3 only)

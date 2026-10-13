@@ -19,6 +19,7 @@ ___
 - Spikestrip 2.0 support. Sigma Constructs spawn on the stage.
 - Starstorm 2 support. Wayfarer spawns on the stage.
 - Theres a funny guy hidden somewhere.
+- Hidden DLC4 interactables.
 
 ### Later down the road...
 
