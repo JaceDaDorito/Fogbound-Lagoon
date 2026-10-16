@@ -1314,7 +1314,7 @@ GameObject:
   - component: {fileID: 43739798}
   - component: {fileID: 43739799}
   m_Layer: 0
-  m_Name: Gong
+  m_Name: GongSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1344,18 +1344,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 43739797}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
+  m_Script: {fileID: 11500000, guid: dbfda6ecbb4f61643a9c4810af1713dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  address: 1f0fb70c9deab634c81f94050b105545
-  setPositionAndRotationToZero: 1
-  setPositionToZero: 1
-  setRotationToZero: 1
-  useLocalPositionAndRotation: 1
-  overrideLocalScale: 0
-  newLocalScale: {x: 1, y: 1, z: 1}
+  minToSpawn: 1
+  maxToSpawn: 1
+  spawnPoints:
+  - {fileID: 1354293639}
   refreshInEditor: 1
-  hasNetworkIdentity: 0
 --- !u!1 &47189732
 GameObject:
   m_ObjectHideFlags: 0
@@ -47030,7 +47026,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1269109939}
-  - component: {fileID: 1269109940}
   m_Layer: 0
   m_Name: 'HOLDER: Gong'
   m_TagString: Untagged
@@ -47051,28 +47046,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 43739798}
+  - {fileID: 1354293639}
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1269109940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1269109936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 142bb7368822c4f43ae596082537a277, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  requiredExpansion:
-    m_AssetGUID: 61c8c007721744c4fa73c87e0c5d0e11
-    m_SubObjectName: 
-    m_SubObjectType: 
-  activationStateIfExpansionEnabled: 1
-  objectsToActivate:
-  - {fileID: 1269109936}
 --- !u!1 &1270389338
 GameObject:
   m_ObjectHideFlags: 0
@@ -50643,6 +50620,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1353458601}
   m_Mesh: {fileID: -5495902117074765545, guid: 8725c28d10450e14594ec56355f639b2, type: 3}
+--- !u!1 &1354293638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1354293639}
+  m_Layer: 0
+  m_Name: Gong1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1354293639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354293638}
+  m_LocalRotation: {x: -0, y: -0.6768132, z: -0, w: 0.7361548}
+  m_LocalPosition: {x: -439.6, y: 204.97, z: 102.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1269109939}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -85.19, z: 0}
 --- !u!1 &1360356224
 GameObject:
   m_ObjectHideFlags: 0
